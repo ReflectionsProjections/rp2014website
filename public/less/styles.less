@@ -1,0 +1,65 @@
+@background : #F5F5F5;
+@logoBlue: #3299BB;
+@logoOrange : #FF9900;
+@darkGrey : #424242;
+@lightGrey : #BCBCBC;
+@white : #FFFFFF;
+@fontGrey : #666;
+
+body{
+  color: @fontGrey;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section{
+
+  &.container{
+    margin: 0 auto;
+    z-index: 2;
+  }
+
+  &.content{
+    background: @white;
+    position: relative;
+    text-align: center;
+
+    section {
+      margin: 25px auto;
+    }
+  }
+
+}
+
+.info{
+  margin: 0 auto;
+}
+
+.logo{
+  margin: 0 auto;
+  display: block;
+  margin-top: 150px;
+}
+
+.submit-button{
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: @logoBlue;
+}
+
+
+.title{
+  font-size: 2.5rem;
+}
+.social-links{
+
+  ul{
+    margin: 0 auto;
+    list-style: none;
+
+    li{
+      margin: auto 10px;
+      display: inline-block;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+body {
+  color: #666666;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+section.container {
+  margin: 0 auto;
+  z-index: 2;
+}
+section.content {
+  background: #ffffff;
+  position: relative;
+  text-align: center;
+}
+section.content section {
+  margin: 25px auto;
+}
+.info {
+  margin: 0 auto;
+}
+.logo {
+  margin: 0 auto;
+  display: block;
+  margin-top: 150px;
+}
+.submit-button {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: #3299bb;
+}
+.title {
+  font-size: 2.5rem;
+}
+.social-links ul {
+  margin: 0 auto;
+  list-style: none;
+}
+.social-links ul li {
+  margin: auto 10px;
+  display: inline-block;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "description": "",
+  "author": "Brendan Ryan",
+  "dependencies": {
+    "gulp-livereload": "~0.2.0",
+    "tiny-lr": "0.0.5"
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-less": "latest",
+    "gulp-watch": "latest",
+    "gulp-uglify": "latest"
+  },
+  "engines": {
+    "npm": "1.2.x"
+  }
+}
