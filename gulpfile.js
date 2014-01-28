@@ -29,7 +29,7 @@ gulp.task('watch', function () {
   server.listen(35729, function (err) {
     if (err) return console.log(err);
 
-    gulp.watch('public/javascripts/src/**/*.js', ['scripts']);
+    gulp.watch('public/javascripts/src/**/*.js', ['js']);
     gulp.watch('public/less/**/*.less', ['styles']);
 
     });

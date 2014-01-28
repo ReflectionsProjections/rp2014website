@@ -23,7 +23,7 @@
 
 
   var cd = document.getElementById('countdown');
-  cd.innerText = timeString;
+  //cd.innerText = timeString;
 
 })();
 
