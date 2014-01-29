@@ -1,3 +1,19 @@
+/*---------------------------------------------------
+    LESS Elements 0.9
+  ---------------------------------------------------
+    A set of useful LESS mixins
+    More info at: http://lesselements.com
+  ---------------------------------------------------*/
+/*
+
+#MIXINS
+
+ */
+/*
+
+##STYLES
+
+ */
 body {
   color: #666666;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -21,14 +37,34 @@ body {
 section.container {
   position: relative;
   z-index: 100;
-  padding: 25px;
+}
+@media only screen and (min-width: 1224px) {
+  section.container {
+    padding: 25px;
+  }
 }
 section.content {
   text-align: center;
   background-color: #ffffff;
   max-width: 500px;
-  margin: 0px auto;
-  border-radius: 20px;
+  margin: 0 auto;
+  -webkit-border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 8px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   padding: 25px;
@@ -47,7 +83,21 @@ section.content section {
 }
 .submit-button {
   color: white;
-  border-radius: 4px;
+  -webkit-border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 0;
+  -webkit-border-bottom-left-radius: 0;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topright: 4px;
+  -moz-border-radius-bottomright: 0;
+  -moz-border-radius-bottomleft: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   background: #3299bb;
 }

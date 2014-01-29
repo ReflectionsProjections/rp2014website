@@ -1,28 +1,30 @@
 'use strict';
 
 var gulp = require('gulp')
-  , gutil = require('gulp-util')
-  , less = require('gulp-less')
-  , watch = require('gulp-watch')
-  , uglify = require('gulp-uglify')
-  , lr = require('tiny-lr')
-  , livereload = require('gulp-livereload')
-  , server = lr()
-  ;
+, gutil = require('gulp-util')
+, less = require('gulp-less')
+, watch = require('gulp-watch')
+, uglify = require('gulp-uglify')
+, lr = require('tiny-lr')
+, livereload = require('gulp-livereload')
+, server = lr()
+, csslint = require('gulp-csslint')
+;
 
 gulp.task('js', function() {
   // Minify and copy all JavaScript (except vendor scripts)
   return gulp.src(['public/javascripts/src/**/*.js', '!public/javascripts/vendor/**'])
-    .pipe(uglify())
-    .pipe(gulp.dest('public/javascripts/build'));
+  .pipe(uglify())
+  .pipe(gulp.dest('public/javascripts/build'));
 });
 
 gulp.task('styles', function(){
-  return gulp.src(['public/less/**/*.less'])
-    .pipe(less())
-    .pipe(gulp.dest('public/css'));
+  gulp.src(['public/less/**/*.less'])
+  .pipe(less())
+  .pipe(csslint({}))
+  .pipe(csslint.reporter())
+  .pipe(gulp.dest('public/css'));
 });
-
 
 // Rerun the task when a file changes
 gulp.task('watch', function () {
@@ -32,7 +34,7 @@ gulp.task('watch', function () {
     gulp.watch('public/javascripts/src/**/*.js', ['js']);
     gulp.watch('public/less/**/*.less', ['styles']);
 
-    });
+  });
 });
 
 

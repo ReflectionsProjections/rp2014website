@@ -11,7 +11,8 @@
     "gulp-util": "latest",
     "gulp-less": "latest",
     "gulp-watch": "latest",
-    "gulp-uglify": "latest"
+    "gulp-uglify": "latest",
+    "gulp-csslint" : "latest"
   },
   "engines": {
     "npm": "1.2.x"
