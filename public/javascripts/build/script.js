@@ -1,1 +1,0 @@
-!function(){function t(t){t=t.split(":");{var n=parseInt(t[0]);parseInt(t[1]),parseInt(t[1])}return n+" days left!"}{var n="04/09/2013",o="02/09/2013 ",e=moment(n,"DD/MM/YYYY").diff(moment(o,"DD/MM/YYYY")),m=moment.duration(e),r=Math.floor(m.asHours())+moment.utc(e).format(":mm:ss");t(r),document.getElementById("countdown")}}();
