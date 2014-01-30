@@ -97,6 +97,6 @@ section.content section {
   list-style: none;
 }
 .social-links ul li {
-  margin: auto 10px;
+  margin: 10px 15px;
   display: inline-block;
 }
