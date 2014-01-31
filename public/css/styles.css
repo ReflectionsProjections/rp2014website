@@ -37,13 +37,14 @@ body {
 section.container {
   position: relative;
   z-index: 100;
+  padding: 50px;
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-width: 1224px) {
   section.container {
-    padding: 30px;
+    padding: 25px;
   }
 }
-@media only screen (min-width: 1224px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   section.container {
     padding: 25px;
   }
@@ -60,7 +61,7 @@ section.content {
   -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  padding: 25px;
+  padding: 20px;
   z-index: 100;
 }
 section.content section {
