@@ -12,7 +12,9 @@
     "gulp-less": "latest",
     "gulp-watch": "latest",
     "gulp-uglify": "latest",
-    "gulp-csslint" : "latest"
+    "gulp-csslint": "latest",
+    "gulp-imagemin": "~0.1.5",
+    "gulp-minify-css": "~0.3.0"
   },
   "engines": {
     "npm": "1.2.x"
