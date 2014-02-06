@@ -25,7 +25,7 @@ gulp.task('js', function() {
   // Minify and copy all JavaScript (except vendor scripts)
   return gulp.src(['public/src/javascripts/**/*.js', '!public/javascripts/vendor/**'])
       .pipe(uglify())
-      .pipe(gulp.dest('public/dist/javascripts'));
+      .pipe(gulp.dest('public/dist'));
 });
 
 
