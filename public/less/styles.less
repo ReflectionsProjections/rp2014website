@@ -56,19 +56,20 @@ section{
   &.container{
     position: relative;
     z-index: 100;
-    padding: 10px 20px;
+    padding: 20px;
 
-    //everything except mobile
+    //mobile
+    /* Smartphones (portrait) ----------- */
+    @media only screen
+    and (max-width : 320px) {
+      padding: 0;
+    }
+
+    //tablets
     @media only screen
     and (min-device-width : 603px)
     and (max-device-width : 1024px){
       padding: 50px auto;
-    }
-
-   //website
-    @media only screen
-    and (min-width : 1224px) {
-      padding: 10px 20px;
     }
   }
 
@@ -80,15 +81,16 @@ section{
     .rounded(8px);
     .box-shadow(0 2px 8px rgba(0,0,0,.1));
     overflow: hidden;
-    padding: 20px;
+    padding: 10px 20px;
     z-index: 100;
+
 
     section {
       margin: 10px auto;
     }
   }
 
-  & section.description p {
+  & .description p {
     font-size: .9rem;
   }
 
@@ -131,6 +133,7 @@ section{
   .rounded(4px);
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
   background: @logoBlue;
+  width:60%;
 }
 
 
