@@ -37,6 +37,7 @@ body {
 section.container {
   position: relative;
   z-index: 100;
+  padding: 10px 20px;
 }
 @media only screen and (min-device-width: 603px) and (max-device-width: 1024px) {
   section.container {
@@ -45,7 +46,7 @@ section.container {
 }
 @media only screen and (min-width: 1224px) {
   section.container {
-    padding: 20px;
+    padding: 10px 20px;
   }
 }
 section.content {
