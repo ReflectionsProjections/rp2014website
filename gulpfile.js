@@ -14,39 +14,35 @@ var gulp = require('gulp')
 ;
 
 
-gulp.task('minify-images', function(){
-    return gulp.src(['public/src/images/**/*.png', 'public/src/images/**/*.jpg'])
+gulp.task('images', function(){
+    return gulp.src(['public/images/**/*.jpg', 'public/images/**/*.png'])
         .pipe(imagemin())
-        .pipe(gulp.dest('public/dist/images'))
+        .pipe(gulp.dest('public/images/dist/'));
 });
 
 
 gulp.task('js', function() {
   // Minify and copy all JavaScript (except vendor scripts)
-  return gulp.src(['public/src/javascripts/**/*.js', '!public/javascripts/vendor/**'])
+  return gulp.src(['public/javascripts/src/**/*.js', '!public/javascripts/vendor/**'])
       .pipe(uglify())
-      .pipe(gulp.dest('public/dist'));
+      .pipe(gulp.dest('public/javascripts/dist/'));
 });
 
 
 gulp.task('styles', function(){
-  return gulp.src(['public/src/less/**/*.less'])
+  return gulp.src(['public/less/**/*.less'])
       .pipe(less())
       .pipe(csslint({}))
       .pipe(csslint.reporter())
       .pipe(cssminify())
-      .pipe(gulp.dest('public/dist/css'));
+      .pipe(gulp.dest('public/css/'));
 });
 
 // Rerun the task when a file changes
 gulp.task('watch', function () {
-  server.listen(35729, function (err) {
-    if (err) return console.log(err);
-
-    gulp.watch('public/src/javascripts/src/**/*.js', ['js']);
-    gulp.watch('public/src/less/**/*.less', ['styles']);
-    gulp.watch('public/src/images/*.png', ['minify-images']);
-  });
+    gulp.watch('public/javascripts/src/**/*.js', ['js']);
+    gulp.watch('public/less/**/*.less', ['styles']);
+    gulp.watch('public/images/**/*', ['minify-images']);
 });
 
-gulp.task('default', ['js', 'styles','minify-images', 'watch']);
+gulp.task('default', ['js', 'styles','images', 'watch']);
