@@ -15,7 +15,7 @@ var gulp = require('gulp')
 
 
 gulp.task('images', function(){
-    return gulp.src(['public/images/**/*.jpg', 'public/images/**/*.png'])
+    return gulp.src(['public/images/src/**/*.jpg', 'public/images/src/**/*.png'])
         .pipe(imagemin())
         .pipe(gulp.dest('public/images/dist/'));
 });
