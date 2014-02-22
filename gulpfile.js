@@ -42,7 +42,7 @@ gulp.task('styles', function(){
 gulp.task('watch', function () {
     gulp.watch('public/javascripts/src/**/*.js', ['js']);
     gulp.watch('public/less/**/*.less', ['styles']);
-    gulp.watch('public/images/**/*', ['minify-images']);
+    gulp.watch('public/images/**/*', ['images']);
 });
 
-gulp.task('default', ['js', 'styles','images', 'watch']);
+gulp.task('default', ['js', 'styles', 'watch']);
