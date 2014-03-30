@@ -8423,7 +8423,7 @@ hr {
 }
 
 /* line 5, ../_sass/components.scss */
-.header-wrap, #schedule-wrap, #speaker-wrap, #cfwrap, #mmwrap {
+.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speaker-wrap, #cfwrap, #mmwrap {
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -8441,7 +8441,7 @@ hr {
   background-size: cover;
 }
 /* line 22, ../_sass/components.scss */
-.header-wrap h2, #schedule-wrap h2, #speaker-wrap h2, #cfwrap h2, #mmwrap h2 {
+.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speaker-wrap h2, #cfwrap h2, #mmwrap h2 {
   color: #fff;
   font-size: 50px;
   font-weight: 400;
@@ -8518,9 +8518,30 @@ section#home .info {
   left: 0;
 }
 
+/* line 1, ../_sass/about.scss */
+#about-wrap {
+  background: url(../img/fair1.jpg) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
+}
+
+/* line 1, ../_sass/register.scss */
+#register-wrap {
+  background: url(../img/mm1.jpg) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
+}
+
 /* line 1, ../_sass/schedule.scss */
 #schedule-wrap {
   background: url(../img/mo2.jpg) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
+}
+
+/* line 1, ../_sass/puzzlebang.scss */
+#puzzle-wrap {
+  background: url(../img/mm5.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
 }
