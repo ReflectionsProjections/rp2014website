@@ -9,7 +9,6 @@
 #
 
 require 'sass'
-require 'bootstrap-sass'
 require 'pathname'
 require 'compass'
 require 'compass/exec'

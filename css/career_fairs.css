@@ -1,27 +1,6 @@
 /* line 1, ../_sass/career_fairs.scss */
 #cfwrap {
-  background: url(../img/mm4.jpg) no-repeat center top;
-  margin-top: -10px;
-  padding-top: 20px;
-  text-align: center;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 500px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
+  background: url(../img/fair2.jpg) no-repeat center top;
   background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-}
-/* line 19, ../_sass/career_fairs.scss */
-#cfwrap h2 {
-  color: #fff;
-  font-size: 50px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  margin-top: 150px;
 }
