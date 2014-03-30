@@ -8422,6 +8422,33 @@ hr {
   }
 }
 
+/* line 5, ../_sass/components.scss */
+.header-wrap, #schedule-wrap, #speaker-wrap, #cfwrap, #mmwrap {
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 22, ../_sass/components.scss */
+.header-wrap h2, #schedule-wrap h2, #speaker-wrap h2, #cfwrap h2, #mmwrap h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-top: 150px;
+}
+
 /* line 1, ../_sass/index.scss */
 section {
   overflow: hidden;
@@ -8491,58 +8518,30 @@ section#home .info {
   left: 0;
 }
 
-/* line 1, ../_sass/career_fairs.scss */
-#cfwrap {
-  background: url(../img/mm4.jpg) no-repeat center top;
-  margin-top: -10px;
-  padding-top: 20px;
-  text-align: center;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 500px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
+/* line 1, ../_sass/schedule.scss */
+#schedule-wrap {
+  background: url(../img/mo2.jpg) no-repeat center top;
   background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
-/* line 19, ../_sass/career_fairs.scss */
-#cfwrap h2 {
-  color: #fff;
-  font-size: 50px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  margin-top: 150px;
+
+/* line 1, ../_sass/speakers.scss */
+#speaker-wrap {
+  background: url(../img/zed.jpg) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
+}
+
+/* line 1, ../_sass/career_fairs.scss */
+#cfwrap {
+  background: url(../img/fair2.jpg) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
 }
 
 /* line 1, ../_sass/mm.scss */
 #mmwrap {
   background: url(../img/mm4.jpg) no-repeat center top;
-  margin-top: -10px;
-  padding-top: 20px;
-  text-align: center;
-  background-attachment: relative;
-  background-position: center center;
-  min-height: 500px;
-  width: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
   background-size: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-}
-/* line 19, ../_sass/mm.scss */
-#mmwrap h2 {
-  color: #fff;
-  font-size: 50px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  margin-top: 150px;
 }
