@@ -3,28 +3,60 @@
 
 //CAVET - Background size must be includedi in the inherited class
 .header-wrap{
-margin-top: -10px;
-padding-top: 20px;
-text-align: center;
-background-attachment: relative;
-background-position: center center;
-min-height: 500px;
-width: 100%;
--webkit-background-size: 100%;
--moz-background-size: 100%;
--o-background-size: 100%;
-background-size: 100%;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 500px;
+  width: 100%;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-h2 {
+  h2 {
 
-color: #fff;
-font-size: 50px;
-font-weight: 400;
-letter-spacing: 2px;
-margin-top: 150px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 150px;
+  }
 }
+
+
+.rp-button{
+  color: #fff;
+  font-weight: 300;
+
+}
+
+
+.btn-blue {
+  @extend .rp-button;
+  background-color: $rp-blue;
+  border-color: $rp-blue;
+
+
+  &:hover, &:focus, &:active, &.active, .open{
+    background-color: $rp-orange;
+    border-color: $rp-orange;
+  }
+}
+
+
+.btn-orange {
+  @extend .rp-button;
+  background-color: $rp-orange;
+  border-color: $rp-orange;
+
+  &:hover, &:focus, &:active, &.active, .open{
+    background-color: $rp-blue;
+    border-color: $rp-blue;
+  }
 }
