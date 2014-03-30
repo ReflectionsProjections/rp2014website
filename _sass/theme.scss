@@ -1,3 +1,6 @@
+@import "styles";
+@import "components";
+
 body {
     background-color: #f2f2f2;
     font-family: Lato;
@@ -26,27 +29,7 @@ p {
 .mt {
     padding-top: 25px;
 }
-a {
-    color: #16a085;
-    word-wrap: break-word;
-    -webkit-transition: color .1s ease-in, background .1s ease-in;
-    -moz-transition: color .1s ease-in, background .1s ease-in;
-    -ms-transition: color .1s ease-in, background .1s ease-in;
-    -o-transition: color .1s ease-in, background .1s ease-in;
-    transition: color .1s ease-in, background .1s ease-in;
-}
-a:hover, a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
-    outline: 0;
-}
-a:before, a:after {
-    -webkit-transition: color .1s ease-in, background .1s ease-in;
-    -moz-transition: color .1s ease-in, background .1s ease-in;
-    -ms-transition: color .1s ease-in, background .1s ease-in;
-    -o-transition: color .1s ease-in, background .1s ease-in;
-    transition: color .1s ease-in, background .1s ease-in;
-}
+
 hr {
     display: block;
     height: 1px;
@@ -55,6 +38,8 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+
 .btn {
     border-radius: 0;
 }
@@ -70,6 +55,8 @@ hr {
     border-color: #16a085;
     font-weight: 300;
 }
+
+
 .tm {
     font-size: 14px;
     line-height: 20px;
@@ -103,9 +90,7 @@ hr {
     color: #fff;
     margin-top: 20px;
 }
-.menu h1.logo a:hover {
-    color: #1abc9c;
-}
+
 .menu img.logo {
     margin: 20px 0;
     max-width: 160px;
@@ -354,7 +339,7 @@ hr {
 #portfolio {
     width: 100%}
 #services {
-    background: #1abc9c;
+    background: $rp-blue;
     margin-top: 25px;
     padding-top: 35px;
     padding-bottom: 35px;

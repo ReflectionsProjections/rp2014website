@@ -7594,3 +7594,32 @@ button.close {
     display: none !important;
   }
 }
+/* line 11, ../_sass/styles.scss */
+a {
+  color: #3299bb;
+  word-wrap: break-word;
+  -webkit-transition: color .1s ease-in, background .1s ease-in;
+  -moz-transition: color .1s ease-in, background .1s ease-in;
+  -ms-transition: color .1s ease-in, background .1s ease-in;
+  -o-transition: color .1s ease-in, background .1s ease-in;
+  transition: color .1s ease-in, background .1s ease-in;
+}
+/* line 20, ../_sass/styles.scss */
+a:hover, a:focus {
+  color: #7b7b7b;
+  text-decoration: none;
+  outline: 0;
+}
+/* line 25, ../_sass/styles.scss */
+a:before, a:after {
+  -webkit-transition: color .1s ease-in, background .1s ease-in;
+  -moz-transition: color .1s ease-in, background .1s ease-in;
+  -ms-transition: color .1s ease-in, background .1s ease-in;
+  -o-transition: color .1s ease-in, background .1s ease-in;
+  transition: color .1s ease-in, background .1s ease-in;
+}
+
+/* line 35, ../_sass/styles.scss */
+.menu h1.logo a:hover {
+  color: #ff9900;
+}
