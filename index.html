@@ -4,18 +4,18 @@ title: Home
 ---
 
 
-   <!-- MAIN IMAGE SECTION -->
-   <div id="headerwrap">
-    <div class="container">
-     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
-       <h1>R | P</h1>
-       <h2>UIUC Tech Conference</h2>
-       <div class="spacer"></div>
-       <i class="fa fa-angle-down"></i>
-     </div>
-   </div><!-- row -->
- </div><!-- /container -->
+<!-- MAIN IMAGE SECTION -->
+<div id="headerwrap">
+  <div class="container">
+   <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+     <h1>R | P</h1>
+     <h2>UIUC Tech Conference</h2>
+     <div class="spacer"></div>
+     <i class="fa fa-angle-down"></i>
+   </div>
+ </div><!-- row -->
+</div><!-- /container -->
 </div><!-- /headerwrap -->
 
 
@@ -37,21 +37,10 @@ title: Home
  <div class="container"
  <div class="row mt">
   <ul class="grid effect-2" id="grid">
-   <li><a href="singleproject.html"><img src="img/brandon-wiley.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/brian-smith.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/collin-jackson.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/elizabeth-krumbach.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/jenny-murphy.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/jeff-meyers.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/jeremiah-jordan.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/joe-lonsdale.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/josh-michaels.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/justin-tulloss.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/keith-adams.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/kevinhale.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/nick-martin.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/peter-norvig.jpg"></a></li>
-   <li><a href="singleproject.html"><img src="img/robinwalker.jpg"></a></li>
+   {% for speaker in site.data.speakers %}
+   <li><a href="singleproject.html"><img src=/img/{{speaker.image-url}}></a></li>
+   {% endfor %}
+
  </ul>
 </div><!-- row -->
 </div><!-- container -->
@@ -92,16 +81,16 @@ title: Home
 
 
 <div id="call">
-    <div class="container">
-      <div class="row">
-        <h3>Register for R|P 2014</h3>
-        <div class="col-lg-8 col-lg-offset-2">
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
-          <p><button type="button" class="btn btn-orange btn-lg">Register!</button></p>
-        </div>
-      </div><!-- row -->
-    </div><!-- container -->
-  </div>
+  <div class="container">
+    <div class="row">
+      <h3>Register for R|P 2014</h3>
+      <div class="col-lg-8 col-lg-offset-2">
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        <p><button type="button" class="btn btn-orange btn-lg">Register!</button></p>
+      </div>
+    </div><!-- row -->
+  </div><!-- container -->
+</div>
 
 
 <!-- Sponsor Icons -->
