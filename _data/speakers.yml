@@ -1,0 +1,51 @@
+- name: Brendan Ryan
+  bio: I wrote this
+  image-url: http://bloggernista.files.wordpress.com/2007/11/gay-couple.jpg?w=455
+
+- name: Brian Smith
+  bio: I wrote this
+  image-url: brian-smith.jpg
+
+- name: Collin Jackson
+  bio: I wrote this
+  image-url: collin-jackson.jpg
+
+- name: Elizabeth Krumbach
+  bio: I wrote this
+  image-url: elizabeth-krumbach.jpg
+
+- name: Jenny Murphy
+  bio: I wrote this
+  image-url: jenny-murphy.jpg
+
+- name: Joe Lonsdale
+  bio: I wrote this
+  image-url: joe-lonsdale.jpg
+
+- name: Josh Michaels
+  bio: I wrote this
+  image-url: josh-michaels.jpg
+
+- name: Justin Tulloss
+  bio: I wrote this
+  image-url: justin-tolloss.jpg
+
+- name: Keith Adams
+  bio: I wrote this
+  image-url: keith-adams.jpg
+
+- name: Kevin Hale
+  bio: I wrote this
+  image-url: kevinhale.jpg
+
+- name: Nick Martin
+  bio: I wrote this
+  image-url: nick-martin.jpg
+
+- name: Peter Norvig
+  bio: I wrote this
+  image-url: peter-norvig.jpg
+
+- name: Robin Walker
+  bio: I wrote this
+  image-url: robinwalker.jpg
