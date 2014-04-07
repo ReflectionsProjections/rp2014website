@@ -1,12 +1,2 @@
-node_modules
-.tmp
+_site
 .sass-cache
-app/bower_components
-*.pyc
-venv
-.idea
-*.sublime-project
-*.sublime-workspace
-.jshintrc
-.editorconfig
-

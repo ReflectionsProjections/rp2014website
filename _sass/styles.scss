@@ -1,0 +1,33 @@
+// customize bootstrap variables and other *top level* styles here
+@import "variables";
+@import "bootstrap";
+
+$rp-blue: #3299BB;
+$rp-orange: #FF9900;
+$rp-light-grey: #424242;
+$rp-dark-grey: #BCBCBC;
+
+
+a {
+  color: $rp-blue;
+  word-wrap: break-word;
+  -webkit-transition: color .1s ease-in, background .1s ease-in;
+  -moz-transition: color .1s ease-in, background .1s ease-in;
+  -ms-transition: color .1s ease-in, background .1s ease-in;
+  -o-transition: color .1s ease-in, background .1s ease-in;
+  transition: color .1s ease-in, background .1s ease-in;
+
+  &:hover, &:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+  }
+  &:before, &:after {
+    -webkit-transition: color .1s ease-in, background .1s ease-in;
+    -moz-transition: color .1s ease-in, background .1s ease-in;
+    -ms-transition: color .1s ease-in, background .1s ease-in;
+    -o-transition: color .1s ease-in, background .1s ease-in;
+    transition: color .1s ease-in, background .1s ease-in;
+  }
+
+}

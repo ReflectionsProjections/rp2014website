@@ -1,0 +1,44 @@
+---
+layout: default
+title: Speakers
+---
+<div id="speaker-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Look! A wild<br>
+          Zed Shaw appeared!
+        </h2>
+      </div>
+    </div><!-- row -->
+  </div><!-- /container -->
+</div>
+
+
+<div class="container">
+  <div class="row mt">
+    <div class="col-lg-12">
+      <h2>We have some absolutely fantastic speakers coming from all over the US to talk on topics ranging from semiconductors to mobile application development to computer science theory!
+      </h2>
+    </div>
+  </div>
+
+  <div class="row mt">
+    <div class="col-lg-12">
+      <!-- Speaker Images -->
+      <div id="portfolio">
+       <div class="container"
+       <div class="row mt">
+        <ul class="grid effect-2" id="grid">
+
+         {% for speaker in site.data.speakers %}
+         <li><a href="singleproject.html"><img src=/img/{{speaker.image-url}}></a></li>
+         {% endfor %}
+
+       </ul>
+     </div><!-- row -->
+   </div><!-- container -->
+ </div><!-- portfolio -->
+</div>
+</div>
+</div>

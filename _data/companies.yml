@@ -1,0 +1,94 @@
+- name: A16z
+  bio: I wrote this
+  image-url: a16z.png
+  site-url: http://www.google.com
+
+- name: adage
+  bio: I wrote this
+  image-url: adage.png
+  site-url: http://www.google.com
+
+- name: addepar
+  bio: I wrote this
+  image-url: .png
+  site-url: http://www.google.com
+
+- name: allston
+  bio: I wrote this
+  image-url: allston.png
+  site-url: http://www.google.com
+
+- name: apportable
+  bio: I wrote this
+  image-url: apportable.png
+  site-url: http://www.google.com
+
+- name: bazinga
+  bio: I wrote this
+  image-url: bazinga.png
+  site-url: http://www.google.com
+
+- name: blocher
+  bio: I wrote this
+  image-url: blocher.png
+  site-url: http://www.google.com
+
+- name: datastax
+  bio: I wrote this
+  image-url: datastax.png
+  site-url: http://www.google.com
+
+- name: dropbox
+  bio: I wrote this
+  image-url: dropbox.png
+  site-url: http://www.google.com
+
+- name: enova
+  bio: I wrote this
+  image-url: enova.png
+  site-url: http://www.google.com
+
+- name: facebook
+  bio: I wrote this
+  image-url: facebook.png
+  site-url: http://www.google.com
+
+- name: firebase
+  bio: I wrote this
+  image-url: firebase.png
+  site-url: http://www.google.com
+
+- name: linkedin
+  bio: I wrote this
+  image-url: linkedin.png
+  site-url: http://www.google.com
+
+- name: pinterest
+  bio: I wrote this
+  image-url: pinterest.png
+  site-url: http://www.google.com
+
+- name: rdio
+  bio: I wrote this
+  image-url: rdio.png
+  site-url: http://www.google.com
+
+- name: sprout
+  bio: I wrote this
+  image-url: sprout.png
+  site-url: http://www.google.com
+
+- name: square
+  bio: I wrote this
+  image-url: square.png
+  site-url: http://www.google.com
+
+- name: synthego
+  bio: I wrote this
+  image-url: synthego.png
+  site-url: http://www.google.com
+
+- name: thebackplane
+  bio: I wrote this
+  image-url: thebackplane.png
+  site-url: http://www.google.com
