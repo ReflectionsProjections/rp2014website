@@ -15364,6 +15364,25 @@ a:before, a:after {
   border-color: #3299bb;
 }
 
+/* line 69, ../_sass/components.scss */
+.speaker-box h1 {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+}
+
+/* line 77, ../_sass/components.scss */
+.card, .company-card {
+  padding: 1.5rem;
+  box-shadow: 0 1px 2px #aaa;
+  background: white;
+  margin: 0 1rem 1rem;
+  border-radius: 3px;
+  user-select: none;
+  animation: fly-in-from-left .5s 1s ease both;
+  transform-origin: top left;
+}
+
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /* line 9, ../../../../.rvm/gems/ruby-1.9.3-p194/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -30661,6 +30680,25 @@ a:before, a:after {
   border-color: #3299bb;
 }
 
+/* line 69, ../_sass/components.scss */
+.speaker-box h1 {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+}
+
+/* line 77, ../_sass/components.scss */
+.card, .company-card {
+  padding: 1.5rem;
+  box-shadow: 0 1px 2px #aaa;
+  background: white;
+  margin: 0 1rem 1rem;
+  border-radius: 3px;
+  user-select: none;
+  animation: fly-in-from-left .5s 1s ease both;
+  transform-origin: top left;
+}
+
 /* line 4, ../_sass/theme.scss */
 body {
   background-color: #f2f2f2;
@@ -31497,6 +31535,18 @@ section#home .info {
   background: url(../img/fair2copy.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
+}
+
+/* line 10, ../_sass/career_fairs.scss */
+.company-card {
+  padding: 1.5rem;
+  box-shadow: 0 1px 2px #aaa;
+  background: white;
+  margin: 0 1rem 1rem;
+  border-radius: 3px;
+  user-select: none;
+  animation: fly-in-from-left .5s 1s ease both;
+  transform-origin: top left;
 }
 
 /* line 1, ../_sass/mm.scss */

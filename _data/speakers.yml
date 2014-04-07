@@ -1,7 +1,3 @@
-- name: Brendan Ryan
-  bio: I wrote this
-  image-url: http://bloggernista.files.wordpress.com/2007/11/gay-couple.jpg?w=455
-
 - name: Brian Smith
   bio: I wrote this
   image-url: brian-smith.jpg
@@ -28,7 +24,7 @@
 
 - name: Justin Tulloss
   bio: I wrote this
-  image-url: justin-tolloss.jpg
+  image-url: justin-tulloss.jpg
 
 - name: Keith Adams
   bio: I wrote this

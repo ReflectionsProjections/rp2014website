@@ -7673,3 +7673,22 @@ a:before, a:after {
   background-color: #3299bb;
   border-color: #3299bb;
 }
+
+/* line 69, ../_sass/components.scss */
+.speaker-box h1 {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+}
+
+/* line 75, ../_sass/components.scss */
+.card {
+  padding: 1.5rem;
+  box-shadow: 0 1px 2px #aaa;
+  background: white;
+  margin: 0 1rem 1rem;
+  border-radius: 3px;
+  user-select: none;
+  animation: fly-in-from-left .5s 1s ease both;
+  transform-origin: top left;
+}

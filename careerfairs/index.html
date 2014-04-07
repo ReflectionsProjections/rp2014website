@@ -2,46 +2,68 @@
 layout: default
 title: Career Fairs
 ---
+
 <div id="cfwrap">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <h2>Get a job!<br>
-          and talk to chrissy ;)
-        </h2>
+        <h2>Get a job! <br>
+          Make your parents happy!</h2>
+        </div>
+      </div><!-- row -->
+    </div><!-- /container -->
+  </div>
+
+  <div class="container">
+    <div class="row mt">
+      <div class="col-lg-12">
+        <h2>Looking for a job or internship? You've come to the right place! Reflections | Projections is where some of the top companies recruit in a casual atmosphere. Bring your resume, but you can leave the suit at home!</h2>
       </div>
-    </div><!-- row -->
-  </div><!-- /container -->
+    </div>
+
+    <div class="row mt">
+      <div class="col-lg-12">
+        <h3>Startup Fair</h3>
+        <p>The Reflections | Projections Job Fair is always a huge hit, and some of the biggest names in technology are always there to recruit. Come talk to the companies below right in the Siebel Center atrium from 10am - 4pm on Friday, October 11th. Oh, and don't suit up!
+        </p> <p>Do you know a startup that sounds like it might fit? Email us for an invitation</p>
+        <div class="company-container">
+          <div id="portfolio">
+           <div class="container"
+           <div class="row mt">
+            <ul class="grid effect-2" id="grid">
+             {% for company in site.data.companies.startups %}
+             <li class="company-card"><a href={{company.site-url}}><img src=/img/companies/{{company.image-url}}></a></li>
+             {% endfor %}
+
+           </ul>
+         </div><!-- row -->
+       </div><!-- container -->
+     </div><!-- portfolio -->
+   </div>
+ </div>
+
 </div>
+<div class="row mt">
+  <div class="col-lg-12">
+    <h3>Job Fair</h3>
+    <p>Initiated last year, our Startup Fair allows students to meet great companies with lots of culture, interesting problems, and small teams. It will be held on Thursday, October 10th from 5pm - 8pm in the Siebel Center atrium.
+    </p>
+    <p>Are you looking to recruit at the job fair? Please email ACM Corporate to be placed on the waiting list.</p>
 
-<div class="container">
-  <div class="row mt">
-    <div class="col-lg-12">
-      <h2>Looking for a job or internship? You've come to the right place! Reflections | Projections is where some of the top companies recruit in a casual atmosphere. Bring your resume, but you can leave the suit at home!</h2>
-    </div>
-  </div>
+    <div class="company-container">
+      <div id="portfolio">
+       <div class="container"
+       <div class="row mt">
+        <ul class="grid effect-2" id="grid">
+          {% for company in site.data.companies.regular %}
+          <li class="company-card"><a href={{company.site-url}}><img src=/img/companies/{{company.image-url}}></a></li>
+          {% endfor %}
 
-  <div class="row mt">
-    <div class="col-lg-12">
-      <h3>Startup Fair</h3>
-      <p>The Reflections | Projections Job Fair is always a huge hit, and some of the biggest names in technology are always there to recruit. Come talk to the companies below right in the Siebel Center atrium from 10am - 4pm on Friday, October 11th. Oh, and don't suit up!
-      </p> <p>Do you know a startup that sounds like it might fit? Email us for an invitation</p>
-      <div class="company-container">
-        <p>mason grid of companies here</p>
-      </div>
-    </div>
-
-  </div>
-  <div class="row mt">
-    <div class="col-lg-12">
-      <h3>Job Fair</h3>
-      <p>Initiated last year, our Startup Fair allows students to meet great companies with lots of culture, interesting problems, and small teams. It will be held on Thursday, October 10th from 5pm - 8pm in the Siebel Center atrium.
-      </p>
-      <p>Are you looking to recruit at the job fair? Please email ACM Corporate to be placed on the waiting list.</p>
-
-      <div class="company-container">
-        <p>mason grid of companies here</p>
-      </div>
-    </div>
-  </div>
+        </ul>
+      </div><!-- row -->
+    </div><!-- container -->
+  </div><!-- portfolio -->
+</div>
+</div>
+</div>
 </div>
