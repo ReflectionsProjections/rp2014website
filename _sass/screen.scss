@@ -5,6 +5,8 @@
 
 
 // High Level Imports
+// These should contain anything which you want the lower level
+// pages to inherit from
 @import "compass/reset";
 @import "styles";
 @import "components";
