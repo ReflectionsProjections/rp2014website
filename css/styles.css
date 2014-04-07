@@ -7618,8 +7618,3 @@ a:before, a:after {
   -o-transition: color .1s ease-in, background .1s ease-in;
   transition: color .1s ease-in, background .1s ease-in;
 }
-
-/* line 35, ../_sass/styles.scss */
-.menu h1.logo a:hover {
-  color: #ff9900;
-}

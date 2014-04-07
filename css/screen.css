@@ -7688,11 +7688,10 @@ a:before, a:after {
   transition: color .1s ease-in, background .1s ease-in;
 }
 
-/* line 35, ../_sass/styles.scss */
+/*
 .menu h1.logo a:hover {
-  color: #ff9900;
-}
-
+  color: $rp-orange;
+}*/
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /* line 9, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -15314,11 +15313,10 @@ a:before, a:after {
   transition: color .1s ease-in, background .1s ease-in;
 }
 
-/* line 35, ../_sass/styles.scss */
+/*
 .menu h1.logo a:hover {
-  color: #ff9900;
-}
-
+  color: $rp-orange;
+}*/
 /* line 7, ../_sass/components.scss */
 .header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speaker-wrap, #cfwrap, #mmwrap {
   margin-top: -10px;
@@ -22995,11 +22993,10 @@ a:before, a:after {
   transition: color .1s ease-in, background .1s ease-in;
 }
 
-/* line 35, ../_sass/styles.scss */
+/*
 .menu h1.logo a:hover {
-  color: #ff9900;
-}
-
+  color: $rp-orange;
+}*/
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 /* line 9, ../../../../.rvm/gems/ruby-2.0.0-p247/gems/bootstrap-sass-3.1.1.0/vendor/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -30621,11 +30618,10 @@ a:before, a:after {
   transition: color .1s ease-in, background .1s ease-in;
 }
 
-/* line 35, ../_sass/styles.scss */
+/*
 .menu h1.logo a:hover {
-  color: #ff9900;
-}
-
+  color: $rp-orange;
+}*/
 /* line 7, ../_sass/components.scss */
 .header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speaker-wrap, #cfwrap, #mmwrap {
   margin-top: -10px;
