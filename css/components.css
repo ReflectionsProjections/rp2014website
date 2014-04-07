@@ -7673,3 +7673,10 @@ a:before, a:after {
   background-color: #3299bb;
   border-color: #3299bb;
 }
+
+/* line 69, ../_sass/components.scss */
+.speaker-box h1 {
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+}
