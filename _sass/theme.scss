@@ -211,22 +211,25 @@ hr {
     -o-background-size: cover;
     background-size: cover;
 }
-#headerwrap h1 {
+
+#headerwrap{
+  color: #FFFFFF;
+}
+
+#headerwrap h1{
     margin-top: 130px;
-    color: #fff;
     font-size: 140px;
     font-weight: 700;
     letter-spacing: 3px;
 }
+
 #headerwrap h2 {
-    color: #fff;
     font-size: 50px;
     font-weight: 100;
     letter-spacing: 2px;
 }
 #headerwrap i {
     font-size: 35px;
-    color: #fff;
 }
 #headerwrap .spacer {
     margin-top: 220px;
