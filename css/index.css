@@ -73,9 +73,12 @@ section#home .info {
 }
 /* line 82, ../_sass/index.scss */
 .form-container input[type='email'] {
+  background-color: #5A5A5A;
+  border: none;
   width: 66%;
+  border-radius: 0px;
 }
-/* line 87, ../_sass/index.scss */
-.form-container input button {
+/* line 90, ../_sass/index.scss */
+.form-container button {
   margin-top: 10px;
 }

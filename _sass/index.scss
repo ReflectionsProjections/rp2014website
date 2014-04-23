@@ -77,16 +77,18 @@ section{
 .form-container{
   margin-left: 5%;
 
- & input{
+  & input{
 
-  &[type='email']{
+    &[type='email']{
+      background-color: #5A5A5A;
+      border: none;
+      width: 66%;
+      border-radius: 0px;
+    }
 
-    width: 66%;
   }
-
   & button{
     margin-top: 10px;
   }
-}
 }
 
