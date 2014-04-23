@@ -66,3 +66,16 @@ section#home .info {
   position: absolute;
   left: 0;
 }
+
+/* line 77, ../_sass/index.scss */
+.form-container {
+  margin-left: 5%;
+}
+/* line 82, ../_sass/index.scss */
+.form-container input[type='email'] {
+  width: 66%;
+}
+/* line 87, ../_sass/index.scss */
+.form-container input button {
+  margin-top: 10px;
+}

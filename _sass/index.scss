@@ -73,3 +73,20 @@ section{
   }
 }
 
+
+.form-container{
+  margin-left: 5%;
+
+ & input{
+
+  &[type='email']{
+
+    width: 66%;
+  }
+
+  & button{
+    margin-top: 10px;
+  }
+}
+}
+

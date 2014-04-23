@@ -31516,6 +31516,19 @@ section#home .info {
   left: 0;
 }
 
+/* line 77, ../_sass/index.scss */
+.form-container {
+  margin-left: 5%;
+}
+/* line 82, ../_sass/index.scss */
+.form-container input[type='email'] {
+  width: 66%;
+}
+/* line 87, ../_sass/index.scss */
+.form-container input button {
+  margin-top: 10px;
+}
+
 /* line 1, ../_sass/about.scss */
 #about-wrap {
   background: url(../img/fair1copy.jpg) no-repeat center top;
@@ -31525,28 +31538,28 @@ section#home .info {
 
 /* line 1, ../_sass/register.scss */
 #register-wrap {
-  background: url(../img/mm1copy.jpg) no-repeat center top;
+  background: url(../dist/img/mm1copy.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
 }
 
 /* line 1, ../_sass/schedule.scss */
 #schedule-wrap {
-  background: url(../img/mo2copy.jpg) no-repeat center top;
+  background: url(../dist/img/mo2copy.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
 }
 
 /* line 1, ../_sass/puzzlebang.scss */
 #puzzle-wrap {
-  background: url(../img/mm5copy.jpg) no-repeat center top;
+  background: url(../dist/img/mm5copy.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
 }
 
 /* line 1, ../_sass/speakers.scss */
 #speaker-wrap {
-  background: url(../img/zed.jpg) no-repeat center top;
+  background: url(../dist/img/zed.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
 }
@@ -31560,7 +31573,7 @@ section#home .info {
 
 /* line 1, ../_sass/mm.scss */
 #mmwrap {
-  background: url(../img/mm4copy.jpg) no-repeat center top;
+  background: url(../dist/img/mm4copy.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
 }
