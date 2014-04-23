@@ -30981,8 +30981,12 @@ hr {
   background-size: cover;
 }
 
+/* line 214, ../_sass/theme.scss */
+#headerwrap {
+  color: #FFFFFF;
+}
 /* line 217, ../_sass/theme.scss */
-#headerwrap h1, #headerwrap h2 {
+#headerwrap h1, #headerwrap h2, #headerwrap h3 {
   color: #FFFFFF;
 }
 /* line 221, ../_sass/theme.scss */
