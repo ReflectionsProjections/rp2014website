@@ -1,0 +1,19 @@
+{
+  "name": "rp2014",
+  "description": "ooh kill 'em",
+  "author": "Brendan Ryan",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "latest",
+    "gulp-util": "latest",
+    "gulp-watch": "latest",
+    "gulp-uglify": "latest",
+    "gulp-csslint": "latest",
+    "gulp-imagemin": "~0.1.5",
+    "gulp-minify-css": "~0.3.0"
+  },
+  "engines": {
+    "npm": "1.2.x"
+  }
+}

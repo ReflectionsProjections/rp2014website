@@ -7594,7 +7594,12 @@ button.close {
     display: none !important;
   }
 }
-/* line 11, ../_sass/styles.scss */
+/* line 13, ../_sass/styles.scss */
+body {
+  font-family: 'Open Sans',sans-serif;
+}
+
+/* line 17, ../_sass/styles.scss */
 a {
   color: #3299bb;
   word-wrap: break-word;
@@ -7604,13 +7609,13 @@ a {
   -o-transition: color .1s ease-in, background .1s ease-in;
   transition: color .1s ease-in, background .1s ease-in;
 }
-/* line 20, ../_sass/styles.scss */
+/* line 26, ../_sass/styles.scss */
 a:hover, a:focus {
   color: #7b7b7b;
   text-decoration: none;
   outline: 0;
 }
-/* line 25, ../_sass/styles.scss */
+/* line 31, ../_sass/styles.scss */
 a:before, a:after {
   -webkit-transition: color .1s ease-in, background .1s ease-in;
   -moz-transition: color .1s ease-in, background .1s ease-in;
