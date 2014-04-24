@@ -4,3 +4,4 @@ exclude:
   - README.md
   - fabfile.py
   - fabfile.pyc
+  - vendor
