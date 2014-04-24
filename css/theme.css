@@ -7625,7 +7625,7 @@ a:before, a:after {
 }
 
 /* line 41, ../_sass/styles.scss */
-.container {
+.container.content {
   width: 900px;
 }
 
@@ -15256,7 +15256,7 @@ a:before, a:after {
 }
 
 /* line 41, ../_sass/styles.scss */
-.container {
+.container.content {
   width: 900px;
 }
 

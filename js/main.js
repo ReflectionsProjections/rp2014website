@@ -11,28 +11,19 @@
         });
       });
 
-    /*
-     function initialize() {
-      var myLatLong = new google.maps.LatLng(40.114312,-88.22484);
-      var mapOptions = {
-        center: myLatLong,
-        scrollwheel: false,
-        zoom: 15,
-      };
 
-      var map = new google.maps.Map(document.getElementById("mapwrap"),
-        mapOptions);
 
-      var marker = new google.maps.Marker({
-        position: myLatLong,
-        map: map,
-        title:"Thomas M. Siebel Center for Computer Science"
-      });
+    // masonry for front page
+    $('#grid').masonry({
+      itemSelector : '.speaker-box',
+      columnWidth: 900
+    });
 
-    }
-    google.maps.event.addDomListener(window, 'load', initialize);
-
-    */
+    //masonry for speaker pages
+    $('#grid').masonry({
+      itemSelector : '.company-card',
+      columnWidth: 900
+    });
 
 
 

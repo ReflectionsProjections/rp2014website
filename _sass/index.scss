@@ -84,6 +84,13 @@ section{
       border: none;
       width: 66%;
       border-radius: 0px;
+      color: #FFF;
+
+      &:focus{
+        border-color: #DDDDDD;
+        outline: 0;
+        box-shadow: none;
+      }
     }
 
   }

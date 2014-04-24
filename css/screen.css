@@ -7694,7 +7694,7 @@ a:before, a:after {
 }
 
 /* line 41, ../_sass/styles.scss */
-.container {
+.container.content {
   width: 900px;
 }
 
@@ -15325,7 +15325,7 @@ a:before, a:after {
 }
 
 /* line 41, ../_sass/styles.scss */
-.container {
+.container.content {
   width: 900px;
 }
 
@@ -23030,7 +23030,7 @@ a:before, a:after {
 }
 
 /* line 41, ../_sass/styles.scss */
-.container {
+.container.content {
   width: 900px;
 }
 
@@ -30661,7 +30661,7 @@ a:before, a:after {
 }
 
 /* line 41, ../_sass/styles.scss */
-.container {
+.container.content {
   width: 900px;
 }
 
@@ -31546,8 +31546,15 @@ section#home .info {
   border: none;
   width: 66%;
   border-radius: 0px;
+  color: #FFF;
 }
-/* line 90, ../_sass/index.scss */
+/* line 89, ../_sass/index.scss */
+.form-container input[type='email']:focus {
+  border-color: #DDDDDD;
+  outline: 0;
+  box-shadow: none;
+}
+/* line 97, ../_sass/index.scss */
 .form-container button {
   margin-top: 10px;
 }
