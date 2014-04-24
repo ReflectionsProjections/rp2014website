@@ -7623,3 +7623,8 @@ a:before, a:after {
   -o-transition: color .1s ease-in, background .1s ease-in;
   transition: color .1s ease-in, background .1s ease-in;
 }
+
+/* line 41, ../_sass/styles.scss */
+.container {
+  width: 900px;
+}
