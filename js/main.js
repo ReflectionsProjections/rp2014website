@@ -1,5 +1,8 @@
 ;(function(){
 
+  window.onresize = mason();
+
+
   $(document).on('ready', function(){
 
     var mapbox = L.mapbox.map('mapwrap', 'brendanryan.i2gj4hln');
@@ -11,10 +14,6 @@
           $('#theMenu').toggleClass('menu-open');
         });
       });
-
-
-
-  window.onresize = mason();
 
 
   //initial page layout
@@ -38,7 +37,4 @@ function mason(){
     });
 
 
-    window.onresize(function(){
-      mason();
-    });
   }
