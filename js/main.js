@@ -2,7 +2,8 @@
 
   $(document).on('ready', function(){
 
-    L.mapbox.map('mapwrap', 'brendanryan.i2gj4hln');
+    var mapbox = L.mapbox.map('mapwrap', 'brendanryan.i2gj4hln');
+
         // Menu settings
         $('#menuToggle, .menu-close').on('click', function(){
           $('#menuToggle').toggleClass('active');
@@ -13,9 +14,7 @@
 
 
 
-  window.onresize(function(){
-    mason();
-  });
+  window.onresize = mason();
 
 
   //initial page layout
