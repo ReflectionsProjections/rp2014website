@@ -14,8 +14,9 @@ var jsPath = "js/**/*.js";
 var stylePath = "css/**/*.css";
 
 gulp.task('images', function(){
-
-    return gulp.src(imagePath)
+    var ext = ['jpg', 'JPG', 'jpeg', 'png'];
+    var paths = ext.map(function(e){return imagePath + '.' + e});
+    return gulp.src(paths)
         .pipe(imagemin().on('error', gutil.log))
         .pipe(gulp.dest(distPath + 'img/'));
 });

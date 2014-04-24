@@ -41,5 +41,5 @@ function mason(){
 
     window.onresize(function(){
       mason();
-    })
+    });
   }
