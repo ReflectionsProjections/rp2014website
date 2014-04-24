@@ -37,3 +37,21 @@ a {
   }
 
 }
+
+.container.wrapper{
+  margin-bottom: 50px;
+}
+
+.grey-border{
+  border-bottom: 1px solid #D8D8D8;
+  padding-bottom: 15px;
+}
+
+.line-accent{
+  display: block;
+width: 50px;
+height: 4px;
+margin: -15px 0 0 0;
+background-color: $rp-blue;
+
+}

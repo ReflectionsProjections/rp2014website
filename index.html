@@ -9,7 +9,7 @@ title: Home
   <div class="container">
    <div class="row">
     <div class="col-lg-8 col-lg-offset-2">
-     <h1><img src="/img/rp2014runningman-white.png" alt="logo" height="100px" width="200px"></h1>
+     <h1><img src="dist/img/rp2014runningman-white.png" alt="logo" height="100px" width="200px"></h1>
      <h2>Reflections | Projections</h2>
      <h3>September 25-28, 2014</h3>
      <div class="spacer"></div>
@@ -21,9 +21,9 @@ title: Home
 
 
 <!-- WELCOME SECTION -->
-<div class="container">
+<div class="container content">
   <div class="row mt">
-   <div class="col-lg-8">
+   <div class="col-lg-6 lg-offset-2">
      <h1>Speakers</h1>
      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
    </div>
@@ -37,12 +37,18 @@ title: Home
 <div id="portfolio">
  <div class="container"
  <div class="row mt">
-  <ul class="grid effect-2" id="grid">
-   {% for speaker in site.data.speakers %}
-   <li class="speaker-box"><a href="singleproject.html"><img src=/img/{{speaker.image-url}}><h1>{{speaker.name}}</h1></a></li>
-   {% endfor %}
+  <div class="col-lg-10 col-lg-offset-1">
 
- </ul>
+    <ul class="grid effect-2" id="grid">
+     {% for speaker in site.data.speakers %}
+     <li class="speaker-box"><a href=/spaekers/{{speaker.name}}><img src=dist/img/{{speaker.image-url}}>
+
+      <!--  <h1>{{speaker.name}}</h1> -->
+    </a></li>
+    {% endfor %}
+
+  </ul>
+</div>
 </div><!-- row -->
 </div><!-- container -->
 </div><!-- portfolio -->
@@ -53,28 +59,28 @@ title: Home
   <div class="container">
    <div class="row mt">
     <div class="col-lg-1 centered">
-     <i class="fa fa-certificate"></i>
+     <i class="fa fa-bullhorn"></i>
    </div>
    <div class="col-lg-3">
      <h3>Awesome Speakers</h3>
-     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+     <p>We have some absolutely fantastic speakers coming from all over the US to talk on topics ranging from semiconductors to mobile application development to computer science theory!</p>
    </div>
 
    <div class="col-lg-1 centered">
-     <i class="fa fa-question-circle"></i>
+     <i class="fa fa-briefcase"></i>
    </div>
    <div class="col-lg-3">
      <h3>Career Fairs</h3>
-     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+     <p>Looking for a job or internship? You've come to the right place! Reflections | Projections is where some of the top companies recruit in a casual atmosphere. Bring your resume, but you can leave the suit at home!</p>
    </div>
 
 
    <div class="col-lg-1 centered">
-     <i class="fa fa-globe"></i>
+     <i class="fa fa-keyboard-o"></i>
    </div>
    <div class="col-lg-3">
      <h3>Programming Competitions</h3>
-     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+     <p>MechMania is a 24-hour programming contest in which teams of students from various schools compete to create an AI capable of playing (and winning) a strategy game that we have developed for the event.</p>
    </div>
  </div><!-- row -->
 </div><!-- container -->
@@ -99,22 +105,23 @@ title: Home
   <div class="container">
    <div class="row centered">
     <div class="col-lg-2 col-lg-offset-1">
-     <img src="img/clients/c02.gif" alt="">
+      <img src="img/clients/c02.gif" alt="">
    </div>
    <div class="col-lg-2">
-     <img src="img/clients/c02.gif" alt="">
+    <img src="img/clients/c02.gif" alt="">
    </div>
    <div class="col-lg-2">
-     <img src="img/clients/c02.gif" alt="">
+    <img src="img/clients/c02.gif" alt="">
    </div>
    <div class="col-lg-2">
-     <img src="img/clients/c02.gif" alt="">
+    <img src="img/clients/c02.gif" alt="">
    </div>
    <div class="col-lg-2">
-     <img src="img/clients/c02.gif" alt="">
+    <img src="img/clients/c02.gif" alt="">
    </div>
  </div><!-- row -->
 </div><!-- container -->
 </div><!-- dg -->
+
 
 

@@ -73,3 +73,29 @@ section{
   }
 }
 
+
+.form-container{
+  margin-left: 5%;
+
+  & input{
+
+    &[type='email']{
+      background-color: #5A5A5A;
+      border: none;
+      width: 66%;
+      border-radius: 0px;
+      color: #FFF;
+
+      &:focus{
+        border-color: #DDDDDD;
+        outline: 0;
+        box-shadow: none;
+      }
+    }
+
+  }
+  & button{
+    margin-top: 10px;
+  }
+}
+

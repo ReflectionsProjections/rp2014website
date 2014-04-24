@@ -66,3 +66,26 @@ section#home .info {
   position: absolute;
   left: 0;
 }
+
+/* line 77, ../_sass/index.scss */
+.form-container {
+  margin-left: 5%;
+}
+/* line 82, ../_sass/index.scss */
+.form-container input[type='email'] {
+  background-color: #5A5A5A;
+  border: none;
+  width: 66%;
+  border-radius: 0px;
+  color: #FFF;
+}
+/* line 89, ../_sass/index.scss */
+.form-container input[type='email']:focus {
+  border-color: #DDDDDD;
+  outline: 0;
+  box-shadow: none;
+}
+/* line 97, ../_sass/index.scss */
+.form-container button {
+  margin-top: 10px;
+}
