@@ -1,14 +1,14 @@
-- name: Brian Smith
-  bio: I wrote this
-  image-url: brian-smith.jpg
+#- name: Brian Smith
+#  bio: I wrote this
+#  image-url: brian-smith.jpg
 
-- name: Collin Jackson
-  bio: I wrote this
-  image-url: collin-jackson.jpg
+#- name: Collin Jackson
+#  bio: I wrote this
+#  image-url: collin-jackson.jpg
 
-- name: Elizabeth Krumbach
-  bio: I wrote this
-  image-url: elizabeth-krumbach.jpg
+#- name: Elizabeth Krumbach
+#  bio: I wrote this
+#  image-url: elizabeth-krumbach.jpg
 
 - name: Jenny Murphy
   bio: I wrote this
@@ -18,30 +18,70 @@
   bio: I wrote this
   image-url: joe-lonsdale.jpg
 
-- name: Josh Michaels
-  bio: I wrote this
-  image-url: josh-michaels.jpg
+#- name: Josh Michaels
+#  bio: I wrote this
+#  image-url: josh-michaels.jpg
 
-- name: Justin Tulloss
-  bio: I wrote this
-  image-url: justin-tulloss.jpg
+#- name: Justin Tulloss
+#  bio: I wrote this
+#  image-url: justin-tulloss.jpg
 
-- name: Keith Adams
-  bio: I wrote this
-  image-url: keith-adams.jpg
+#- name: Keith Adams
+#  bio: I wrote this
+#  image-url: keith-adams.jpg
 
-- name: Kevin Hale
-  bio: I wrote this
-  image-url: kevinhale.jpg
+#- name: Kevin Hale
+#  bio: I wrote this
+#  image-url: kevinhale.jpg
 
-- name: Nick Martin
-  bio: I wrote this
-  image-url: nick-martin.jpg
+#- name: Nick Martin
+#  bio: I wrote this
+#  image-url: nick-martin.jpg
 
 - name: Peter Norvig
   bio: I wrote this
   image-url: peter-norvig.jpg
 
-- name: Robin Walker
+#- name: Robin Walker
+#  bio: I wrote this
+#  image-url: robinwalker.jpg
+
+- name: Guido Von Rossum
   bio: I wrote this
-  image-url: robinwalker.jpg
+  image-url: guido.jpg
+
+- name: Zed Shaw
+  bio: I wrote this
+  image-url: zed-shaw.jpg
+
+- name: Steve Wozniak
+  bio: I wrote this
+  image-url: woz.jpeg
+
+- name: Joe Spoelsky
+  bio: I wrote this
+  image-url: joel_spolsky.jpeg
+
+- name: Jawed Karim
+  bio: I wrote this
+  image-url: Jawed_Karim.jpg
+
+- name: Max Levchin
+  bio: I wrote this
+  image-url: levchin.jpg
+
+- name: Ari Gesher
+  bio: I wrote this
+  image-url: gesher.jpg
+
+- name: Garry Tan
+  bio: I wrote this
+  image-url: gerry-tan.jpg
+
+- name: Danielle Feinberg
+  bio: I wrote this
+  image-url: feinberg.jpg
+
+- name: Alexis-Ohanian
+  bio: I wrote this
+  image-url: Alexis-Ohanian.jpg

@@ -1,8 +1,12 @@
 ;(function(){
 
-      $(document).on('ready', function(){
+  window.onresize = mason();
 
-        L.mapbox.map('mapwrap', 'brendanryan.i2gj4hln');
+
+  $(document).on('ready', function(){
+
+    var mapbox = L.mapbox.map('mapwrap', 'brendanryan.i2gj4hln');
+
         // Menu settings
         $('#menuToggle, .menu-close').on('click', function(){
           $('#menuToggle').toggleClass('active');
@@ -12,12 +16,19 @@
       });
 
 
+  //initial page layout
+  mason();
 
-    // masonry for front page
-    $('#grid').masonry({
-      itemSelector : '.speaker-box',
-      columnWidth: 900
-    });
+
+})(jQuery)
+
+function mason(){
+
+      // masonry for front page
+      $('#grid').masonry({
+        itemSelector : '.speaker-box',
+        columnWidth: 900
+      });
 
     //masonry for speaker pages
     $('#grid').masonry({
@@ -26,8 +37,4 @@
     });
 
 
-
-
-
-
-  })(jQuery)
+  }

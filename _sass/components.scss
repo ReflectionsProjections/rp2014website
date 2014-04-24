@@ -36,18 +36,23 @@
   color: #fff;
   font-weight: 300;
 
+  &:hover, &:focus, &:active, &.active, .open{
+    outline: none;
+  }
+
 }
 
 
-.btn-blue {
+.btn.btn-blue {
   @extend .rp-button;
   background-color: $rp-blue;
   border-color: $rp-blue;
 
 
   &:hover, &:focus, &:active, &.active, .open{
-    background-color: $rp-orange;
-    border-color: $rp-orange;
+    @extend .rp-button;
+    background-color: $rp-blue + 10;
+    border-color: $rp-blue + 10;
   }
 }
 
@@ -58,8 +63,9 @@
   border-color: $rp-orange;
 
   &:hover, &:focus, &:active, &.active, .open{
-    background-color: $rp-blue;
-    border-color: $rp-blue;
+    @extend .rp-button;
+    background-color: $rp-orange + 10;
+    border-color: $rp-orange + 10;
   }
 }
 
