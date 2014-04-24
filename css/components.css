@@ -7624,11 +7624,6 @@ a:before, a:after {
   transition: color .1s ease-in, background .1s ease-in;
 }
 
-/* line 41, ../_sass/styles.scss */
-.container.content {
-  width: 900px;
-}
-
 /* line 7, ../_sass/components.scss */
 .header-wrap {
   margin-top: -10px;
