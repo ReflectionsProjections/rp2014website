@@ -36,6 +36,10 @@
   color: #fff;
   font-weight: 300;
 
+  &:hover, &:focus, &:active, &.active, .open{
+    outline: none;
+  }
+
 }
 
 

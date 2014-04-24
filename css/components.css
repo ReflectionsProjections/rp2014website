@@ -7676,37 +7676,41 @@ a:before, a:after {
   color: #fff;
   font-weight: 300;
 }
+/* line 39, ../_sass/components.scss */
+.rp-button:hover, .btn.btn-blue:hover, .btn.btn-blue .open:hover, .btn-orange:hover, .btn-orange .open:hover, .rp-button:focus, .btn.btn-blue:focus, .btn.btn-blue .open:focus, .btn-orange:focus, .btn-orange .open:focus, .rp-button:active, .btn.btn-blue:active, .btn.btn-blue .open:active, .btn-orange:active, .btn-orange .open:active, .rp-button.active, .active.btn.btn-blue, .btn.btn-blue .active.open, .active.btn-orange, .btn-orange .active.open, .rp-button .open, .btn.btn-blue .open, .btn-orange .open {
+  outline: none;
+}
 
-/* line 42, ../_sass/components.scss */
+/* line 46, ../_sass/components.scss */
 .btn.btn-blue {
   background-color: #3299bb;
   border-color: #3299bb;
 }
-/* line 48, ../_sass/components.scss */
+/* line 52, ../_sass/components.scss */
 .btn.btn-blue:hover, .btn.btn-blue:focus, .btn.btn-blue:active, .btn.btn-blue.active, .btn.btn-blue .open {
   background-color: #3ca3c5;
   border-color: #3ca3c5;
 }
 
-/* line 56, ../_sass/components.scss */
+/* line 60, ../_sass/components.scss */
 .btn-orange {
   background-color: #ff9900;
   border-color: #ff9900;
 }
-/* line 61, ../_sass/components.scss */
+/* line 65, ../_sass/components.scss */
 .btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .btn-orange .open {
   background-color: #ffa30a;
   border-color: #ffa30a;
 }
 
-/* line 71, ../_sass/components.scss */
+/* line 75, ../_sass/components.scss */
 .speaker-box h1 {
   position: absolute;
   bottom: 5px;
   right: 15px;
 }
 
-/* line 79, ../_sass/components.scss */
+/* line 83, ../_sass/components.scss */
 .card {
   padding: 1.5rem;
   box-shadow: 0 1px 2px #aaa;
