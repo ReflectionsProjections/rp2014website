@@ -32,9 +32,13 @@ title: About
     <div class="col-lg-10 col-lg-offset-1">
       <h3 class="grey-border">Past Years</h3>
       <span class="line-accent"></span>
-      {% for year in site.data.years %}
-        <p>{{year}}</p>
-      {% endfor %}
+      <ul class="past-conferences">
+        {% for year in site.data.years %}
+        {% if year > 1999 %}
+        <li><a href="http://www.acm.uiuc.edu/conference/{{year}}">{{year}}</a></li>
+        {% endif %}
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
