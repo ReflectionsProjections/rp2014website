@@ -30,14 +30,19 @@ title: Career Fairs
         </p> <p>Do you know a startup that sounds like it might fit? Email us for an invitation</p>
         <div class="company-container">
           <div id="portfolio">
-           <div class="container"
-           <div class="row mt">
-            <ul class="grid effect-2" id="grid">
-             {% for company in site.data.companies.startups %}
-             <li class="company-card"><a href={{company.site-url}}><img src=/img/companies/{{company.image-url}}></a></li>
-             {% endfor %}
-
-           </ul>
+           <div class="container">
+             <div class="row mt">
+              <div class="col-lg-10">
+                <ul class="grid effect-2" id="grid">
+                 {% for company in site.data.companies.startups %}
+                 <li>
+                  <section class="company-card">
+                   <a href={{company.site-url}}><img src=/img/companies/{{company.image-url}}></a>
+                 </section>
+               </li>
+               {% endfor %}
+             </ul>
+           </div>
          </div><!-- row -->
        </div><!-- container -->
      </div><!-- portfolio -->
@@ -56,15 +61,20 @@ title: Career Fairs
       <div id="portfolio">
        <div class="container"
        <div class="row mt">
-        <ul class="grid effect-2" id="grid">
-          {% for company in site.data.companies.regular %}
-          <li class="company-card"><a href={{company.site-url}}><img src=/img/companies/{{company.image-url}}></a></li>
-          {% endfor %}
-
-        </ul>
-      </div><!-- row -->
-    </div><!-- container -->
-  </div><!-- portfolio -->
+        <div class="col-lg-10">
+          <ul class="grid effect-2" id="grid">
+            {% for company in site.data.companies.regular %}
+            <li>
+              <section class="company-card">
+               <a href={{company.site-url}}><img src=/img/companies/{{company.image-url}}></a>
+             </section>
+           </li>
+           {% endfor %}
+         </ul>
+       </div><!-- row -->
+     </div>
+   </div><!-- container -->
+ </div><!-- portfolio -->
 </div>
 </div>
 
