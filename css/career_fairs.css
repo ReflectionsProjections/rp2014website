@@ -4,3 +4,9 @@
   background-size: 100%;
   background-size: cover;
 }
+
+/* line 10, ../_sass/career_fairs.scss */
+section.company-card {
+  padding: 2.5rem;
+  margin: 0px;
+}

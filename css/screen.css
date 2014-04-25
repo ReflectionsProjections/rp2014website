@@ -15391,42 +15391,42 @@ a:before, a:after {
   color: #fff;
   font-weight: 300;
 }
-/* line 40, ../_sass/components.scss */
+/* line 39, ../_sass/components.scss */
 .rp-button:hover, .btn.btn-blue:hover, .btn.btn-blue .open:hover, .btn-orange:hover, .btn-orange .open:hover, .rp-button:focus, .btn.btn-blue:focus, .btn.btn-blue .open:focus, .btn-orange:focus, .btn-orange .open:focus, .rp-button:active, .btn.btn-blue:active, .btn.btn-blue .open:active, .btn-orange:active, .btn-orange .open:active, .rp-button.active, .active.btn.btn-blue, .btn.btn-blue .active.open, .active.btn-orange, .btn-orange .active.open, .rp-button .open, .btn.btn-blue .open, .btn-orange .open {
   outline: none;
 }
 
-/* line 47, ../_sass/components.scss */
+/* line 46, ../_sass/components.scss */
 .btn.btn-blue {
   background-color: #3299bb;
   border-color: #3299bb;
 }
-/* line 53, ../_sass/components.scss */
+/* line 52, ../_sass/components.scss */
 .btn.btn-blue:hover, .btn.btn-blue:focus, .btn.btn-blue:active, .btn.btn-blue.active, .btn.btn-blue .open {
   background-color: #3ca3c5;
   border-color: #3ca3c5;
 }
 
-/* line 61, ../_sass/components.scss */
+/* line 60, ../_sass/components.scss */
 .btn-orange {
   background-color: #ff9900;
   border-color: #ff9900;
 }
-/* line 66, ../_sass/components.scss */
+/* line 65, ../_sass/components.scss */
 .btn-orange:hover, .btn-orange:focus, .btn-orange:active, .btn-orange.active, .btn-orange .open {
   background-color: #ffa30a;
   border-color: #ffa30a;
 }
 
-/* line 76, ../_sass/components.scss */
+/* line 75, ../_sass/components.scss */
 .speaker-box h1 {
   position: absolute;
   bottom: 5px;
   right: 15px;
 }
 
-/* line 84, ../_sass/components.scss */
-.card, .company-card {
+/* line 83, ../_sass/components.scss */
+.card, section.company-card {
   padding: 1.5rem;
   box-shadow: 0 1px 2px #aaa;
   background: white;
@@ -30796,7 +30796,7 @@ a:before, a:after {
 }
 
 /* line 83, ../_sass/components.scss */
-.card, .company-card {
+.card, section.company-card {
   padding: 1.5rem;
   box-shadow: 0 1px 2px #aaa;
   background: white;
@@ -31634,6 +31634,23 @@ section#home .info {
   background-size: cover;
 }
 
+/* line 9, ../_sass/about.scss */
+.past-conferences {
+  margin: 0 auto;
+  list-style: none;
+  margin: 10px;
+  text-align: center;
+}
+/* line 15, ../_sass/about.scss */
+.past-conferences li {
+  display: inline-block;
+  padding: 0 5px;
+}
+/* line 20, ../_sass/about.scss */
+.past-conferences li + li {
+  border-left: 1px solid #A6A6A6;
+}
+
 /* line 1, ../_sass/register.scss */
 #register-wrap {
   background: url(../dist/img/mm1copy.jpg) no-repeat center top;
@@ -31667,6 +31684,12 @@ section#home .info {
   background: url(../img/fair2copy.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
+}
+
+/* line 10, ../_sass/career_fairs.scss */
+section.company-card {
+  padding: 2.5rem;
+  margin: 0px;
 }
 
 /* line 1, ../_sass/mm.scss */
