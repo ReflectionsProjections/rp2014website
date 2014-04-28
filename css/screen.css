@@ -15370,7 +15370,7 @@ div.col-lg-offset-1 p {
 }
 
 /* line 7, ../_sass/components.scss */
-.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speakers-wrap, #speaker-wrap, #cfwrap, #mmwrap {
+.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speakers-wrap, #speaker-wrap, #sponsor-wrap, #cfwrap, #mmwrap {
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -15388,7 +15388,7 @@ div.col-lg-offset-1 p {
   background-size: cover;
 }
 /* line 24, ../_sass/components.scss */
-.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speakers-wrap h2, #speaker-wrap h2, #cfwrap h2, #mmwrap h2 {
+.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speakers-wrap h2, #speaker-wrap h2, #sponsor-wrap h2, #cfwrap h2, #mmwrap h2 {
   color: #fff;
   font-size: 50px;
   font-weight: 400;
@@ -30766,7 +30766,7 @@ div.col-lg-offset-1 p {
 }
 
 /* line 7, ../_sass/components.scss */
-.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speakers-wrap, #speaker-wrap, #cfwrap, #mmwrap {
+.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speakers-wrap, #speaker-wrap, #sponsor-wrap, #cfwrap, #mmwrap {
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -30784,7 +30784,7 @@ div.col-lg-offset-1 p {
   background-size: cover;
 }
 /* line 24, ../_sass/components.scss */
-.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speakers-wrap h2, #speaker-wrap h2, #cfwrap h2, #mmwrap h2 {
+.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speakers-wrap h2, #speaker-wrap h2, #sponsor-wrap h2, #cfwrap h2, #mmwrap h2 {
   color: #fff;
   font-size: 50px;
   font-weight: 400;
@@ -31760,6 +31760,13 @@ section.talk-info {
 /* line 35, ../_sass/speaker.scss */
 section.talk-details {
   text-align: left;
+}
+
+/* line 1, ../_sass/sponsor.scss */
+#sponsor-wrap {
+  background: url(../dist/img/fair1copy.jpg) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
 }
 
 /* line 1, ../_sass/career_fairs.scss */
