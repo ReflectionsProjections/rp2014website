@@ -4,7 +4,7 @@ require 'yaml'
 require 'time'
 
 desc "Migrate Speaker Data to post templates"
-task :speaker_migrate do
+task :speakers do
 
 
   #load speakers.yml data
@@ -22,7 +22,7 @@ task :speaker_migrate do
       post.puts "image-url: #{speaker['image-url']}"
       post.puts "tagline: #{speaker['tagline']}"
       post.puts "bio: #{speaker['bio']}"
-      post.puts "abstact: #{speaker['abstract']}"
+      post.puts "abstract: #{speaker['abstract']}"
       post.puts "talk_time: #{speaker['talk_time']}"
       post.puts "talk_abstract: #{speaker['talk_time']}"
       post.puts "talk_location: #{speaker['talk_time']}"

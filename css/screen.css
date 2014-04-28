@@ -15370,7 +15370,7 @@ div.col-lg-offset-1 p {
 }
 
 /* line 7, ../_sass/components.scss */
-.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speakers-wrap, r#speaker-wrap, #cfwrap, #mmwrap {
+.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speakers-wrap, #speaker-wrap, #cfwrap, #mmwrap {
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -15388,7 +15388,7 @@ div.col-lg-offset-1 p {
   background-size: cover;
 }
 /* line 24, ../_sass/components.scss */
-.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speakers-wrap h2, r#speaker-wrap h2, #cfwrap h2, #mmwrap h2 {
+.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speakers-wrap h2, #speaker-wrap h2, #cfwrap h2, #mmwrap h2 {
   color: #fff;
   font-size: 50px;
   font-weight: 400;
@@ -30766,7 +30766,7 @@ div.col-lg-offset-1 p {
 }
 
 /* line 7, ../_sass/components.scss */
-.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speakers-wrap, r#speaker-wrap, #cfwrap, #mmwrap {
+.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speakers-wrap, #speaker-wrap, #cfwrap, #mmwrap {
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -30784,7 +30784,7 @@ div.col-lg-offset-1 p {
   background-size: cover;
 }
 /* line 24, ../_sass/components.scss */
-.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speakers-wrap h2, r#speaker-wrap h2, #cfwrap h2, #mmwrap h2 {
+.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speakers-wrap h2, #speaker-wrap h2, #cfwrap h2, #mmwrap h2 {
   color: #fff;
   font-size: 50px;
   font-weight: 400;
@@ -31612,7 +31612,7 @@ section#home .content {
   padding-bottom: 40px;
 }
 /* line 22, ../_sass/index.scss */
-section#home .text, section#home h1, section#home .info {
+section#home .text, section#home h1, section#home .info, section#home section.talk-info, section#home section.talk-details {
   color: rgba(255, 255, 255, 0.9);
   color: rgba(255, 255, 255, 0.9);
 }
@@ -31625,7 +31625,7 @@ section#home h1 {
   font-size: 40px;
 }
 /* line 37, ../_sass/index.scss */
-section#home .info {
+section#home .info, section#home section.talk-info, section#home section.talk-details {
   padding-top: 120px;
 }
 
@@ -31732,19 +31732,34 @@ section#home .info {
 }
 
 /* line 1, ../_sass/speaker.scss */
-r#speaker-wrap {
+#speaker-wrap {
   background: url(../dist/img/sc.png) no-repeat center top;
   background-size: 100%;
   background-size: cover;
 }
 /* line 7, ../_sass/speaker.scss */
-r#speaker-wrap .container {
+#speaker-wrap .container {
   margin-top: 5%;
   color: #fff;
 }
 /* line 11, ../_sass/speaker.scss */
-r#speaker-wrap .container h1 {
+#speaker-wrap .container h1 {
   color: #fff;
+}
+
+/* line 20, ../_sass/speaker.scss */
+.info, section.talk-info, section.talk-details {
+  padding: 15px;
+}
+
+/* line 24, ../_sass/speaker.scss */
+section.talk-info {
+  text-align: left;
+}
+
+/* line 35, ../_sass/speaker.scss */
+section.talk-details {
+  text-align: left;
 }
 
 /* line 1, ../_sass/career_fairs.scss */
