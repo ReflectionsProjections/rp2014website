@@ -1,0 +1,7 @@
+name: Reflections | Projections
+url: http://acm.uiuc.edu/conference/0000
+exclude:
+  - README.md
+  - fabfile.py
+  - fabfile.pyc
+  - vendor

@@ -18,7 +18,10 @@ Style Conventions (Please Follow!)
 ===
 
 * Fork this repo and submit any pull requests to master -- DO NOT PUSH TO THIS BRANCH
+<<<<<<< HEAD
 * Any changes should be made in a specific feature branch. This will keep things much cleaner
+=======
+>>>>>>> speaker-pages
 * Please mention any relevant issues in your pull request
 * All subdomains should be in their own seperate folder (i.e /about is in the about folder)
 * each page should have it's own stylesheet - each stylesheet should be then included into the 'screen.scss' file

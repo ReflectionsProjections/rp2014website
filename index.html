@@ -1,77 +1,127 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="author" content="Brendan Ryan">
-  <meta name="description" content="Spash Page for R|P 2014">
-  <title>R|P 2014</title>
+---
+layout: default
+title: Home
+---
 
 
-  <!-- External Styles -->
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
-  <link rel="stylesheet" href="public/dist/css/styles.css">
-
-</head>
-
-<body>
-  <div id="fb-root"></div>
-  <script>(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=1414020358828160";
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));</script>
-
-
-  <div class="background"></div>
-
-  <section class="container">
-    <section class="content pure-g-r">
-
-      <section class="info pure-u-1">
-        <img class="logo" src="public/dist/images/rp2014runningman.png" alt="R|P Logo" height='500px' width="300px">
-        <p class="title">r | p <b>2014</b></p>
-        <section class="description">
-            <p>Reflections | Projections is a four-day, student-run conference that focuses on computing technology. Held annually at the University of Illinois Urbana-Champaign, the event is packed with great speakers, career fairs, and competitions.</p>
-            <p>The upcoming Reflections | Projections conference will be held September 25th - 28th, 2014 and is currently in development. To stay up-to-date sign up to our mailing list below or check back here frequently for more information.</p>
-            <p>We look forward to seeing you in the Fall!</p>
-        </section>
-    </section>
-
-      <section class="email-signup pure-u-1">
-
-        <form class="validate pure-form"
-              action="http://uiuc.us4.list-manage2.com/subscribe/post?u=0628ea3ae6ae669985da21668&amp;id=297471fd80"
-              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
-          <fieldset>
-
-            <button type="submit" class="pure-button submit-button">Tell Me More!</button>
-          </fieldset>
-
-        </form>
-      </section>
-
-      <section class="social-links pure-u-1">
-        <ul>
-          <li>
-            <div class="fb-like" data-href="https://www.facebook.com/acmrp" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-          </li>
-          <li><a href="https://twitter.com/acmreflections" class="twitter-follow-button" data-show-count="false">Follow @acmreflections</a></li>
-        </ul>
-      </section>
-
-    </section> <!-- Content -->
+<!-- MAIN IMAGE SECTION -->
+<div class="wrapper" id="headerwrap">
+  <div class="container">
+   <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+     <h1><img src="dist/img/rp2014runningman-white.png" alt="logo" height="100px" width="200px"></h1>
+     <h2>Reflections | Projections</h2>
+     <h3>September 25-28, 2014</h3>
+     <div class="spacer"></div>
+     <i class="fa fa-angle-down"></i>
+   </div>
+ </div><!-- row -->
+</div><!-- /container -->
+</div><!-- /headerwrap -->
 
 
-  </section><!-- Containter -->
+<!-- WELCOME SECTION -->
+<div class="container content">
+  <div class="row mt">
+   <div class="col-lg-6 lg-offset-2">
+     <h1>Speakers</h1>
+     <p>Reflections|Projections features speakers from all corners of the tech industry and internet. In our 20th year we reflect on some of our most accomplished speakers. Please stay tuned for further announcements of this year's speakers!</p>
+   </div>
+   <div class="col-lg-4">
+    <p class="pull-right"><br><button type="button" class="btn btn-blue">See the entire list!</button></p>
+  </div>
+</div><!-- /row -->
+</div><!-- /.container -->
+
+<!-- Speaker Images -->
+<div id="portfolio">
+ <div class="container"
+ <div class="row mt">
+  <div class="col-lg-10 col-lg-offset-1">
+
+    <ul class="grid effect-2" id="grid">
+     {% for speaker in site.data.speakers %}
+     <li class="speaker-box"><a href=/speakers/{{speaker.name}}><img src=dist/img/{{speaker.image-url}}>
+
+      <!--  <h1>{{speaker.name}}</h1> -->
+    </a></li>
+    {% endfor %}
+
+  </ul>
+</div>
+</div><!-- row -->
+</div><!-- container -->
+</div><!-- portfolio -->
 
 
-  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></li>
+<!-- Parts of the conference sections-->
+<div id="services">
+  <div class="container">
+   <div class="row mt">
+    <div class="col-lg-1 centered">
+     <i class="fa fa-bullhorn"></i>
+   </div>
+   <div class="col-lg-3">
+     <h3>Awesome Speakers</h3>
+     <p>We have some absolutely fantastic speakers coming from all over the US to talk on topics ranging from semiconductors to mobile application development to computer science theory!</p>
+   </div>
 
-  <script src="public/dist/javascripts/src/script.js"></script>
-</body>
+   <div class="col-lg-1 centered">
+     <i class="fa fa-briefcase"></i>
+   </div>
+   <div class="col-lg-3">
+     <h3>Career Fairs</h3>
+     <p>Looking for a job or internship? You've come to the right place! Reflections | Projections is where some of the top companies recruit in a casual atmosphere. Bring your resume, but you can leave the suit at home!</p>
+   </div>
 
-</html>
+
+   <div class="col-lg-1 centered">
+     <i class="fa fa-keyboard-o"></i>
+   </div>
+   <div class="col-lg-3">
+     <h3>Programming Competitions</h3>
+     <p>MechMania is a 24-hour programming contest in which teams of students from various schools compete to create an AI capable of playing (and winning) a strategy game that we have developed for the event.</p>
+   </div>
+ </div><!-- row -->
+</div><!-- container -->
+</div><!-- section -->
+
+
+<div id="call">
+  <div class="container">
+    <div class="row">
+      <h3>Register for R|P 2014</h3>
+      <div class="col-lg-8 col-lg-offset-2">
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+        <p><button type="button" class="btn btn-orange btn-lg">Register!</button></p>
+      </div>
+    </div><!-- row -->
+  </div><!-- container -->
+</div>
+
+
+<!-- Sponsor Icons -->
+<div id="lg">
+  <div class="container">
+   <div class="row centered">
+    <div class="col-lg-2 col-lg-offset-1">
+      <img src="img/clients/c02.gif" alt="">
+   </div>
+   <div class="col-lg-2">
+    <img src="img/clients/c02.gif" alt="">
+   </div>
+   <div class="col-lg-2">
+    <img src="img/clients/c02.gif" alt="">
+   </div>
+   <div class="col-lg-2">
+    <img src="img/clients/c02.gif" alt="">
+   </div>
+   <div class="col-lg-2">
+    <img src="img/clients/c02.gif" alt="">
+   </div>
+ </div><!-- row -->
+</div><!-- container -->
+</div><!-- dg -->
+
+
+

@@ -1,0 +1,91 @@
+/* line 1, ../_sass/index.scss */
+section {
+  overflow: hidden;
+  background-color: #fff;
+  text-align: center;
+  position: relative;
+  min-height: 0;
+}
+/* line 9, ../_sass/index.scss */
+section#home {
+  height: 100%;
+}
+/* line 12, ../_sass/index.scss */
+section#home .logo {
+  position: relative;
+  text-align: center;
+  height: 20%;
+  color: #fff;
+  font-size: 66px;
+}
+/* line 19, ../_sass/index.scss */
+section#home .content {
+  padding-bottom: 40px;
+}
+/* line 22, ../_sass/index.scss */
+section#home .text, section#home h1, section#home .info {
+  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.9);
+}
+/* line 27, ../_sass/index.scss */
+section#home h1 {
+  display: block;
+  padding-top: 80px;
+  margin: 0;
+  height: 60%;
+  font-size: 40px;
+}
+/* line 37, ../_sass/index.scss */
+section#home .info {
+  padding-top: 120px;
+}
+
+/* line 47, ../_sass/index.scss */
+#map-canvas {
+  height: 400px;
+  margin-bottom: 100px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* line 55, ../_sass/index.scss */
+.parallax {
+  height: 100%;
+  background-color: transparent;
+}
+/* line 60, ../_sass/index.scss */
+.parallax img {
+  height: auto;
+  width: 100%;
+  bottom: 80px;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  opacity: 0.30;
+  -moz-opacity: 0.30;
+  -khtml-opacity: 0.30;
+  position: absolute;
+  left: 0;
+}
+
+/* line 77, ../_sass/index.scss */
+.form-container {
+  margin-left: 5%;
+}
+/* line 82, ../_sass/index.scss */
+.form-container input[type='email'] {
+  background-color: #5A5A5A;
+  border: none;
+  width: 66%;
+  border-radius: 0px;
+  color: #FFF;
+}
+/* line 89, ../_sass/index.scss */
+.form-container input[type='email']:focus {
+  border-color: #DDDDDD;
+  outline: 0;
+  box-shadow: none;
+}
+/* line 97, ../_sass/index.scss */
+.form-container button {
+  margin-top: 10px;
+}

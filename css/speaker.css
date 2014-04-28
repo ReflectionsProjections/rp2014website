@@ -1,0 +1,30 @@
+/* line 1, ../_sass/speaker.scss */
+#speaker-wrap {
+  background: url(../dist/img/sc.png) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
+}
+/* line 7, ../_sass/speaker.scss */
+#speaker-wrap .container {
+  margin-top: 5%;
+  color: #fff;
+}
+/* line 11, ../_sass/speaker.scss */
+#speaker-wrap .container h1 {
+  color: #fff;
+}
+
+/* line 20, ../_sass/speaker.scss */
+.info, section.talk-info, section.talk-details {
+  padding: 15px;
+}
+
+/* line 24, ../_sass/speaker.scss */
+section.talk-info {
+  text-align: left;
+}
+
+/* line 35, ../_sass/speaker.scss */
+section.talk-details {
+  text-align: left;
+}
