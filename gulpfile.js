@@ -5,6 +5,8 @@ var gulp = require('gulp')
 , watch = require('gulp-watch')
 , uglify = require('gulp-uglify')
 , imagemin = require('gulp-imagemin')
+, pngcrush = require('imagemin-pngcrush')
+, jpegtran = require('imagemin-jpegtran')
 , cssminify = require('gulp-minify-css')
 ;
 
@@ -19,7 +21,11 @@ var imageSrc = imageExt.map(function(e){return imagePath + '.' + e});
 gulp.task('images', function(){
 
   return gulp.src(imageSrc)
-  .pipe(imagemin().on('error', gutil.log))
+  .pipe(imagemin({
+    use: [pngcrush({reduce: true}), jpegtran()],
+    optimizationLevel: 7,
+    progressive: true
+  }).on('error', gutil.log))
   .pipe(gulp.dest(distPath + 'img/'));
 });
 

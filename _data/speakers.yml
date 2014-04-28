@@ -11,8 +11,12 @@
 #  image-url: elizabeth-krumbach.jpg
 
 - name: Jenny Murphy
-  bio: I wrote this
   image-url: jenny-murphy.jpg
+  tagline: certified baller
+  bio: blah
+  talk_time: 11
+  talk_abstract: won't you take me to...
+  talk_location: funkytown
 
 - name: Joe Lonsdale
   bio: I wrote this
