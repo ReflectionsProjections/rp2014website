@@ -1,0 +1,15 @@
+/* line 1, ../_sass/speaker.scss */
+r#speaker-wrap {
+  background: url(../dist/img/sc.png) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
+}
+/* line 7, ../_sass/speaker.scss */
+r#speaker-wrap .container {
+  margin-top: 5%;
+  color: #fff;
+}
+/* line 11, ../_sass/speaker.scss */
+r#speaker-wrap .container h1 {
+  color: #fff;
+}

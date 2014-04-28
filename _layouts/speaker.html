@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="wrapper" id="speaker-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <div class="speaker-image">
+          <img src="/dist/img/{{page.image-url}}" alt="{{page.name}}" height="150px" width="150px" class="circular">
+        </div>
+        <h1>{{page.name}}</h1>
+        <p>{{page.tagline}}</p>
+      </div>
+    </div><!-- row -->
+  </div><!-- /container -->
+</div>
+
+
+<div class="container wrapper">
+  <div class="row mt">
+
+    <section class="abstract col-lg-8" >
+    <p>{{page.abstract}}</p>
+    </section>
+
+    <section class="col-lg-4">
+      <article>
+      <h3>Talk Details:</h3>
+      <ul class="talk-details">
+        <li class="date"></li>
+        <h4>Date: {{page.talk_date}}</h4>
+        <li class="time"></li>
+        <h4>Time: {{page.talk_time}}</h4>
+        <li class="loc"></li>
+        <h4>Loc: {{page.talk_loc}}</h4>
+      </ul>
+      </article>
+
+      <article>
+        <p>{{page.bio}}</p>
+      </article>
+
+    </section>
+
+  </div>
+</div>
