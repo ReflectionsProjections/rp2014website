@@ -7624,18 +7624,23 @@ a:before, a:after {
   transition: color .1s ease-in, background .1s ease-in;
 }
 
-/* line 41, ../_sass/styles.scss */
+/* line 42, ../_sass/styles.scss */
+div.col-lg-offset-1 p {
+  margin: 10px 0;
+}
+
+/* line 46, ../_sass/styles.scss */
 .container.wrapper {
   margin-bottom: 50px;
 }
 
-/* line 45, ../_sass/styles.scss */
+/* line 50, ../_sass/styles.scss */
 .grey-border {
   border-bottom: 1px solid #D8D8D8;
   padding-bottom: 15px;
 }
 
-/* line 50, ../_sass/styles.scss */
+/* line 55, ../_sass/styles.scss */
 .line-accent {
   display: block;
   width: 50px;

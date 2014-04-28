@@ -21,7 +21,6 @@ title: Career Fairs
       </div>
     </div>
 
-
     <div class="row mt">
       <div class="col-lg-10 col-lg-offset-1">
         <h3 class="grey-border">Startup Fair</h3>
@@ -56,7 +55,6 @@ title: Career Fairs
     <p>Initiated last year, our Startup Fair allows students to meet great companies with lots of culture, interesting problems, and small teams. It will be held on Thursday, October 10th from 5pm - 8pm in the Siebel Center atrium.
     </p>
     <p>Are you looking to recruit at the job fair? Please email ACM Corporate to be placed on the waiting list.</p>
-
     <div class="company-container">
       <div id="portfolio">
        <div class="container"
@@ -66,20 +64,17 @@ title: Career Fairs
             {% for company in site.data.companies.regular %}
             <li>
               <section class="company-card">
-               <a href={{company.site-url}}><img src=/img/companies/{{company.image-url}}></a>
-             </section>
-           </li>
-           {% endfor %}
-         </ul>
-       </div><!-- row -->
-     </div>
-   </div><!-- container -->
- </div><!-- portfolio -->
+                <a href={{company.site-url}}><img src=/dist/img/companies/{{company.image-url}}></a>
+              </section>
+            </li>
+            {% endfor %}
+          </ul>
+        </div><!-- row -->
+      </div>
+    </div><!-- container -->
+  </div><!-- portfolio -->
 </div>
 </div>
-
-
 </div>
-
 </div>
 </div>

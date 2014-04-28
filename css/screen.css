@@ -7693,18 +7693,23 @@ a:before, a:after {
   transition: color .1s ease-in, background .1s ease-in;
 }
 
-/* line 41, ../_sass/styles.scss */
+/* line 42, ../_sass/styles.scss */
+div.col-lg-offset-1 p {
+  margin: 10px 0;
+}
+
+/* line 46, ../_sass/styles.scss */
 .container.wrapper {
   margin-bottom: 50px;
 }
 
-/* line 45, ../_sass/styles.scss */
+/* line 50, ../_sass/styles.scss */
 .grey-border {
   border-bottom: 1px solid #D8D8D8;
   padding-bottom: 15px;
 }
 
-/* line 50, ../_sass/styles.scss */
+/* line 55, ../_sass/styles.scss */
 .line-accent {
   display: block;
   width: 50px;
@@ -15339,18 +15344,23 @@ a:before, a:after {
   transition: color .1s ease-in, background .1s ease-in;
 }
 
-/* line 41, ../_sass/styles.scss */
+/* line 42, ../_sass/styles.scss */
+div.col-lg-offset-1 p {
+  margin: 10px 0;
+}
+
+/* line 46, ../_sass/styles.scss */
 .container.wrapper {
   margin-bottom: 50px;
 }
 
-/* line 45, ../_sass/styles.scss */
+/* line 50, ../_sass/styles.scss */
 .grey-border {
   border-bottom: 1px solid #D8D8D8;
   padding-bottom: 15px;
 }
 
-/* line 50, ../_sass/styles.scss */
+/* line 55, ../_sass/styles.scss */
 .line-accent {
   display: block;
   width: 50px;
@@ -23063,18 +23073,23 @@ a:before, a:after {
   transition: color .1s ease-in, background .1s ease-in;
 }
 
-/* line 41, ../_sass/styles.scss */
+/* line 42, ../_sass/styles.scss */
+div.col-lg-offset-1 p {
+  margin: 10px 0;
+}
+
+/* line 46, ../_sass/styles.scss */
 .container.wrapper {
   margin-bottom: 50px;
 }
 
-/* line 45, ../_sass/styles.scss */
+/* line 50, ../_sass/styles.scss */
 .grey-border {
   border-bottom: 1px solid #D8D8D8;
   padding-bottom: 15px;
 }
 
-/* line 50, ../_sass/styles.scss */
+/* line 55, ../_sass/styles.scss */
 .line-accent {
   display: block;
   width: 50px;
@@ -30709,18 +30724,23 @@ a:before, a:after {
   transition: color .1s ease-in, background .1s ease-in;
 }
 
-/* line 41, ../_sass/styles.scss */
+/* line 42, ../_sass/styles.scss */
+div.col-lg-offset-1 p {
+  margin: 10px 0;
+}
+
+/* line 46, ../_sass/styles.scss */
 .container.wrapper {
   margin-bottom: 50px;
 }
 
-/* line 45, ../_sass/styles.scss */
+/* line 50, ../_sass/styles.scss */
 .grey-border {
   border-bottom: 1px solid #D8D8D8;
   padding-bottom: 15px;
 }
 
-/* line 50, ../_sass/styles.scss */
+/* line 55, ../_sass/styles.scss */
 .line-accent {
   display: block;
   width: 50px;
@@ -31629,7 +31649,7 @@ section#home .info {
 
 /* line 1, ../_sass/about.scss */
 #about-wrap {
-  background: url(../img/fair1copy.jpg) no-repeat center top;
+  background: url(../dist/img/fair1copy.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
 }
@@ -31681,7 +31701,7 @@ section#home .info {
 
 /* line 1, ../_sass/career_fairs.scss */
 #cfwrap {
-  background: url(../img/fair2copy.jpg) no-repeat center top;
+  background: url(../dist/img/fair2copy.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
 }

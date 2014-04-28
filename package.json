@@ -2,8 +2,7 @@
   "name": "rp2014",
   "description": "ooh kill 'em",
   "author": "Brendan Ryan",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "gulp": "latest",
     "gulp-util": "latest",
@@ -15,5 +14,19 @@
   },
   "engines": {
     "npm": "1.2.x"
-  }
+  },
+  "version": "0.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bjryan2/rp2014website.git"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/bjryan2/rp2014website/issues"
+  },
+  "homepage": "https://github.com/bjryan2/rp2014website"
 }
