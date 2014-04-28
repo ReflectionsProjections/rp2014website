@@ -15370,7 +15370,7 @@ div.col-lg-offset-1 p {
 }
 
 /* line 7, ../_sass/components.scss */
-.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speaker-wrap, #cfwrap, #mmwrap {
+.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speakers-wrap, #speaker-wrap, #sponsor-wrap, #cfwrap, #mmwrap {
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -15388,7 +15388,7 @@ div.col-lg-offset-1 p {
   background-size: cover;
 }
 /* line 24, ../_sass/components.scss */
-.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speaker-wrap h2, #cfwrap h2, #mmwrap h2 {
+.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speakers-wrap h2, #speaker-wrap h2, #sponsor-wrap h2, #cfwrap h2, #mmwrap h2 {
   color: #fff;
   font-size: 50px;
   font-weight: 400;
@@ -15445,6 +15445,22 @@ div.col-lg-offset-1 p {
   user-select: none;
   animation: fly-in-from-left .5s 1s ease both;
   transform-origin: top left;
+}
+
+/* line 95, ../_sass/components.scss */
+.circular {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 1px solid #eee;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
@@ -30750,7 +30766,7 @@ div.col-lg-offset-1 p {
 }
 
 /* line 7, ../_sass/components.scss */
-.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speaker-wrap, #cfwrap, #mmwrap {
+.header-wrap, #about-wrap, #register-wrap, #schedule-wrap, #puzzle-wrap, #speakers-wrap, #speaker-wrap, #sponsor-wrap, #cfwrap, #mmwrap {
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -30768,7 +30784,7 @@ div.col-lg-offset-1 p {
   background-size: cover;
 }
 /* line 24, ../_sass/components.scss */
-.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speaker-wrap h2, #cfwrap h2, #mmwrap h2 {
+.header-wrap h2, #about-wrap h2, #register-wrap h2, #schedule-wrap h2, #puzzle-wrap h2, #speakers-wrap h2, #speaker-wrap h2, #sponsor-wrap h2, #cfwrap h2, #mmwrap h2 {
   color: #fff;
   font-size: 50px;
   font-weight: 400;
@@ -30825,6 +30841,22 @@ div.col-lg-offset-1 p {
   user-select: none;
   animation: fly-in-from-left .5s 1s ease both;
   transform-origin: top left;
+}
+
+/* line 95, ../_sass/components.scss */
+.circular {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 1px solid #eee;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 /* line 4, ../_sass/theme.scss */
@@ -31580,7 +31612,7 @@ section#home .content {
   padding-bottom: 40px;
 }
 /* line 22, ../_sass/index.scss */
-section#home .text, section#home h1, section#home .info {
+section#home .text, section#home h1, section#home .info, section#home section.talk-info, section#home section.talk-details {
   color: rgba(255, 255, 255, 0.9);
   color: rgba(255, 255, 255, 0.9);
 }
@@ -31593,7 +31625,7 @@ section#home h1 {
   font-size: 40px;
 }
 /* line 37, ../_sass/index.scss */
-section#home .info {
+section#home .info, section#home section.talk-info, section#home section.talk-details {
   padding-top: 120px;
 }
 
@@ -31693,8 +31725,46 @@ section#home .info {
 }
 
 /* line 1, ../_sass/speakers.scss */
-#speaker-wrap {
+#speakers-wrap {
   background: url(../dist/img/zed.jpg) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
+}
+
+/* line 1, ../_sass/speaker.scss */
+#speaker-wrap {
+  background: url(../dist/img/sc.png) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
+}
+/* line 7, ../_sass/speaker.scss */
+#speaker-wrap .container {
+  margin-top: 5%;
+  color: #fff;
+}
+/* line 11, ../_sass/speaker.scss */
+#speaker-wrap .container h1 {
+  color: #fff;
+}
+
+/* line 20, ../_sass/speaker.scss */
+.info, section.talk-info, section.talk-details {
+  padding: 15px;
+}
+
+/* line 24, ../_sass/speaker.scss */
+section.talk-info {
+  text-align: left;
+}
+
+/* line 35, ../_sass/speaker.scss */
+section.talk-details {
+  text-align: left;
+}
+
+/* line 1, ../_sass/sponsor.scss */
+#sponsor-wrap {
+  background: url(../dist/img/fair1copy.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
 }

@@ -1,0 +1,39 @@
+#speaker-wrap{
+  background: url(../dist/img/sc.png) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
+  @extend .header-wrap;
+
+  & .container{
+    margin-top: 5%;
+    color: #fff;
+
+    & h1{
+      color: #fff;
+    }
+  }
+
+
+}
+
+
+.info{
+  padding: 15px;
+}
+
+section.talk-info{
+  @extend .info;
+  text-align: left;
+
+  & ul{
+    & li {
+
+    }
+  }
+}
+
+section.talk-details{
+  @extend .info;
+  text-align: left;
+
+}
