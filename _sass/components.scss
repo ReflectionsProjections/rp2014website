@@ -38,6 +38,11 @@
 
   &:hover, &:focus, &:active, &.active, .open{
     outline: none;
+
+  }
+  & a{
+    color: inherit;
+
   }
 
 }
