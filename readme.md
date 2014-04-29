@@ -16,8 +16,6 @@ Build
 * Run `jekyll serve -w`
 
 
-
-
 Style Conventions (Please Follow!)
 ===
 

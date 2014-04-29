@@ -7594,12 +7594,12 @@ button.close {
     display: none !important;
   }
 }
-/* line 13, ../_sass/styles.scss */
+/* line 12, ../_sass/styles.scss */
 body {
   font-family: 'Open Sans',sans-serif;
 }
 
-/* line 17, ../_sass/styles.scss */
+/* line 16, ../_sass/styles.scss */
 a {
   color: #3299bb;
   word-wrap: break-word;
@@ -7609,13 +7609,13 @@ a {
   -o-transition: color .1s ease-in, background .1s ease-in;
   transition: color .1s ease-in, background .1s ease-in;
 }
-/* line 26, ../_sass/styles.scss */
+/* line 25, ../_sass/styles.scss */
 a:hover, a:focus {
   color: #7b7b7b;
   text-decoration: none;
   outline: 0;
 }
-/* line 31, ../_sass/styles.scss */
+/* line 30, ../_sass/styles.scss */
 a:before, a:after {
   -webkit-transition: color .1s ease-in, background .1s ease-in;
   -moz-transition: color .1s ease-in, background .1s ease-in;
@@ -7624,23 +7624,23 @@ a:before, a:after {
   transition: color .1s ease-in, background .1s ease-in;
 }
 
-/* line 42, ../_sass/styles.scss */
+/* line 41, ../_sass/styles.scss */
 div.col-lg-offset-1 p {
   margin: 10px 0;
 }
 
-/* line 46, ../_sass/styles.scss */
+/* line 45, ../_sass/styles.scss */
 .container.wrapper {
   margin-bottom: 50px;
 }
 
-/* line 50, ../_sass/styles.scss */
+/* line 49, ../_sass/styles.scss */
 .grey-border {
   border-bottom: 1px solid #D8D8D8;
   padding-bottom: 15px;
 }
 
-/* line 55, ../_sass/styles.scss */
+/* line 54, ../_sass/styles.scss */
 .line-accent {
   display: block;
   width: 50px;

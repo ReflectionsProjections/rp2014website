@@ -70,6 +70,33 @@
 }
 
 
+/*
+
+ ibackground-color: #ff9900;
+border-color: #ff9900;
+background-color: #f2f2f2;
+border-color: #f2f2f2;
+
+
+
+ */
+
+.btn.btn-reg{
+  @extend .rp-button;
+
+
+  background-color: $light-grey;
+  border-color: $light-grey;
+  color: $light-grey-text;
+
+  &:hover, &:focus, &:active, &.active, .open{
+    @extend .rp-button;
+    background-color: $light-grey + 10;
+    border-color: $light-grey + 10;
+    color: $light-grey-text;
+  }
+}
+
 .speaker-box{
 
   h1{
