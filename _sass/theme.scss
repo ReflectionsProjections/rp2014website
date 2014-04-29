@@ -370,10 +370,11 @@ hr {
     margin-top: 22px;
   }
   #lg {
-    background: #ebebeb;
+    background: $rp-orange;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
+    color: #fff;
   }
   #lg .desc {
     text-align: left;
