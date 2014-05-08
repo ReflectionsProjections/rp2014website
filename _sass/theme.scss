@@ -13,9 +13,23 @@ body {
 .wrapper{
 
   & h1, h2, h3, h4, h5, h6 {
-    font-family: Raleway;
+    font-family: "DIN-Light", Helvetica, Arial;
     font-weight: 300;
     color: #333;
+  }
+
+  & h1.event-heading, h2.event-heading, h3.event-heading, h4.event-heading, h5.event-heading, h6.event-heading {
+    letter-spacing: -0.1px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  }
+}
+
+.container{
+
+  & h1, h2, h3, h4, h5, h6 {
+    font-family: "DIN-Light", Helvetica, Arial;
+    font-weight: 300;
   }
 }
 
@@ -85,7 +99,7 @@ hr {
   width: 200px;
   height: 100%}
   .menu h1.logo a {
-    font-family: Raleway, Helvetica, Arial, sans-serif;
+    font-family: "DIN-Regular", Helvetica, Arial, sans-serif;
     font-size: 16px;
     font-weight: 800;
     letter-spacing: .15em;
@@ -350,8 +364,15 @@ hr {
   -o-background-size: cover;
   background-size: cover;
 }
+#speaker-heading {
+  h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
 #portfolio {
-  width: 100%}
+  width: 100%;
+  }
   #services {
     background: $rp-blue;
     margin-top: 25px;
@@ -360,6 +381,8 @@ hr {
   }
   #services h3 {
     color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   }
   #services p {
     color: #fff;
@@ -376,6 +399,11 @@ hr {
     text-align: center;
     color: #fff;
   }
+  #lg h3 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 28px;
+    font-weight: bold;
+  }
   #lg .desc {
     text-align: left;
   }
@@ -387,6 +415,9 @@ hr {
   }
   #call h3 {
     color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 28px;
   }
   #call p {
     color: #fff;
