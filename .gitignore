@@ -3,3 +3,8 @@ _site
 dist
 node_modules
 css
+Gemfile.lock
+*.gem
+.bundle
+.DS_Store
+
