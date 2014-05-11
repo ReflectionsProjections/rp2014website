@@ -1,0 +1,35 @@
+/*media queries for type styles on index.html*/
+@media (max-width: 717px) {
+  /* line 3, ../_sass/media-queries.scss */
+  .container h2.event-heading {
+    font-size: 40px;
+  }
+
+  /* line 6, ../_sass/media-queries.scss */
+  h3.event-heading {
+    font-size: 20px;
+  }
+}
+@media (max-width: 590px) {
+  /* line 12, ../_sass/media-queries.scss */
+  .container h2.event-heading {
+    font-size: 30px;
+  }
+}
+@media (max-width: 465px) {
+  /* line 18, ../_sass/media-queries.scss */
+  .container h2.event-heading {
+    font-size: 26px;
+  }
+
+  /* line 21, ../_sass/media-queries.scss */
+  h3.event-heading {
+    font-size: 18px;
+  }
+}
+@media (max-width: 410px) {
+  /* line 27, ../_sass/media-queries.scss */
+  .container h2.event-heading {
+    font-size: 22px;
+  }
+}
