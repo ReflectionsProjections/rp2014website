@@ -1,0 +1,30 @@
+/*media queries for type styles on index.html*/
+@media (max-width:717px) {
+  .container h2.event-heading {
+    font-size: 40px;
+  }
+  h3.event-heading {
+    font-size: 20px;
+  }
+}
+
+@media (max-width:590px) {
+  .container h2.event-heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width:465px) {
+  .container h2.event-heading {
+    font-size: 26px;
+  }
+  h3.event-heading {
+    font-size: 18px;
+  }
+}
+
+@media (max-width:410px) {
+  .container h2.event-heading {
+    font-size: 22px;
+  }
+}
