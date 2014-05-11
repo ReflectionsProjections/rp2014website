@@ -1,5 +1,8 @@
 !(function(){
 
+  window.onresize = mason();
+
+
   $logos = $('#lg .sponsor-logo');
   $sponsorContainer = $('#lg .sponsors')[0];
 

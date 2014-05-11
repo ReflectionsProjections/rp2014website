@@ -16,11 +16,7 @@
       $('body').scrollspy({ offset: navbarHeight+10, target: '#navbar' });
     });
 
-	  // Home
-	  $('.carousel').carousel({
-        pause: false,
-        interval: 8000
-    });
+
 
     // Navbar Affix
     $('#navbar').affix({
@@ -62,49 +58,14 @@
             $(this).children("img").first().css('bottom', revParallax + "px");
           }
         });
-      }
-    }
-    updateParallax();
+}
+}
+updateParallax();
 
-    $(window).scroll(function() {
-      updateParallax();
-      // if ($(window).height() > $(window).scrollTop()) {
-      //   var parallax = -1 * ($(window).scrollTop() / 3);
-      //   var revParallax = navbarHeight + parallax;
-      //   var percent = 1 - 1.5 *($(window).scrollTop() / $(window).height());
-      //   $(".bg img").css('bottom', revParallax + "px");
-      //   $("#home .logo").css('marginTop', parallax + "px");
-      //   $("#home .logo, #home .welcome, #home .call-to-action").css('opacity', percent);
-      // }
-    });
+$(window).scroll(function() {
+  updateParallax();
 
-
-
-
-
-    // CONTACT PAGE
-
-      function initialize() {
-        var myLatLong = new google.maps.LatLng(40.114312,-88.22484);
-        var mapOptions = {
-          center: myLatLong,
-          scrollwheel: false,
-          zoom: 15,
-        };
-
-        var map = new google.maps.Map(document.getElementById("mapwrap"),
-            mapOptions);
-
-        var marker = new google.maps.Marker({
-            position: myLatLong,
-            map: map,
-            title:"Thomas M. Siebel Center for Computer Science"
-        });
-
-      }
-      google.maps.event.addDomListener(window, 'load', initialize);
-
-
+});
 
 	}); // end of document ready
 })(jQuery); // end of jQuery name space

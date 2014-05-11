@@ -23,7 +23,7 @@
 })(jQuery)
 
 function mason(){
-
+  debugger;
       // masonry for front page
       $('#grid').masonry({
         itemSelector : '.speaker-box',
