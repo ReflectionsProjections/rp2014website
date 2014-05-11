@@ -1,9 +1,9 @@
 !(function(){
 
   renderMap($);
-  mason();
+  mason($);
 
-  window.onresize = mason();
+  $(window).resize(mason($));
 
   $logos = $('#lg .sponsor-logo');
   $sponsorContainer = $('#lg .sponsors')[0];
@@ -39,18 +39,17 @@
 
 
 // Helper Functions
-function mason(){
-  debugger;
+function mason($){
       // masonry for front page
       $('#grid').masonry({
         itemSelector : '.speaker-box',
-        columnWidth: 900
+        //columnWidth: 900
       });
 
     //masonry for speaker pages
     $('#grid').masonry({
       itemSelector : '.company-card',
-      columnWidth: 900
+      //columnWidth: 900
     });
 
 
@@ -66,5 +65,4 @@ function mason(){
           $('body').toggleClass('body-push-toleft');
           $('#theMenu').toggleClass('menu-open');
         });
-      });
-}
+      }
