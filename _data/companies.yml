@@ -1,83 +1,11 @@
 startups:
-  - name: A16z
-    bio: I wrote this
-    image-url: a16z.png
-    site-url: #
-  - name: Academia
-    bio: I wrote this
-    image-url: academia.png
-    site-url: #
-  - name: adage
-    bio: I wrote this
-    image-url: adage.png
-    site-url: #
-  - name: addepar
-    bio: I wrote this
-    image-url: addepar.png
-    site-url: #
-  - name: allston
-    bio: I wrote this
-    image-url: allston.png
-    site-url: #
-  - name: apportable
-    bio: I wrote this
-    image-url: apportable.png
-    site-url: #
-  - name: benzinga
-    bio: I wrote this
-    image-url: benzinga.png
-    site-url: #
-  - name: blocher
-    bio: I wrote this
-    image-url: blocher.png
-    site-url: #
+  - name:
+    bio:
+    image-url:
+    site-url:
 
 regular:
-  - name: datastax
-    bio: I wrote this
-    image-url: datastax.png
-    site-url: #
-  - name: dropbox
-    bio: I wrote this
-    image-url: dropbox.png
-    site-url: #
-  - name: enova
-    bio: I wrote this
-    image-url: enova.png
-    site-url: #
   - name: facebook
-    bio: I wrote this
+    bio: yolo
     image-url: facebook.png
-    site-url: #
-  - name: firebase
-    bio: I wrote this
-    image-url: firebase.png
-    site-url: #
-  - name: linkedin
-    bio: I wrote this
-    image-url: linkedin.png
-    site-url: #
-  - name: pinterest
-    bio: I wrote this
-    image-url: pinterest.png
-    site-url: #
-  - name: rdio
-    bio: I wrote this
-    image-url: rdio.png
-    site-url: #
-  - name: sprout
-    bio: I wrote this
-    image-url: sprout.png
-    site-url: #
-  - name: square
-    bio: I wrote this
-    image-url: square.png
-    site-url: #
-  - name: synthego
-    bio: I wrote this
-    image-url: synthego.png
-    site-url: #
-  - name: thebackplane
-    bio: I wrote this
-    image-url: thebackplane.png
-    site-url: #
+    site-url: https://www.facebook.com
