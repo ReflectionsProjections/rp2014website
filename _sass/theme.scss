@@ -86,15 +86,19 @@ hr {
 }
 .menu {
   position: fixed;
-  right: -200px;
   width: 260px;
   height: 100%;
   top: 0;
   z-index: 10;
   text-align: left;
+  right: -200px;
 }
 .menu.menu-open {
-  right: 0;
+  -webkit-transform: translateX(-200px);
+  -moz-transform: translateX(-200px);
+  -ms-transform: translateX(-200px);
+  -o-transform: translateX(-200px);
+  transform: translateX(-200px);
 }
 .menu-wrap {
   position: absolute;
