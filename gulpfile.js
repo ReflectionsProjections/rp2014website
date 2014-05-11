@@ -49,4 +49,4 @@ gulp.task('watch', function () {
   //gulp.watch(imageSrc, ['images']);
 });
 
-gulp.task('default', ['images', 'js', 'styles', 'watch']);
+gulp.task('default', ['js', 'styles', 'watch']);
