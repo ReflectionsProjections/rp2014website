@@ -2,7 +2,11 @@
   "name": "rp2014",
   "description": "ooh kill 'em",
   "author": "Brendan Ryan",
-  "dependencies": {},
+  "dependencies": {
+    "gulp-autoprefixer": "0.0.7",
+    "imagemin-pngcrush": "~0.1.0",
+    "imagemin-jpegtran": "~0.1.0"
+  },
   "devDependencies": {
     "gulp": "latest",
     "gulp-util": "latest",
