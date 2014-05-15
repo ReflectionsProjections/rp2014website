@@ -1,0 +1,55 @@
+- name: Thurdsay
+  schedule:
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+
+- name: Friday
+  schedule:
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+
+- name: Saturday
+  schedule:
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+
+- name: Sunday
+  schedule:
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office

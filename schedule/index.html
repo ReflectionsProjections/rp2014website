@@ -23,163 +23,35 @@ title: Schedule
 -->
 
 <section class="calendar-wrapper">
+
   <div class="col-lg-8 col-lg-offset-2">
 
+    {% for day in site.data.schedule %}
 
     <section class="row  calendar-day">
       <div class="col-lg-10 col-lg-offset-1">
-        <header><h2>Thursday</h2></header>
+        <header><h2>{{day.name}}</h2></header>
 
         <ul class="schedule">
-
+          {% for item in day.schedule %}
           <!-- ITEM -->
           <li class="schedule-item">
             <div class="item-left">
-              <time>8 AM</time>
+              <time>{{item.time}}</time>
             </div>
             <div class="item-middle">
               <img src="" alt="" class="avatar" height="93px" width="93px">
             </div>
             <div class="item-right">
-              <div class="event-name">Making Lists Work</div>
-              <div class="event-location">ACM Office</div>
+              <div class="event-name">{{item.name}}</div>
+              <div class="event-location">{{item.location}}</div>
             </div>
           </li>
-          <!-- ITEM -->
-          <li class="schedule-item">
-            <div class="item-left">
-              <time>8 AM</time>
-            </div>
-            <div class="item-middle">
-              <img src="" alt="" class="avatar" height="93px" width="93px">
-            </div>
-            <div class="item-right">
-              <div class="event-name">Making Lists Work</div>
-              <div class="event-location">ACM Office</div>
-            </div>
-          </li>
-          <!-- ITEM -->
-          <li class="schedule-item">
-            <div class="item-left">
-              <time>8 AM</time>
-            </div>
-            <div class="item-middle">
-              <img src="" alt="" class="avatar" height="93px" width="93px">
-            </div>
-            <div class="item-right">
-              <div class="event-name">Making Lists Work</div>
-              <div class="event-location">ACM Office</div>
-            </div>
-          </li>
-
-
+          {% endfor %}
         </ul>
       </div>
     </section> <!-- Calendar Day -->
-
-    <section class="row  calendar-day">
-      <div class="col-lg-10 col-lg-offset-1">
-        <header><h2>Friday</h2></header>
-
-        <ul class="schedule">
-
-          <!-- ITEM -->
-          <li class="schedule-item">
-            <div class="item-left">
-              <time>8 AM</time>
-            </div>
-            <div class="item-middle">
-              <img src="" alt="" class="avatar" height="93px" width="93px">
-            </div>
-            <div class="item-right">
-              <div class="event-name">Making Lists Work</div>
-              <div class="event-location">ACM Office</div>
-            </div>
-          </li>
-          <!-- ITEM -->
-          <li class="schedule-item">
-            <div class="item-left">
-              <time>8 AM</time>
-            </div>
-            <div class="item-middle">
-              <img src="" alt="" class="avatar" height="93px" width="93px">
-            </div>
-            <div class="item-right">
-              <div class="event-name">Making Lists Work</div>
-              <div class="event-location">ACM Office</div>
-            </div>
-          </li>
-          <!-- ITEM -->
-          <li class="schedule-item">
-            <div class="item-left">
-              <time>8 AM</time>
-            </div>
-            <div class="item-middle">
-              <img src="" alt="" class="avatar" height="93px" width="93px">
-            </div>
-            <div class="item-right">
-              <div class="event-name">Making Lists Work</div>
-              <div class="event-location">ACM Office</div>
-            </div>
-          </li>
-
-
-        </ul>
-      </div>
-    </section>
-
-
-    <section class="row  calendar-day">
-      <div class="col-lg-10 col-lg-offset-1">
-        <header><h2>Friday</h2></header>
-
-        <ul class="schedule">
-
-          <!-- ITEM -->
-          <li class="schedule-item">
-            <div class="item-left">
-              <time>8 AM</time>
-            </div>
-            <div class="item-middle">
-              <img src="" alt="" class="avatar" height="93px" width="93px">
-            </div>
-            <div class="item-right">
-              <div class="event-name">Making Lists Work</div>
-              <div class="event-location">ACM Office</div>
-            </div>
-          </li>
-          <!-- ITEM -->
-          <li class="schedule-item">
-            <div class="item-left">
-              <time>8 AM</time>
-            </div>
-            <div class="item-middle">
-              <img src="" alt="" class="avatar" height="93px" width="93px">
-            </div>
-            <div class="item-right">
-              <div class="event-name">Making Lists Work</div>
-              <div class="event-location">ACM Office</div>
-            </div>
-          </li>
-          <!-- ITEM -->
-          <li class="schedule-item">
-            <div class="item-left">
-              <time>8 AM</time>
-            </div>
-            <div class="item-middle">
-              <img src="" alt="" class="avatar" height="93px" width="93px">
-            </div>
-            <div class="item-right">
-              <div class="event-name">Making Lists Work</div>
-              <div class="event-location">ACM Office</div>
-            </div>
-          </li>
-
-
-        </ul>
-      </div>
-    </section>
-
+    {% endfor %}
 
   </div>
 </section> <!-- Calendar Wrapper-->

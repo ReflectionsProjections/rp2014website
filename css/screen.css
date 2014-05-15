@@ -33066,7 +33066,7 @@ section{
   top: -130px;
   background: #d8d8d8;
   left: 50%;
-  margin-left: -1.5px;
+  margin-left: -0.5px;
 }
 /* line 67, ../_sass/schedule.scss */
 .calendar-day:not(:first-child) > .col-lg-10:after {
