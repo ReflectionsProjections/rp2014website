@@ -3,53 +3,65 @@
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
 
 - name: Friday
   schedule:
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
 
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
 
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
 
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
 
 - name: Saturday
   schedule:
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
 
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
 
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
 
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
 
 - name: Sunday
   schedule:
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
 
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
 
     - time: 8 AM
       name: Making this list work
       loc: ACM Office
+      img-url:
