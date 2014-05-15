@@ -40,11 +40,11 @@ title: Schedule
               <time>{{item.time}}</time>
             </div>
             <div class="item-middle">
-              <img src="" alt="" class="avatar" height="93px" width="93px">
+              <img src="/dist/img/{{item.img-url}}" alt="{{item.name}}" class=" avatar" height="93px" width="93px">
             </div>
             <div class="item-right">
               <div class="event-name">{{item.name}}</div>
-              <div class="event-location">{{item.location}}</div>
+              <div class="event-location">{{item.loc}}</div>
             </div>
           </li>
           {% endfor %}

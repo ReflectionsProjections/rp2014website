@@ -18,6 +18,11 @@
   padding: 20px 20px 0;
 }
 
+.bw{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
 
 .avatar{
   -webkit-box-shadow: $border-grey 0 0 0 3px;
@@ -73,7 +78,7 @@
     top: -75px;
     background: $border-grey;
     left: 50%;
-    margin-left: -3.5px;
+    margin-left: -4.0px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -105,6 +110,7 @@
     @extend .side-col;
     text-align: right;
     padding-right: 85px;
+    padding-top: 35px;
   }
 
   & .item-right {
