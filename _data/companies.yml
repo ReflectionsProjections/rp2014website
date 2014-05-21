@@ -1,11 +1,7 @@
-startups:
-  - name:
-    bio:
-    image-url:
-    site-url:
-
 regular:
   - name: facebook
     bio: yolo
     image-url: facebook.png
     site-url: https://www.facebook.com
+
+startups: []

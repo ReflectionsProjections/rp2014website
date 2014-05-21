@@ -43,8 +43,8 @@ section{
 
   }
 }
-
 */
+
 #map-canvas{
   height: 400px;
   margin-bottom: 100px;
@@ -59,7 +59,6 @@ section{
   background-color: transparent;
 
   img{
-
     height: auto;
     width: 100%;
     bottom: 80px;
@@ -97,5 +96,45 @@ section{
   }
   & button{
     margin-top: 10px;
+  }
+}
+
+.lg, .lg-orange {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+
+  & h3{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 28px;
+    font-weight: bold;
+  }
+}
+
+.lg-grey {
+  background: $background-grey;
+  color: #fff;
+}
+
+.lg .desc {
+  text-align: left;
+}
+
+.register-container {
+  background:  $rp-orange;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+
+
+  & h3 {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-size: 28px;
+  }
+
+  & p {
+    color: #fff;
   }
 }

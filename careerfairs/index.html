@@ -21,6 +21,8 @@ title: Career Fairs
       </div>
     </div>
 
+
+    <!-- Startups Row -->
     <div class="row mt">
       <div class="col-lg-10 col-lg-offset-1">
         <h3 class="grey-border">Startup Fair</h3>
@@ -29,52 +31,55 @@ title: Career Fairs
         </p> <p>Do you know a startup that sounds like it might fit? Email us for an invitation</p>
         <div class="company-container">
           <div id="portfolio">
-           <div class="container">
-             <div class="row mt">
-              <div class="col-lg-10">
-                <ul class="grid effect-2" id="grid">
-                 {% for company in site.data.companies.startups %}
-                 <li>
-                  <section class="company-card">
-                   <a href={{company.site-url}}><img src=/dist/img/companies/{{company.image-url}}></a>
-                 </section>
-               </li>
-               {% endfor %}
-             </ul>
-           </div>
-         </div><!-- row -->
-       </div><!-- container -->
+           <div class="row mt">
+            <div class="col-lg-10">
+
+              {% if site.data.companies.startups.size > 0 %}
+              <ul id="startup-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0}'>
+
+                {% for company in site.data.companies.startups %}
+                <li class="company-card">
+                  <a href={{company.site-url}}><img src=/dist/img/companies/{{company.image-url}}></a>
+                </li>
+                {% endfor %}
+
+              </ul>
+              {% endif %}
+
+            </div>
+          </div><!-- row -->
+        </div><!-- portfolio -->
+      </div>
+    </div>
+  </div>
+  <!-- Larger Companies  Row-->
+  <div class="row mt">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h3 class="grey-border">Job Fair</h3>
+      <span class="line-accent"></span>
+      <p>Initiated last year, our Startup Fair allows students to meet great companies with lots of culture, interesting problems, and small teams. It will be held on Thursday, October 10th from 5pm - 8pm in the Siebel Center atrium.
+      </p>
+      <p>Are you looking to recruit at the job fair? Please email ACM Corporate to be placed on the waiting list.</p>
+      <div class="company-container">
+        <div id="portfolio">
+         <div class="row mt">
+          <div class="col-lg-10">
+
+            {% if site.data.companies.regular.size > 0 %}
+            <ul id="large-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card", "gutter": 0 }'>
+
+              {% for company in site.data.companies.regular %}
+              <li class="company-card">
+               <a href={{company.site-url}}><img src=/dist/img/companies/{{company.image-url}}></a>
+             </li>
+             {% endfor %}
+
+           </ul>
+           {% endif %}
+         </div>
+       </div><!-- row -->
      </div><!-- portfolio -->
    </div>
  </div>
-
- <div class="row mt">
-  <div class="col-lg-10 col-lg-offset-1">
-    <h3 class="grey-border">Job Fair</h3>
-    <span class="line-accent"></span>
-    <p>Initiated last year, our Startup Fair allows students to meet great companies with lots of culture, interesting problems, and small teams. It will be held on Thursday, October 10th from 5pm - 8pm in the Siebel Center atrium.
-    </p>
-    <p>Are you looking to recruit at the job fair? Please email ACM Corporate to be placed on the waiting list.</p>
-    <div class="company-container">
-      <div id="portfolio">
-       <div class="container"
-       <div class="row mt">
-        <div class="col-lg-10">
-          <ul class="grid effect-2" id="grid">
-            {% for company in site.data.companies.regular %}
-            <li>
-              <section class="company-card">
-                <a href={{company.site-url}}><img src=/dist/img/companies/{{company.image-url}}></a>
-              </section>
-            </li>
-            {% endfor %}
-          </ul>
-        </div><!-- row -->
-      </div>
-    </div><!-- container -->
-  </div><!-- portfolio -->
-</div>
-</div>
-</div>
 </div>
 </div>

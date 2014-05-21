@@ -22,38 +22,56 @@ title: Schedule
   </header>
 -->
 
-<section class="calendar-wrapper">
-
-  <div class="col-lg-8 col-lg-offset-2">
-
-    {% for day in site.data.schedule %}
-
-    <section class="row  calendar-day">
-      <div class="col-lg-10 col-lg-offset-1">
-        <header><h2>{{day.name}}</h2></header>
-
-        <ul class="schedule">
-          {% for item in day.schedule %}
-          <!-- ITEM -->
-          <li class="schedule-item">
-            <div class="item-left">
-              <time>{{item.time}}</time>
-            </div>
-            <div class="item-middle">
-              <img src="/dist/img/{{item.img-url}}" alt="{{item.name}}" class=" avatar" height="93px" width="93px">
-            </div>
-            <div class="item-right">
-              <div class="event-name">{{item.name}}</div>
-              <div class="event-location">{{item.loc}}</div>
-            </div>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section> <!-- Calendar Day -->
-    {% endfor %}
-
+<section class="row mt centered schedule-nav">
+  <div class="col-lg-12">
+    <ul>
+      {% for day in site.data.schedule %}
+      <li><a href="#cal-{{day.name}}">{{day.name}}</a></li>
+      {% endfor %}
+    </ul>
   </div>
+</section>
+
+
+<section class="calendar-wrapper">
+  {% for day in site.data.schedule %}
+  <div class="row">
+    <section id="cal-{{day.name}}" class="calendar-day col-lg-12 col-xs-12">
+      <header><h2>{{day.name}}</h2></header>
+
+      <ul class="schedule">
+        {% for item in day.schedule %}
+        <!-- ITEM -->
+        <li class="schedule-item">
+          <div class="item-left">
+            <time>{{item.time}}</time>
+          </div>
+          <div class="item-middle">
+            {% if item.img-url %}
+            <img src="/dist/img/{{item.img-url}}" alt="{{item.name}}" class=" avatar" height="93px" width="93px">
+            {% else %}
+            <span class="avatar-blank"></span>
+            {% endif %}
+          </div>
+          <div class="item-right">
+            <div class="event-name">{{item.name}}</div>
+            <div class="event-location">
+              {% if item.loc %}
+              {{item.loc}}
+              {% else %}
+              Location TBA
+              {% endif %}
+
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </section>
+    <!-- Calendar Day -->
+  </div>
+  {% endfor %}
+
 </section> <!-- Calendar Wrapper-->
 
 

@@ -1,67 +1,39 @@
 - name: Thursday
   schedule:
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
-      img-url: joe-lonsdale.jpg
+    - time: 5 PM - 8 PM
+      name: Startup Fair
+      loc: Siebel Center Atrium
+      img-url:
 
 - name: Friday
   schedule:
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
+    - time: 10 AM - 4 PM
+      name: Job Fair
+      loc: Siebel Center Atrium
+      img-url:
+
+    - time: 5 PM - 8:45 PM
+      name: Opening Speakers
+      loc:
       img-url: joe-lonsdale.jpg
 
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
-      img-url: joe-lonsdale.jpg
+    - time: 9 PM - 10 PM
+      name: Mechmania Opening Ceremonies
+      loc:
+      img-url:
 
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
-      img-url: joe-lonsdale.jpg
-
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
-      img-url: joe-lonsdale.jpg
 
 - name: Saturday
   schedule:
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
-      img-url: joe-lonsdale.jpg
+    - time: 10 AM - 8:45 PM
+      name: Speakers
+      loc:
+      img-url: peter-norvig.jpg
 
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
-      img-url: joe-lonsdale.jpg
-
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
-      img-url: joe-lonsdale.jpg
-
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
-      img-url: joe-lonsdale.jpg
 
 - name: Sunday
   schedule:
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
-      img-url: joe-lonsdale.jpg
-
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
-      img-url: joe-lonsdale.jpg
-
-    - time: 8 AM
-      name: Making this list work
-      loc: ACM Office
-      img-url: joe-lonsdale.jpg
+    - time: 1PM - 2PM
+      name: Mechmania Closing Ceremonies
+      loc:
+      img-url:
