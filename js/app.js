@@ -43,20 +43,22 @@ function mason($){
       // masonry for front page
       $('#grid').masonry({
         itemSelector : '.speaker-box',
-        //columnWidth: 900
       });
 
-    //masonry for speaker pages
-    $('#grid').masonry({
+     //masonry for speaker pages
+     $('#startup-grid').masonry({
       itemSelector : '.company-card',
-      //columnWidth: 900
+    });
+     //masonry for speaker pages
+     $('#large-grid').masonry({
+      itemSelector : '.company-card',
     });
 
 
-  }
+   }
 
 
-  function renderMap($){
+   function renderMap($){
     var mapbox = L.mapbox.map('mapwrap', 'brendanryan.i2gj4hln');
 
         // Menu settings

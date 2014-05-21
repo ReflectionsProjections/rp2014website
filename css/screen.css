@@ -33027,7 +33027,7 @@ section{
 }
 
 /* line 27, ../_sass/schedule.scss */
-.avatar {
+.avatar, .avatar-blank {
   -webkit-box-shadow: #d8d8d8 0 0 0 3px;
   -moz-box-shadow: #d8d8d8 0 0 0 3px;
   box-shadow: #d8d8d8 0 0 0 3px;
@@ -33042,15 +33042,22 @@ section{
   float: left;
 }
 
-/* line 43, ../_sass/schedule.scss */
+/* line 42, ../_sass/schedule.scss */
+.avatar-blank {
+  height: 93px;
+  width: 93px;
+  background-color: #f2f2f2;
+}
+
+/* line 49, ../_sass/schedule.scss */
 .calendar-day {
   position: relative;
 }
-/* line 46, ../_sass/schedule.scss */
+/* line 52, ../_sass/schedule.scss */
 .calendar-day:not(:first-child) {
   padding-top: 120px;
 }
-/* line 51, ../_sass/schedule.scss */
+/* line 57, ../_sass/schedule.scss */
 .calendar-day header {
   text-align: center;
   padding-bottom: 5px;
@@ -33059,7 +33066,7 @@ section{
   width: 60%;
   margin-left: 20%;
 }
-/* line 61, ../_sass/schedule.scss */
+/* line 67, ../_sass/schedule.scss */
 .calendar-day:not(:first-child) > .col-lg-10:before {
   content: '';
   display: block;
@@ -33071,7 +33078,7 @@ section{
   left: 50%;
   margin-left: -0.5px;
 }
-/* line 72, ../_sass/schedule.scss */
+/* line 78, ../_sass/schedule.scss */
 .calendar-day:not(:first-child) > .col-lg-10:after {
   content: '';
   display: block;
@@ -33088,11 +33095,11 @@ section{
   border-radius: 10px;
 }
 
-/* line 93, ../_sass/schedule.scss */
+/* line 99, ../_sass/schedule.scss */
 .schedule {
   list-style: none;
 }
-/* line 98, ../_sass/schedule.scss */
+/* line 104, ../_sass/schedule.scss */
 .schedule li {
   overflow: hidden;
   display: block;
@@ -33101,23 +33108,23 @@ section{
   position: relative;
   width: 100%;
 }
-/* line 109, ../_sass/schedule.scss */
+/* line 115, ../_sass/schedule.scss */
 .schedule .item-left {
   text-align: right;
   padding-right: 85px;
   padding-top: 35px;
 }
-/* line 116, ../_sass/schedule.scss */
+/* line 122, ../_sass/schedule.scss */
 .schedule .item-right {
   text-align: left;
   padding-left: 85px;
 }
-/* line 121, ../_sass/schedule.scss */
+/* line 127, ../_sass/schedule.scss */
 .schedule .item-right .event-name {
   font-weight: bold;
   font-size: 110%;
 }
-/* line 133, ../_sass/schedule.scss */
+/* line 139, ../_sass/schedule.scss */
 .schedule .item-middle {
   webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -33130,7 +33137,7 @@ section{
   margin-left: -48px;
   position: absolute;
 }
-/* line 145, ../_sass/schedule.scss */
+/* line 151, ../_sass/schedule.scss */
 .schedule .item-middle:after {
   z-index: -1;
   content: '';

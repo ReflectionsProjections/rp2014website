@@ -39,6 +39,12 @@
   float: left;
 }
 
+.avatar-blank{
+  @extend .avatar;
+  height: 93px;
+  width: 93px;
+  background-color: $light-grey;
+}
 
 .calendar-day{
   position: relative;

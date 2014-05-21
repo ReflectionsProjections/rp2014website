@@ -21,6 +21,8 @@ title: Career Fairs
       </div>
     </div>
 
+
+    <!-- Startups Row -->
     <div class="row mt">
       <div class="col-lg-10 col-lg-offset-1">
         <h3 class="grey-border">Startup Fair</h3>
@@ -32,7 +34,7 @@ title: Career Fairs
            <div class="container">
              <div class="row mt">
               <div class="col-lg-10">
-                <ul class="grid effect-2" id="grid">
+                <ul class="grid effect-2" id="startup-grid">
                  {% for company in site.data.companies.startups %}
                  <li>
                   <section class="company-card">
@@ -47,7 +49,8 @@ title: Career Fairs
      </div><!-- portfolio -->
    </div>
  </div>
-
+</div>
+<!-- Larger Companies  Row-->
  <div class="row mt">
   <div class="col-lg-10 col-lg-offset-1">
     <h3 class="grey-border">Job Fair</h3>
@@ -60,11 +63,11 @@ title: Career Fairs
        <div class="container"
        <div class="row mt">
         <div class="col-lg-10">
-          <ul class="grid effect-2" id="grid">
+          <ul class="grid effect-2" id="large-grid">
             {% for company in site.data.companies.regular %}
             <li>
               <section class="company-card">
-                <a href={{company.site-url}}><img src=/dist/img/companies/{{company.image-url}}></a>
+                <a href={{company.site-url}}><img src=/dist/img/companies/{{company.image-url}} alt={{company.name}}></a>
               </section>
             </li>
             {% endfor %}
@@ -73,7 +76,6 @@ title: Career Fairs
       </div>
     </div><!-- container -->
   </div><!-- portfolio -->
-</div>
 </div>
 </div>
 </div>
