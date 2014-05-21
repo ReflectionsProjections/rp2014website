@@ -8,6 +8,7 @@ var gulp = require('gulp')
 , pngcrush = require('imagemin-pngcrush')
 , jpegtran = require('imagemin-jpegtran')
 , cssminify = require('gulp-minify-css')
+, prefix = require('gulp-autoprefixer')
 ;
 
 var distPath = "dist/";
@@ -16,7 +17,7 @@ var jsPath = "js/**/*.js";
 var stylePath = "css/**/*.css";
 
 var imageExt = ['jpg', 'JPG', 'jpeg', 'png'];
-var imageSrc = imageExt.map(function(e){return imagePath + '.' + e});
+var imageSrc = imageExt.map(function(e){return imagePath + '.' + e; });
 
 gulp.task('images', function(){
 
@@ -38,6 +39,7 @@ gulp.task('js', function() {
 
 gulp.task('styles', function(){
   return gulp.src([stylePath])
+  .pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7", { cascade: true })).on('error', gutil.log)
   .pipe(cssminify().on('error', gutil.log))
   .pipe(gulp.dest(distPath + 'css/'));
 });

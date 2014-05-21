@@ -1,0 +1,67 @@
+- name: Thursday
+  schedule:
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg
+
+- name: Friday
+  schedule:
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg
+
+- name: Saturday
+  schedule:
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg
+
+- name: Sunday
+  schedule:
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg
+
+    - time: 8 AM
+      name: Making this list work
+      loc: ACM Office
+      img-url: joe-lonsdale.jpg

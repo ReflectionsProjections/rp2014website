@@ -8,6 +8,7 @@ $rp-light-grey: #424242;
 $rp-dark-grey: #BCBCBC;
 $light-grey-text: #555;
 $light-grey: #f2f2f2;
+$border-grey: #D8D8D8;
 
 body{
   font-family: 'Open Sans',sans-serif;
@@ -37,6 +38,10 @@ a {
 
 }
 
+.centered{
+  text-align: center;
+}
+
 
 div.col-lg-offset-1 p{
   margin: 10px 0;
@@ -47,7 +52,7 @@ div.col-lg-offset-1 p{
 }
 
 .grey-border{
-  border-bottom: 1px solid #D8D8D8;
+  border-bottom: 1px solid $border-grey;
   padding-bottom: 15px;
 }
 

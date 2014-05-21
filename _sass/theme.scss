@@ -147,8 +147,8 @@ hr {
     font-size: 14px;
     line-height: 40px;
     margin: 25px 2px;
-  .menu a>i.fa-facebook {
-  }
+    .menu a>i.fa-facebook {
+    }
     width: 13%;
   }
   .menu-close {
@@ -216,7 +216,7 @@ hr {
   }
   #menuToggle:hover {
     color: #fff;
-    background: rgba(0, 0, 0, .2);s
+    background: rgba(0, 0, 0, .2);
     -webkit-transition: all .1s ease-in-out;
     -moz-transition: all .1s ease-in-out;
     -ms-transition: all .1s ease-in-out;
@@ -384,220 +384,220 @@ hr {
 }
 #portfolio {
   width: 100%;
-  }
-  #services {
-    background: $rp-blue;
-    margin-top: 25px;
-    padding-top: 35px;
-    padding-bottom: 35px;
-  }
-  #services h3 {
-    color: #fff;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-  }
-  #services p {
-    color: #fff;
-  }
-  #services i {
-    color: #fff;
-    font-size: 35px;
-    margin-top: 22px;
-  }
-  #lg, #lg-orange {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: center;
-  }
-  #lg-orange {
-    background: $rp-orange;
-    color: #fff;
-  }
-  #lg h3, #lg-orange h3 {
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    font-size: 28px;
-    font-weight: bold;
-  }
-  #lg .desc {
-    text-align: left;
-  }
-  #call {
-    background: #2f2f2f;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    text-align: center;
-  }
-  #call h3 {
-    color: #fff;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-    font-size: 28px;
-  }
-  #call p {
-    color: #fff;
-  }
-  #sf {
-    display: block;
+}
+#services {
+  background: $rp-blue;
+  margin-top: 25px;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+#services h3 {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+#services p {
+  color: #fff;
+}
+#services i {
+  color: #fff;
+  font-size: 35px;
+  margin-top: 22px;
+}
+#lg, #lg-orange {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#lg-orange {
+  background: $rp-orange;
+  color: #fff;
+}
+#lg h3, #lg-orange h3 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 28px;
+  font-weight: bold;
+}
+#lg .desc {
+  text-align: left;
+}
+#call {
+  background: #2f2f2f;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+#call h3 {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  font-size: 28px;
+}
+#call p {
+  color: #fff;
+}
+#sf {
+  display: block;
+  width: 100%}
+  #sf .container {
     width: 100%}
-    #sf .container {
+    #sf .col-lg-4 {
+      margin: 0;
+      padding: 15px;
+    }
+    #sf .lg {
+      background-color: #1abc9c;
+    }
+    #sf .dg {
+      background-color: #16a085;
+    }
+    #sf h4 {
+      color: #fff;
+    }
+    #sf p {
+      color: #fff;
+    }
+    #sf .ml {
+      margin-left: 30px;
+    }
+    #sf i {
+      font-size: 70px;
+      color: #fff;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+    #cf {
+      background: #2f2f2f;
+    }
+    #cf h4 {
+      color: #fff;
+      margin-left: 15px;
+      margin-top: 15px;
+    }
+    #cf p {
+      color: #fff;
+      font-size: 15px;
+      line-height: 18px;
+      margin-left: 15px;
+    }
+    #cf .container {
       width: 100%}
-      #sf .col-lg-4 {
+      #cf .col-lg-8 {
         margin: 0;
-        padding: 15px;
+        padding: 0;
       }
-      #sf .lg {
-        background-color: #1abc9c;
+      .process {
+        max-width: 69em;
+        list-style: none;
+        margin: 30px auto;
+        padding: 0;
       }
-      #sf .dg {
-        background-color: #16a085;
+      .process li {
+        display: block;
+        float: left;
+        padding: 1px;
+        width: 100%;
+        opacity: 0;
       }
-      #sf h4 {
-        color: #fff;
+      .process li.shown, .no-js .process li, .no-cssanimations .process li {
+        opacity: 1;
       }
-      #sf p {
-        color: #fff;
-      }
-      #sf .ml {
-        margin-left: 30px;
-      }
-      #sf i {
-        font-size: 70px;
-        color: #fff;
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 50px;
-      }
-      #cf {
-        background: #2f2f2f;
-      }
-      #cf h4 {
-        color: #fff;
-        margin-left: 15px;
-        margin-top: 15px;
-      }
-      #cf p {
-        color: #fff;
-        font-size: 15px;
-        line-height: 18px;
-        margin-left: 15px;
-      }
-      #cf .container {
-        width: 100%}
-        #cf .col-lg-8 {
-          margin: 0;
-          padding: 0;
+      .process li a, .process li img {
+        outline: 0;
+        border: 0;
+        display: block;
+        max-width: 100%}
+        .process.effect-2 li.animate {
+          -webkit-transform: translateY(200px);
+          -moz-transform: translateY(200px);
+          transform: translateY(200px);
+          -webkit-animation: moveUp .65s ease forwards;
+          -moz-animation: moveUp .65s ease forwards;
+          animation: moveUp .65s ease forwards;
         }
-        .process {
-          max-width: 69em;
-          list-style: none;
-          margin: 30px auto;
-          padding: 0;
-        }
-        .process li {
-          display: block;
-          float: left;
-          padding: 1px;
-          width: 100%;
-          opacity: 0;
-        }
-        .process li.shown, .no-js .process li, .no-cssanimations .process li {
-          opacity: 1;
-        }
-        .process li a, .process li img {
-          outline: 0;
-          border: 0;
-          display: block;
-          max-width: 100%}
-          .process.effect-2 li.animate {
-            -webkit-transform: translateY(200px);
-            -moz-transform: translateY(200px);
-            transform: translateY(200px);
-            -webkit-animation: moveUp .65s ease forwards;
-            -moz-animation: moveUp .65s ease forwards;
-            animation: moveUp .65s ease forwards;
+        @-webkit-keyframes moveUp {
+          to {
+            -webkit-transform: translateY(0);
+            opacity: 1;
           }
-          @-webkit-keyframes moveUp {
+          }@-moz-keyframes moveUp {
             to {
-              -webkit-transform: translateY(0);
+              -moz-transform: translateY(0);
               opacity: 1;
             }
-            }@-moz-keyframes moveUp {
+            }@keyframes moveUp {
               to {
-                -moz-transform: translateY(0);
+                transform: translateY(0);
                 opacity: 1;
               }
-              }@keyframes moveUp {
-                to {
-                  transform: translateY(0);
+              }#chartwrap {
+                width: 100%}
+                #chartwrap .container {
+                  margin-left: 0;
+                  padding-left: 0;
+                }
+                #chartwrap h1, #chartwrap p {
+                  margin-left: 10px;
+                }
+                .cardinfo {
+                  background: #fff;
+                  padding: 15px;
+                  margin: 2px;
+                  text-align: left;
+                }
+                .cardinfo i {
+                  font-size: 18px;
+                  padding-right: 20px;
+                }
+                .grid {
+                  max-width: 69em;
+                  list-style: none;
+                  margin: 30px auto;
+                  padding: 0;
+                }
+                .grid li {
+                  display: block;
+                  float: left;
+                  padding: 7px;
+                  width: 33%;
+                  opacity: 0;
+                }
+                .grid li.shown, .no-js .grid li, .no-cssanimations .grid li {
                   opacity: 1;
                 }
-                }#chartwrap {
-                  width: 100%}
-                  #chartwrap .container {
-                    margin-left: 0;
-                    padding-left: 0;
+                .grid li a, .grid li img {
+                  outline: 0;
+                  border: 0;
+                  display: block;
+                  max-width: 100%}
+                  .grid img {
+                    opacity: .7;
                   }
-                  #chartwrap h1, #chartwrap p {
-                    margin-left: 10px;
-                  }
-                  .cardinfo {
-                    background: #fff;
-                    padding: 15px;
-                    margin: 2px;
-                    text-align: left;
-                  }
-                  .cardinfo i {
-                    font-size: 18px;
-                    padding-right: 20px;
-                  }
-                  .grid {
-                    max-width: 69em;
-                    list-style: none;
-                    margin: 30px auto;
-                    padding: 0;
-                  }
-                  .grid li {
-                    display: block;
-                    float: left;
-                    padding: 7px;
-                    width: 33%;
-                    opacity: 0;
-                  }
-                  .grid li.shown, .no-js .grid li, .no-cssanimations .grid li {
+                  .grid img:hover {
                     opacity: 1;
                   }
-                  .grid li a, .grid li img {
-                    outline: 0;
-                    border: 0;
-                    display: block;
-                    max-width: 100%}
-                    .grid img {
-                      opacity: .7;
-                    }
-                    .grid img:hover {
+                  .grid.effect-2 li.animate {
+                    -webkit-transform: translateY(200px);
+                    -moz-transform: translateY(200px);
+                    transform: translateY(200px);
+                    -webkit-animation: moveUp .65s ease forwards;
+                    -moz-animation: moveUp .65s ease forwards;
+                    animation: moveUp .65s ease forwards;
+                  }
+                  @-webkit-keyframes moveUp {
+                    to {
+                      -webkit-transform: translateY(0);
                       opacity: 1;
                     }
-                    .grid.effect-2 li.animate {
-                      -webkit-transform: translateY(200px);
-                      -moz-transform: translateY(200px);
-                      transform: translateY(200px);
-                      -webkit-animation: moveUp .65s ease forwards;
-                      -moz-animation: moveUp .65s ease forwards;
-                      animation: moveUp .65s ease forwards;
-                    }
-                    @-webkit-keyframes moveUp {
+                    }@-moz-keyframes moveUp {
                       to {
-                        -webkit-transform: translateY(0);
+                        -moz-transform: translateY(0);
                         opacity: 1;
                       }
-                      }@-moz-keyframes moveUp {
+                      }@keyframes moveUp {
                         to {
-                          -moz-transform: translateY(0);
+                          transform: translateY(0);
                           opacity: 1;
                         }
-                        }@keyframes moveUp {
-                          to {
-                            transform: translateY(0);
-                            opacity: 1;
-                          }
-                        }
+                      }

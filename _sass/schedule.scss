@@ -1,7 +1,159 @@
 #schedule-wrap{
+  @extend .header-wrap;
   background: url(../dist/img/mo2copy.png) no-repeat center top;
   background-size: 100%;
   background-size: cover;
-  @extend .header-wrap;
 }
 
+
+.calendar-wapper{
+  margin: 0 auto;
+}
+
+
+.side-col{
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px 20px 0;
+}
+
+.bw{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+
+.avatar{
+  -webkit-box-shadow: $border-grey 0 0 0 3px;
+  -moz-box-shadow: $border-grey 0 0 0 3px;
+  box-shadow: $border-grey 0 0 0 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  -webkit-border-radius: 80px;
+  -moz-border-radius: 80px;
+  -ms-border-radius: 80px;
+  border-radius: 80px;
+  display: block;
+  background: #fff;
+  float: left;
+}
+
+
+.calendar-day{
+  position: relative;
+
+  &:not(:first-child){
+    padding-top: 120px;
+  }
+
+
+  & header{
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid $border-grey;
+    margin-bottom: 25px;
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  &:not(:first-child) > .col-lg-10{
+    &:before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 3px;
+    height: 60px;
+    top: -130px;
+    background: $border-grey;
+    left: 50%;
+    margin-left: -0.5px;
+  }
+    &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: -75px;
+    background: $border-grey;
+    left: 50%;
+    margin-left: -4.0px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+  }
+}
+
+}
+
+
+
+.schedule{
+
+  list-style:none;
+
+
+  & li{
+
+    overflow: hidden;
+    display: block;
+    padding-bottom: 100px;
+    margin-top: -3px;
+    position: relative;
+    width: 100%;
+  }
+
+
+  & .item-left{
+    @extend .side-col;
+    text-align: right;
+    padding-right: 85px;
+    padding-top: 35px;
+  }
+
+  & .item-right {
+    @extend .side-col;
+    text-align: left;
+    padding-left: 85px;
+
+    & .event-name{
+      font-weight: bold;
+      font-size: 110%;
+    }
+
+    & event.location{
+
+    }
+
+
+  }
+
+  & .item-middle{
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    width: 96px;
+    left: 50%;
+    margin-left: -48px;
+    position: absolute;
+
+    &:after {
+      z-index: -1;
+      content: '';
+      display: block;
+      position: absolute;
+      width: 3px;
+      height: 300px;
+      bottom: -286px;
+      background: $border-grey;
+      left: 50%;
+      margin-left: -.5px;
+    }
+  }
+
+}

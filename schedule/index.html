@@ -6,9 +6,7 @@ title: Schedule
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
-        <h2>I like to plan <br>
-          out schedules
-        </h2>
+        <h2>Conference Schedule</h2>
       </div>
     </div><!-- row -->
   </div><!-- /container -->
@@ -16,14 +14,47 @@ title: Schedule
 
 
 <div class="container wrapper">
-  <div class="row mt">
+  <!--
+  <header class="row  centered">
     <div class="col-lg-10 col-lg-offset-1">
-      <h2>Coming Soon!</h2>
+      <h1>Schedule</h1>
     </div>
-  </div>
+  </header>
+-->
 
-  <div class="row mt">
-    <div class="col-lg-10 col-lg-offset-1"></div>
-  </div>
+<section class="calendar-wrapper">
 
-</div>
+  <div class="col-lg-8 col-lg-offset-2">
+
+    {% for day in site.data.schedule %}
+
+    <section class="row  calendar-day">
+      <div class="col-lg-10 col-lg-offset-1">
+        <header><h2>{{day.name}}</h2></header>
+
+        <ul class="schedule">
+          {% for item in day.schedule %}
+          <!-- ITEM -->
+          <li class="schedule-item">
+            <div class="item-left">
+              <time>{{item.time}}</time>
+            </div>
+            <div class="item-middle">
+              <img src="/dist/img/{{item.img-url}}" alt="{{item.name}}" class=" avatar" height="93px" width="93px">
+            </div>
+            <div class="item-right">
+              <div class="event-name">{{item.name}}</div>
+              <div class="event-location">{{item.loc}}</div>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section> <!-- Calendar Day -->
+    {% endfor %}
+
+  </div>
+</section> <!-- Calendar Wrapper-->
+
+
+</div> <!-- Container -->
