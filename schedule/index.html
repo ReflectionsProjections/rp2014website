@@ -23,7 +23,7 @@ title: Schedule
 -->
 
 <section class="row mt centered schedule-nav">
-  <div class="col-lg-10 col-lg-offset-1">
+  <div class="col-lg-12">
     <ul>
       {% for day in site.data.schedule %}
       <li><a href="#cal-{{day.name}}">{{day.name}}</a></li>
@@ -36,7 +36,7 @@ title: Schedule
 <section class="calendar-wrapper">
   {% for day in site.data.schedule %}
   <div class="row">
-    <section id="cal-{{day.name}}" class="calendar-day col-lg-10 col-lg-offset-1">
+    <section id="cal-{{day.name}}" class="calendar-day col-lg-12 col-xs-12">
       <header><h2>{{day.name}}</h2></header>
 
       <ul class="schedule">
