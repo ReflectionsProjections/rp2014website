@@ -44,6 +44,8 @@
   height: 93px;
   width: 93px;
   background-color: $light-grey;
+  border: 6px double $border-grey;
+
 }
 
 .calendar-day{
@@ -101,8 +103,7 @@
   list-style:none;
 
 
-  & li{
-
+  li{
     overflow: hidden;
     display: block;
     padding-bottom: 100px;
@@ -112,12 +113,13 @@
   }
 
 
-  & .item-left{
+  .item-left{
     @extend .side-col;
     text-align: right;
     padding-right: 85px;
     padding-top: 35px;
   }
+
 
   & .item-right {
     @extend .side-col;
@@ -132,6 +134,9 @@
     & event.location{
 
     }
+
+
+
 
 
   }
@@ -161,7 +166,6 @@
       margin-left: -.5px;
     }
   }
-
 }
 
 
@@ -184,3 +188,37 @@
  }
 
 }
+
+
+
+//mobile styles
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+
+  .schedule{
+
+    .item-left{
+      visibility: hidden;
+
+      time{
+        visibility: hidden;
+      }
+    }
+
+    .item-middle{
+      left: 25%;
+
+    }
+
+    .item-right{
+      padding-left: 0;
+
+      time {
+        visibility: visible;
+      }
+    }
+  }
+}
+
+
