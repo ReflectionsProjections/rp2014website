@@ -36,7 +36,7 @@ title: Schedule
 <section class="calendar-wrapper">
   {% for day in site.data.schedule %}
   <div class="row">
-    <section id="cal-{{day.name}}" class="calendar-day col-lg-10 col-xs-10">
+    <section id="cal-{{day.name}}" class="calendar-day col-lg-10 col-xs-12">
       <header><h2>{{day.name}}</h2></header>
 
       <ul class="schedule">
@@ -48,12 +48,13 @@ title: Schedule
           </div>
           <div class="item-middle">
             {% if item.img-url %}
-            <img src="/dist/img/{{item.img-url}}" alt="{{item.name}}" class=" avatar" height="93px" width="93px">
+            <img src="/dist/img/{{item.img-url}}" alt="{{item.name}}" class="avatar" height="93px" width="93px">
             {% else %}
             <span class="avatar-blank"></span>
             {% endif %}
           </div>
           <div class="item-right">
+            <time>{{item.time}}</time>
             <div class="event-name">{{item.name}}</div>
             <div class="event-location">
               {% if item.loc %}
@@ -61,7 +62,6 @@ title: Schedule
               {% else %}
               Location TBA
               {% endif %}
-
             </div>
           </div>
         </li>

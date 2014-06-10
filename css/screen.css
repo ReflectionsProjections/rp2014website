@@ -33116,29 +33116,17 @@ section{
   padding-right: 85px;
   padding-top: 35px;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 122, ../_sass/schedule.scss */
-  .schedule .item-left time {
-    /* Styles */
-  }
-}
-/* line 135, ../_sass/schedule.scss */
+/* line 124, ../_sass/schedule.scss */
 .schedule .item-right {
   text-align: left;
   padding-left: 85px;
 }
-/* line 140, ../_sass/schedule.scss */
+/* line 129, ../_sass/schedule.scss */
 .schedule .item-right .event-name {
   font-weight: bold;
   font-size: 110%;
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 150, ../_sass/schedule.scss */
-  .schedule .item-right time {
-    /* Styles */
-  }
-}
-/* line 162, ../_sass/schedule.scss */
+/* line 144, ../_sass/schedule.scss */
 .schedule .item-middle {
   webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -33151,7 +33139,7 @@ section{
   margin-left: -48px;
   position: absolute;
 }
-/* line 174, ../_sass/schedule.scss */
+/* line 156, ../_sass/schedule.scss */
 .schedule .item-middle:after {
   z-index: -1;
   content: '';
@@ -33165,25 +33153,47 @@ section{
   margin-left: -.5px;
 }
 
-/* line 191, ../_sass/schedule.scss */
+/* line 172, ../_sass/schedule.scss */
 .schedule-nav {
   margin: 50px;
 }
-/* line 194, ../_sass/schedule.scss */
+/* line 175, ../_sass/schedule.scss */
 .schedule-nav ul {
   list-style: none;
 }
-/* line 197, ../_sass/schedule.scss */
+/* line 178, ../_sass/schedule.scss */
 .schedule-nav ul li {
   display: inline-block;
   padding: 0 25px;
   font-size: 2rem;
 }
-/* line 205, ../_sass/schedule.scss */
+/* line 186, ../_sass/schedule.scss */
 .schedule-nav li + li {
   border-left: 1px solid #A6A6A6;
 }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* line 201, ../_sass/schedule.scss */
+  .schedule .item-left {
+    visibility: hidden;
+  }
+  /* line 204, ../_sass/schedule.scss */
+  .schedule .item-left time {
+    visibility: hidden;
+  }
+  /* line 209, ../_sass/schedule.scss */
+  .schedule .item-middle {
+    left: 25%;
+  }
+  /* line 214, ../_sass/schedule.scss */
+  .schedule .item-right {
+    padding-left: 0;
+  }
+  /* line 217, ../_sass/schedule.scss */
+  .schedule .item-right time {
+    visibility: visible;
+  }
+}
 /* line 1, ../_sass/puzzlebang.scss */
 #puzzle-wrap {
   background: url(../dist/img/mm5copy.png) no-repeat center top;
