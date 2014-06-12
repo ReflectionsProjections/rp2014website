@@ -1,0 +1,42 @@
+---
+layout: default
+title: Speakers
+---
+<div class="wrapper" id="speakers-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Speakers</h2>
+      </div>
+    </div><!-- row -->
+  </div><!-- /container -->
+</div>
+
+
+<div class="container wrapper">
+  <div class="row mt">
+    <div class="col-lg-10 col-lg-offset-1 centered">
+      <!--
+      <h2>We have some absolutely fantastic speakers coming from all over the US to talk on topics ranging from semiconductors to mobile application development to computer science theory!
+      </h2> -->
+      <h2>Reflections|Projections features speakers from all corners of the tech industry and internet. In our 20th year we reflect on some of our most accomplished speakers. Please stay tuned for further announcements of this year's speakers!</h2>
+    </div>
+  </div>
+
+  <div class="row mt">
+    <div class="col-lg-10 col-lg-offset-1">
+      <!-- Speaker Images -->
+      <div id="portfolio">
+       <div class="row mt">
+        <ul class="grid effect-2" id="grid">
+
+         {% for speaker in site.data.speakers %}
+         <li class="speaker-box"><a href="#"><img src=/dist/img/speakers/{{speaker.image-url}}></a></li>
+         {% endfor %}
+
+       </ul>
+     </div><!-- row -->
+   </div><!-- portfolio -->
+ </div>
+</div>
+</div>

@@ -1,15 +1,15 @@
 {
-  "name": "",
-  "description": "",
+  "name": "rp2014",
+  "description": "ooh kill 'em",
   "author": "Brendan Ryan",
   "dependencies": {
-    "gulp-livereload": "~0.2.0",
-    "tiny-lr": "0.0.5"
+    "gulp-autoprefixer": "0.0.7",
+    "imagemin-pngcrush": "~0.1.0",
+    "imagemin-jpegtran": "~0.1.0"
   },
   "devDependencies": {
     "gulp": "latest",
     "gulp-util": "latest",
-    "gulp-less": "latest",
     "gulp-watch": "latest",
     "gulp-uglify": "latest",
     "gulp-csslint": "latest",
@@ -18,5 +18,19 @@
   },
   "engines": {
     "npm": "1.2.x"
-  }
+  },
+  "version": "0.0.0",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bjryan2/rp2014website.git"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/bjryan2/rp2014website/issues"
+  },
+  "homepage": "https://github.com/bjryan2/rp2014website"
 }
