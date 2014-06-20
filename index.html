@@ -42,33 +42,26 @@ title: Home
         <p><button type="button" class="btn btn-blue btn-lg">See the entire list!</button></p>
       </div>
     </div>
-    <!--div class="row mt">
-     <div class="col-lg-6 lg-offset-2">
-       <h1>Speakers</h1>
-       <p>Reflections|Projections features speakers from all corners of the tech industry and internet. In our 20th year we reflect on some of our most accomplished speakers. Please stay tuned for further announcements of this year's speakers!</p>
-     </div>
-     <div class="col-lg-4">
-      <p class="pull-right"><br><button type="button" class="btn btn-blue">See the entire list!</button></p>
-    </div>
-  </div--><!-- /row -->
-</div><!-- /.container -->
+  </div><!-- /.container -->
 </div>
 
 <!-- Speaker Images -->
 <div id="portfolio">
- <div class="row mt">
-  <div class="col-lg-10 col-lg-offset-1">
+  <div class="container content">
+   <div class="row mt">
+    <div class="col-lg-10 col-lg-offset-1">
 
-    <ul class="grid effect-2 js-masonry" id="grid" data-masonry-options='{ "itemSelector": ".speaker-box" }'>
-     {% for speaker in site.data.speakers %}
-     <li class="speaker-box"><a href="#"><img src="/dist/img/speakers/{{speaker.image-url}}">
-      <!--  <h1>{{speaker.name}}</h1> -->
-    </a></li>
-    {% endfor %}
+      <ul class="grid effect-2 js-masonry" id="grid" data-masonry-options='{ "itemSelector": ".speaker-box" }'>
+       {% for speaker in site.data.speakers %}
+       <li class="speaker-box"><a href="#"><img src="/dist/img/speakers/{{speaker.image-url}}">
+        <!--  <h1>{{speaker.name}}</h1> -->
+      </a></li>
+      {% endfor %}
 
-  </ul>
-</div>
+    </ul>
+  </div>
 </div><!-- row -->
+</div> <!-- container -->
 </div><!-- portfolio -->
 
 
@@ -114,9 +107,3 @@ title: Home
     </div><!-- row -->
   </div><!-- container -->
 </div>
-
-
-
-
-
-
