@@ -10,8 +10,6 @@ task :speakers do
   #load speakers.yml data
   speakers = YAML.load_file("_data/speakers.yml")
   speakers.each do |speaker|
-
-
     fname = speaker['image-url'].split('.').first
     fname = "speakers/#{fname}.html"
     open(fname, 'w') do |post|
@@ -27,9 +25,6 @@ task :speakers do
       post.puts "talk_abstract: #{speaker['talk_time']}"
       post.puts "talk_location: #{speaker['talk_time']}"
       post.puts "---"
-
     end
-
   end
-
 end # task :speaker_migrate
