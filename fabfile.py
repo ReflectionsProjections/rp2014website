@@ -20,7 +20,6 @@ envs = {
     }
 }
 
-
 local_path = './' # Project directory.  Change this to absolute to run it from elsewhere
 build_dir = '/tmp/rp2014'
 def build(environment='dev'):
