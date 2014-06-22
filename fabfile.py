@@ -32,7 +32,6 @@ def build(environment='dev'):
 def deploy(environment='prod', netid=None):
     if environment == 'dev':
         raise "Can't deploy while in dev environment! Try prod or stage."
-
     build(environment)
     # Set the user to use for ssh
     if not netid:
