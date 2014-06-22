@@ -8,7 +8,7 @@
     "imagemin-jpegtran": "~0.1.0"
   },
   "devDependencies": {
-    "gulp": "latest",
+    "gulp": "~3.8.0",
     "gulp-util": "latest",
     "gulp-watch": "latest",
     "gulp-uglify": "latest",
