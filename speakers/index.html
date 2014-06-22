@@ -28,13 +28,14 @@ title: Speakers
       <!-- Speaker Images -->
       <div id="portfolio">
        <div class="row mt">
-        <ul class="grid effect-2" id="grid">
+        <ul class="grid effect-2 js-masonry" id="grid" data-masonry-options='{ "itemSelector": ".speaker-box" }'>
+     {% for speaker in site.data.speakers %}
+     <li class="speaker-box"><a class="speaker-link content-{{speaker.content-name}}" href="#"><img class="speaker-img" src="/dist/img/speakers/{{speaker.image-url}}">
+      <!--  <h1>{{speaker.name}}</h1> -->
+    </a></li>
+    {% endfor %}
 
-         {% for speaker in site.data.speakers %}
-         <li class="speaker-box"><a href="#"><img src=/dist/img/speakers/{{speaker.image-url}}></a></li>
-         {% endfor %}
-
-       </ul>
+  </ul>
      </div><!-- row -->
    </div><!-- portfolio -->
  </div>

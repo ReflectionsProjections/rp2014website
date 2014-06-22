@@ -1,4 +1,5 @@
 /*media queries for type styles on index.html*/
+
 @media (max-width:717px) {
   .container h2.event-heading {
     font-size: 40px;
@@ -26,5 +27,72 @@
 @media (max-width:410px) {
   .container h2.event-heading {
     font-size: 22px;
+  }
+}
+
+/*Speaker Card Media Queries for index.html and /speakers. */
+
+@media (max-width:600px) {
+  .grid li {
+    width: 50%;
+  }
+}
+
+@media (max-width:600px) {
+  
+  .speaker-link:after {
+    background: rgba(0, 0, 0, 0.7);
+  }
+
+  .content-jenny-murphy:after {
+    content: "Jenny Murphy";
+  }
+
+  .content-joe-lonsdale:after {
+    content: "Joe Lonsdale";
+  }
+
+  .content-peter-norvig:after {
+    content: "Peter Norvig";
+  }
+
+  .content-guido:after {
+    content: "Guido van Rossum";
+  }
+
+  .content-zed-shaw:after {
+    content: "Zed Shaw";
+  }
+
+  .content-woz:after {
+    content: "Steve Wozniak";
+  }
+
+  .content-joel-spolsky:after {
+    content: "Joel Spolsky";
+  }
+
+  .content-jawed-karim:after {
+    content: "Jawed Karim";
+  }
+
+  .content-max-levchin:after {
+    content: "Max Levchin";
+  }
+
+  .content-ari-gesher:after {
+    content: "Ari Gesher";
+  }
+
+  .content-gerry-tan:after {
+    content: "Garry Tan";
+  }
+
+  .content-feinberg:after {
+    content: "Danielle Feinberg";
+  }
+
+  .content-alexis-ohanian:after {
+    content: "Alexis Ohanian";
   }
 }
