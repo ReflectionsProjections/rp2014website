@@ -20,14 +20,9 @@ var imageExt = ['jpg', 'JPG', 'jpeg', 'png'];
 var imageSrc = imageExt.map(function(e){return imagePath + '.' + e; });
 
 gulp.task('images', function(){
-
-  return gulp.src(imageSrc)
-  .pipe(imagemin({
-    use: [pngcrush({reduce: true}), jpegtran()],
-    optimizationLevel: 7,
-    progressive: true
-  }).on('error', gutil.log))
-  .pipe(gulp.dest(distPath + 'img/'));
+  return gulp.src(imagePath)
+  .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
+  .pipe(gulp.dest('dist/img'));
 });
 
 gulp.task('js', function() {
