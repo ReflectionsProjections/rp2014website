@@ -30,7 +30,7 @@ title: Speakers
        <div class="row mt">
         <ul class="grid effect-2 js-masonry" id="grid" data-masonry-options='{ "itemSelector": ".speaker-box" }'>
      {% for speaker in site.data.speakers %}
-     <li class="speaker-box"><a class="speaker-link content-{{speaker.content-name}}" href="#"><img class="speaker-img" src="./dist/img/speakers/{{speaker.image-url}}">
+     <li class="speaker-box"><a class="speaker-link content-{{speaker.content-name}}" href="#"><img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}">
       <!--  <h1>{{speaker.name}}</h1> -->
     </a></li>
     {% endfor %}
