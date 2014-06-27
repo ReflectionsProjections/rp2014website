@@ -1,4 +1,8 @@
 regular:
+  - name: brightroll
+    bio: yeah
+    image-url: brightroll.jpg
+    site-url: http://www.brightroll.com
   - name: dropbox
     bio: yolo
     image-url: dropbox.png
@@ -33,7 +37,19 @@ startups:
     bio: yolo
     image-url: a16z.png
     site-url: https://www.a16z.com
+  - name: coinbase
+    bio: yolo
+    image-url: coinbase.png
+    site-url: https://www.coinbase.com
   - name: relateiq
     bio: yolo
     image-url: relateiq.png
     site-url: https://www.relateiq.com
+  - name: siftscience
+    bio: yolo
+    image-url: siftscience.png
+    site-url: https://siftscience.com
+  - name: trunkclub
+    bio: nah
+    image-url: trunkclub.jpg
+    site-url: https://www.trunkclub.com/

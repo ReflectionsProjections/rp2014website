@@ -51,10 +51,10 @@ title: Career Fairs
         <div class="company-container">
           <div id="portfolio">
            <div class="row mt">
-            <div class="col-lg-10">
+            <div class="col-lg-10 col-lg-offset-1">
 
               {% if site.data.companies.regular.size > 0 %}
-              <ul id="startup-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0}'>
+              <ul id="regular-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0}'>
 
                 {% for company in site.data.companies.regular %}
                 <li class="company-card">
@@ -74,13 +74,15 @@ title: Career Fairs
   </div>
   <!-- Company Logos Row -->
   <div class="row mt">
-    <div class="col-lg-10 col-lg-offset-1">
-      <h3 class="grey-border">Startup Fair Companies</h3>
-      <span class="line-accent"></span>
-      <div class="company-container">
-        <div id="portfolio">
-          <div class="row mt">
-            <div class="col-lg-10">
+
+      <div class="col-lg-10 col-lg-offset-1">
+        <h3 class="grey-border">Startup Fair Companies</h3>
+        <span class="line-accent"></span>
+        <div class="company-container">
+          <div id="portfolio">
+            <div class="row mt">
+              <div class="col-lg-10 col-lg-offset-1">
+
 
               {% if site.data.companies.startups.size > 0 %}
               <ul id="startup-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0}'>
