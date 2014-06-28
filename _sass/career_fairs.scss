@@ -1,0 +1,21 @@
+#cfwrap{
+  background: url(/dist/img/fair2copy.png) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
+  @extend .header-wrap;
+}
+
+
+
+.grid {
+
+  li {
+
+    &.company-card{
+      @extend .card;
+      opacity: 1;
+      padding: 2.5rem;
+      margin-bottom: 10px;
+    }
+  }
+}

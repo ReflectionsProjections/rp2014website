@@ -1,0 +1,103 @@
+---
+layout: default
+title: Career Fairs
+---
+
+<div class="wrapper" id="cfwrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2>Get a job! <br>
+          Make your parents happy!</h2>
+        </div>
+      </div><!-- row -->
+    </div><!-- /container -->
+  </div>
+
+  <div class="container wrapper">
+    <div class="row mt">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2>Looking for a job or internship? You've come to the right place! Reflections | Projections is where some of the top companies recruit in a casual atmosphere. Bring your resume, but you can leave the suit at home!</h2>
+      </div>
+    </div>
+
+
+    <!-- Startups Row -->
+    <div class="row mt">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h3 class="grey-border">Startup Fair</h3>
+        <span class="line-accent"></span>
+        <p>Initiated last year, our Startup Fair allows students to meet great companies with lots of culture, interesting problems, and small teams. It will be held on Thursday, October 2nd from 5pm - 8pm in the Siebel Center atrium.
+      </p>
+         <p>Do you know a startup that sounds like it might fit? Email us for an invitation</p>
+    </div>
+  </div>
+  <!-- Larger Companies  Row-->
+  <div class="row mt">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h3 class="grey-border">Job Fair</h3>
+      <span class="line-accent"></span>
+      <p>The Reflections | Projections Job Fair is always a huge hit, and some of the biggest names in technology are always there to recruit. Come talk to the companies below right in the Siebel Center atrium from 10am - 4pm on Friday, October 3rd. Oh, and don't suit up!
+        </p>
+      <p>Are you looking to recruit at the job fair? Please email ACM Corporate to be placed on the waiting list.</p>
+ </div>
+</div>
+
+<!-- Company Logos Row -->
+  <div class="row mt">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h3 class="grey-border">Job Fair Companies</h3>
+        <span class="line-accent"></span>
+        <div class="company-container">
+          <div id="portfolio">
+           <div class="row mt">
+            <div class="col-lg-10">
+
+              {% if site.data.companies.regular.size > 0 %}
+              <ul id="startup-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0}'>
+
+                {% for company in site.data.companies.regular %}
+                <li class="company-card">
+                  <a href={{company.site-url}}><img src=/dist/img/companies/{{company.image-url}}></a>
+                </li>
+                {% endfor %}
+
+              </ul>
+              {% endif %}
+
+
+            </div>
+          </div><!-- row -->
+        </div><!-- portfolio -->
+      </div>
+    </div>
+  </div>
+  <!-- Company Logos Row -->
+  <div class="row mt">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h3 class="grey-border">Startup Fair Companies</h3>
+        <span class="line-accent"></span>
+        <div class="company-container">
+          <div id="portfolio">
+            <div class="row mt">
+              <div class="col-lg-10">
+
+              {% if site.data.companies.startups.size > 0 %}
+              <ul id="startup-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0}'>
+
+                {% for company in site.data.companies.startups %}
+                <li class="company-card">
+                  <a href={{company.site-url}}><img src=/dist/img/companies/{{company.image-url}}></a>
+                </li>
+                {% endfor %}
+
+              </ul>
+              {% endif %}
+
+            </div>
+          </div><!-- row -->
+        </div><!-- portfolio -->
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,33 @@
+#speakers-wrap{
+  background: url(/dist/img/zed.png) no-repeat center top;
+  background-size: 100%;
+  background-size: cover;
+  @extend .header-wrap;
+}
+
+.speaker-img {
+  width: 100%;
+}
+
+.speaker-link:after {
+  position: absolute;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.0);
+  content: "";
+  left: 7px;
+  bottom: 7px;
+  width: calc(100% - 14px);
+  text-align: center;
+  padding-top: 9px;
+  color: #fff;
+  -webkit-transition: background .1s ease-in;
+}
+
+.speaker-link:hover:after {
+ background-color: rgba(0, 0, 0, 0.7);
+}
+
+/*I love this. So elegant. - Achal */
+.content-speakername:hover:after {
+  content: attr(data-speakername);
+}

@@ -1,0 +1,39 @@
+regular:
+  - name: dropbox
+    bio: yolo
+    image-url: dropbox.png
+    site-url: https://www.dropbox.com
+  - name: enova
+    bio: yolo
+    image-url: enova.jpg
+    site-url: https://www.enova.com
+  - name: facebook
+    bio: yolo
+    image-url: facebook.png
+    site-url: https://www.facebook.com
+  - name: microsoft
+    bio: yolo
+    image-url: microsoft.png
+    site-url: https://www.microsoft.com
+  - name: neustar
+    bio: yolo
+    image-url: neustar.jpg
+    site-url: https://www.neustar.biz
+  - name: salesforce
+    bio: yolo
+    image-url: salesforce.png
+    site-url: https://www.salesforce.com
+  - name: yelp
+    bio: yolo
+    image-url: yelp.jpg
+    site-url: https://www.yelp.com
+
+startups: 
+  - name: a16z
+    bio: yolo
+    image-url: a16z.png
+    site-url: https://www.a16z.com
+  - name: relateiq
+    bio: yolo
+    image-url: relateiq.png
+    site-url: https://www.relateiq.com
