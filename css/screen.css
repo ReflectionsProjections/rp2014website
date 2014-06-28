@@ -33233,69 +33233,10 @@ section{
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* line 30, ../_sass/speakers.scss */
-.content-jenny-murphy:hover:after {
-  content: "Jenny Murphy";
-}
-
-/* line 34, ../_sass/speakers.scss */
-.content-joe-lonsdale:hover:after {
-  content: "Joe Lonsdale";
-}
-
-/* line 38, ../_sass/speakers.scss */
-.content-peter-norvig:hover:after {
-  content: "Peter Norvig";
-}
-
-/* line 42, ../_sass/speakers.scss */
-.content-guido:hover:after {
-  content: "Guido van Rossum";
-}
-
-/* line 46, ../_sass/speakers.scss */
-.content-zed-shaw:hover:after {
-  content: "Zed Shaw";
-}
-
-/* line 50, ../_sass/speakers.scss */
-.content-woz:hover:after {
-  content: "Steve Wozniak";
-}
-
-/* line 54, ../_sass/speakers.scss */
-.content-joel-spolsky:hover:after {
-  content: "Joel Spolsky";
-}
-
-/* line 58, ../_sass/speakers.scss */
-.content-jawed-karim:hover:after {
-  content: "Jawed Karim";
-}
-
-/* line 62, ../_sass/speakers.scss */
-.content-max-levchin:hover:after {
-  content: "Max Levchin";
-}
-
-/* line 66, ../_sass/speakers.scss */
-.content-ari-gesher:hover:after {
-  content: "Ari Gesher";
-}
-
-/* line 70, ../_sass/speakers.scss */
-.content-gerry-tan:hover:after {
-  content: "Garry Tan";
-}
-
-/* line 74, ../_sass/speakers.scss */
-.content-feinberg:hover:after {
-  content: "Danielle Feinberg";
-}
-
-/* line 78, ../_sass/speakers.scss */
-.content-alexis-ohanian:hover:after {
-  content: "Alexis Ohanian";
+/*I love this. So elegant. - Achal */
+/* line 31, ../_sass/speakers.scss */
+.content-speakername:hover:after {
+  content: attr(data-speakername);
 }
 
 /* line 1, ../_sass/speaker.scss */
