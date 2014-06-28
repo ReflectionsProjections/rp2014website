@@ -48,56 +48,45 @@ title: Career Fairs
       <div class="col-lg-10 col-lg-offset-1">
         <h3 class="grey-border">Job Fair Companies</h3>
         <span class="line-accent"></span>
-        <div class="company-container">
-          <div id="portfolio">
-           <div class="row mt">
-            <div class="col-lg-10">
-
-              {% if site.data.companies.regular.size > 0 %}
-              <ul id="startup-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0}'>
-
-                {% for company in site.data.companies.regular %}
-                <li class="company-card">
-                  <a href={{company.site-url}}><img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}></a>
-                </li>
-                {% endfor %}
-
-              </ul>
-              {% endif %}
-
-
-            </div>
-          </div><!-- row -->
-        </div><!-- portfolio -->
-      </div>
-    </div>
-  </div>
-  <!-- Company Logos Row -->
-  <div class="row mt">
-    <div class="col-lg-10 col-lg-offset-1">
-      <h3 class="grey-border">Startup Fair Companies</h3>
-      <span class="line-accent"></span>
-      <div class="company-container">
         <div id="portfolio">
-          <div class="row mt">
-            <div class="col-lg-10">
 
-              {% if site.data.companies.startups.size > 0 %}
-              <ul id="startup-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0}'>
+          {% if site.data.companies.regular.size > 0 %}
+          <ul id="startup-grid" class="startup-grid grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0,
+        "isFitWidth": true, "columnWidth": 300}'>
 
-                {% for company in site.data.companies.startups %}
-                <li class="company-card">
-                  <a href={{company.site-url}}><img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}></a>
-                </li>
-                {% endfor %}
+            {% for company in site.data.companies.regular %}
+            <li class="company-card">
+              <a href={{company.site-url}}><img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}></a>
+            </li>
+            {% endfor %}
 
-              </ul>
-              {% endif %}
+          </ul>
+          {% endif %}
 
-            </div>
-          </div><!-- row -->
+
+        </div><!-- portfolio -->
+      </div>
+    </div>
+    <!-- Company Logos Row -->
+    <div class="row mt">
+      <div class="col-lg-10 col-lg-offset-1 col-xs-">
+        <h3 class="grey-border">Startup Fair Companies</h3>
+        <span class="line-accent"></span>
+        <div id="portfolio">
+          {% if site.data.companies.startups.size > 0 %}
+          <ul id="startup-grid" class="startup-grid grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0,  "isFitWidth": true, "columnWidth": 300}'>
+
+            {% for company in site.data.companies.startups %}
+            <li class="company-card">
+              <a href={{company.site-url}}><img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}></a>
+            </li>
+            {% endfor %}
+
+          </ul>
+          {% endif %}
+
+
         </div><!-- portfolio -->
       </div>
     </div>
   </div>
-</div>
