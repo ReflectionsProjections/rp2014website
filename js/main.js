@@ -19,18 +19,3 @@
 
 })(jQuery)
 
-function mason(){
-  if($('#grid')){
-    // masonry for front page
-    $('#grid').masonry({
-      itemSelector : '.speaker-box',
-      columnWidth: 900
-    });
-
-    //masonry for speaker pages
-    $('#grid').masonry({
-      itemSelector : '.company-card',
-      columnWidth: 900
-    });
-  }
-}
