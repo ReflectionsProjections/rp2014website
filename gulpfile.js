@@ -25,6 +25,12 @@ gulp.task('images', function(){
   .pipe(gulp.dest('dist/img'));
 });
 
+gulp.task('companies', function(){ 
+  return gulp.src('img/companies/**/*')
+  .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
+  .pipe(gulp.dest('dist/img'));
+});
+
 gulp.task('js', function() {
   // Minify and copy all JavaScript (except vendor scripts)
   return gulp.src([jsPath])
