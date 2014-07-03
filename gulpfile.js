@@ -25,14 +25,7 @@ gulp.task('images', function(){
   .pipe(gulp.dest('dist/img'));
  });
 
- gulp.task('companies', function(){
-  return gulp.src('img/companies/**/*')
-  .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
-  .pipe(gulp.dest('dist/img'));
- });
-
-
-gulp.task('companies', function(){ 
+gulp.task('companies', function(){
   return gulp.src('img/companies/**/*')
   .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
   .pipe(gulp.dest('dist/img'));
