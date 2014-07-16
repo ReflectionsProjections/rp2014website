@@ -7,7 +7,7 @@ layout: default
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <div class="speaker-image">
-          <img src="/dist/img/{{page.image-url}}" alt="{{page.name}}" height="150px" width="150px" class="circular">
+          <img src="{{ site.baseurl }}/dist/img/{{page.image-url}}" alt="{{page.name}}" height="150px" width="150px" class="circular">
         </div>
         <h1>{{page.name}}</h1>
         <p>{{page.tagline}}</p>
@@ -47,8 +47,6 @@ layout: default
           <h4>Loc: {{page.talk_loc}}</h4>
         </ul>
       </article>
-
-
     </section>
 
   </div>

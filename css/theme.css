@@ -16282,7 +16282,7 @@ hr {
 
 /* line 226, ../_sass/theme.scss */
 #headerwrap {
-  background: url(/dist/img/splash.png) no-repeat center top;
+  background: url(../img/splash.png) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -16337,7 +16337,7 @@ hr {
 
 /* line 277, ../_sass/theme.scss */
 #serviceswrap {
-  background: url(/dist/img/services-bg.jpg) no-repeat center top;
+  background: url(../img/services-bg.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -16366,7 +16366,7 @@ hr {
 
 /* line 302, ../_sass/theme.scss */
 #aboutwrap {
-  background: url(/dist/img/about-bg.jpg) no-repeat center top;
+  background: url(../img/about-bg.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -16395,7 +16395,7 @@ hr {
 
 /* line 327, ../_sass/theme.scss */
 #portwrap {
-  background: url(/dist/img/portfolio-bg.jpg) no-repeat center top;
+  background: url(../img/portfolio-bg.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;
@@ -16436,7 +16436,7 @@ hr {
 
 /* line 360, ../_sass/theme.scss */
 #sp-standout {
-  background: url(/dist/img/sp-standout-bg.jpg) no-repeat center top;
+  background: url(../img/sp-standout-bg.jpg) no-repeat center top;
   margin-top: -10px;
   padding-top: 20px;
   text-align: center;

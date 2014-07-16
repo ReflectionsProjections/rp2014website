@@ -20,7 +20,6 @@ envs = {
     }
 }
 
-
 local_path = './' # Project directory.  Change this to absolute to run it from elsewhere
 build_dir = '/tmp/rp2014'
 def build(environment='dev'):
@@ -33,7 +32,6 @@ def build(environment='dev'):
 def deploy(environment='prod', netid=None):
     if environment == 'dev':
         raise "Can't deploy while in dev environment! Try prod or stage."
-
     build(environment)
     # Set the user to use for ssh
     if not netid:

@@ -12,16 +12,7 @@ title: Schedule
   </div><!-- /container -->
 </div>
 
-
 <div class="container wrapper">
-  <!--
-  <header class="row  centered">
-    <div class="col-lg-10 col-lg-offset-1">
-      <h1>Schedule</h1>
-    </div>
-  </header>
--->
-
 <section class="row mt centered schedule-nav">
   <div class="col-lg-12">
     <ul>
@@ -31,7 +22,6 @@ title: Schedule
     </ul>
   </div>
 </section>
-
 
 <section class="calendar-wrapper">
   {% for day in site.data.schedule %}
@@ -48,7 +38,7 @@ title: Schedule
           </div>
           <div class="item-middle">
             {% if item.img-url %}
-            <img src="/dist/img/{{item.img-url}}" alt="{{item.name}}" class="avatar" height="93px" width="93px">
+            <img src="{{ site.baseurl }}/dist/img/{{item.img-url}}" alt="{{item.name}}" class="avatar" height="93px" width="93px">
             {% else %}
             <span class="avatar-blank"></span>
             {% endif %}
@@ -73,6 +63,5 @@ title: Schedule
   {% endfor %}
 
 </section> <!-- Calendar Wrapper-->
-
 
 </div> <!-- Container -->
