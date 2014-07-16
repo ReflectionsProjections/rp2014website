@@ -21,15 +21,3 @@
   src: url("fonts/Whitney/whitney-book.eot");
   src: url("fonts/Whitney/whitney-book.eot") format("embedded-opentype"), url("fonts/Whitney/whitney-book.woff") format("woff"), url("fonts/Whitney/whitney-book.ttf") format("truetype"), url("fonts/Whitney/whitney-book.svg#WhitneyBookRegular") format("svg");
 }
-
-@font-face {
-  font-family: 'Whitney-Bold';
-  src: url("fonts/Whitney/whitney-book.eot");
-  src: url("fonts/Whitney/whitney-book.eot") format("embedded-opentype"), url("fonts/Whitney/whitney-book.woff") format("woff"), url("fonts/Whitney/whitney-book.ttf") format("truetype"), url("fonts/Whitney/whitney-book.svg#WhitneyBookRegular") format("svg");
-}
-
-@font-face {
-  font-family: 'Whitney-Light';
-  src: url("fonts/Whitney/whitney-book.eot");
-  src: url("fonts/Whitney/whitney-book.eot") format("embedded-opentype"), url("fonts/Whitney/whitney-book.woff") format("woff"), url("fonts/Whitney/whitney-book.ttf") format("truetype"), url("fonts/Whitney/whitney-book.svg#WhitneyBookRegular") format("svg");
-}
