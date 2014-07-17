@@ -33285,6 +33285,10 @@ section.talk-details {
 }
 
 /* line 14, ../_sass/career_fairs.scss */
+.grid li:hover img {
+  opacity: 1;
+}
+/* line 18, ../_sass/career_fairs.scss */
 .grid li.company-card {
   opacity: 1;
   padding: 2.5rem;
@@ -33292,6 +33296,13 @@ section.talk-details {
   margin-left: 5px;
   margin-right: 5px;
   width: 30%;
+  -webkit-transform: scale(0.95);
+  -webkit-transition: all .05s ease-in-out;
+}
+/* line 29, ../_sass/career_fairs.scss */
+.grid li.company-card:hover {
+  box-shadow: 0 1px 6px #aaa;
+  -webkit-transform: scale(1);
 }
 
 /* line 1, ../_sass/mm.scss */
@@ -33341,7 +33352,7 @@ section.talk-details {
     font-size: 22px;
   }
 }
-/*Speaker Card Media Queries for index.html and /speakers. */
+/*Speaker Card Media Queries for index.html, /companies and /speakers. */
 @media (max-width: 600px) {
   /* line 36, ../_sass/media-queries.scss */
   .grid li {
@@ -33349,73 +33360,8 @@ section.talk-details {
   }
 }
 @media (max-width: 600px) {
-  /* line 43, ../_sass/media-queries.scss */
+  /* line 42, ../_sass/media-queries.scss */
   .speaker-link:after {
     background: rgba(0, 0, 0, 0.7);
-  }
-
-  /* line 47, ../_sass/media-queries.scss */
-  .content-jenny-murphy:after {
-    content: "Jenny Murphy";
-  }
-
-  /* line 51, ../_sass/media-queries.scss */
-  .content-joe-lonsdale:after {
-    content: "Joe Lonsdale";
-  }
-
-  /* line 55, ../_sass/media-queries.scss */
-  .content-peter-norvig:after {
-    content: "Peter Norvig";
-  }
-
-  /* line 59, ../_sass/media-queries.scss */
-  .content-guido:after {
-    content: "Guido van Rossum";
-  }
-
-  /* line 63, ../_sass/media-queries.scss */
-  .content-zed-shaw:after {
-    content: "Zed Shaw";
-  }
-
-  /* line 67, ../_sass/media-queries.scss */
-  .content-woz:after {
-    content: "Steve Wozniak";
-  }
-
-  /* line 71, ../_sass/media-queries.scss */
-  .content-joel-spolsky:after {
-    content: "Joel Spolsky";
-  }
-
-  /* line 75, ../_sass/media-queries.scss */
-  .content-jawed-karim:after {
-    content: "Jawed Karim";
-  }
-
-  /* line 79, ../_sass/media-queries.scss */
-  .content-max-levchin:after {
-    content: "Max Levchin";
-  }
-
-  /* line 83, ../_sass/media-queries.scss */
-  .content-ari-gesher:after {
-    content: "Ari Gesher";
-  }
-
-  /* line 87, ../_sass/media-queries.scss */
-  .content-gerry-tan:after {
-    content: "Garry Tan";
-  }
-
-  /* line 91, ../_sass/media-queries.scss */
-  .content-feinberg:after {
-    content: "Danielle Feinberg";
-  }
-
-  /* line 95, ../_sass/media-queries.scss */
-  .content-alexis-ohanian:after {
-    content: "Alexis Ohanian";
   }
 }

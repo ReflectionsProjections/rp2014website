@@ -91,9 +91,11 @@ title: Career Fairs
               <ul id="startup-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0}'>
 
                 {% for company in site.data.companies.startups %}
-                <li class="company-card">
-                  <a href={{company.site-url}}><img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}></a>
-                </li>
+                <a href={{company.site-url}}>
+                  <li class="company-card">
+                    <img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}>
+                  </li>
+                </a>
                 {% endfor %}
 
               </ul>

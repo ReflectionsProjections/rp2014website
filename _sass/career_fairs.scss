@@ -10,7 +10,11 @@
 .grid {
 
   li {
-
+    &:hover {
+      img {
+        opacity: 1;
+      }
+    }
     &.company-card{
       @extend .card;
       opacity: 1;
@@ -19,6 +23,12 @@
       margin-left: 5px;
       margin-right: 5px;
       width: 30%;
+      -webkit-transform: scale(0.95);
+      -webkit-transition: all .05s ease-in-out;
+    }
+    &.company-card:hover{
+      box-shadow: 0 1px 6px #aaa;
+      -webkit-transform: scale(1);
     }
   }
 }
