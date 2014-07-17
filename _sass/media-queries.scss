@@ -1,4 +1,4 @@
-/*media queries for type styles on index.html*/
+/*Media Queries for type styles on index.html*/
 
 @media (max-width:717px) {
   .container h2.event-heading {
@@ -41,5 +41,15 @@
 @media (max-width:600px) {
   .speaker-link:after {
     background: rgba(0, 0, 0, 0.7);
+  }
+}
+
+/*Media Queries for /schedule */
+
+@media (max-width:675px) {
+  .schedule-nav ul li {
+    width: 100%;
+    border-left: none;
+    padding: 5px 25px;
   }
 }
