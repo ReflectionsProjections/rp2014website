@@ -14,7 +14,7 @@ regular:
   - name: facebook
     bio: yolo
     image-url: facebook.png
-    site-url: https://www.facebook.
+    site-url: https://www.facebook.com
   - name: linkedin
     bio: none
     image-url: linkedin.png
