@@ -33328,7 +33328,7 @@ section.talk-details {
   font-style: italic;
 }
 
-/*media queries for type styles on index.html*/
+/*Media Queries for type styles on index.html*/
 @media (max-width: 717px) {
   /* line 4, ../_sass/media-queries.scss */
   .container h2.event-heading {
@@ -33374,5 +33374,14 @@ section.talk-details {
   /* line 42, ../_sass/media-queries.scss */
   .speaker-link:after {
     background: rgba(0, 0, 0, 0.7);
+  }
+}
+/*Media Queries for /schedule */
+@media (max-width: 675px) {
+  /* line 50, ../_sass/media-queries.scss */
+  .schedule-nav ul li {
+    width: 100%;
+    border-left: none;
+    padding: 5px 25px;
   }
 }
