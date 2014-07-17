@@ -14,7 +14,11 @@ regular:
   - name: facebook
     bio: yolo
     image-url: facebook.png
-    site-url: https://www.facebook.com
+    site-url: https://www.facebook.
+  - name: linkedin
+    bio: none
+    image-url: linkedin.png
+    site-url: https://www.linkedin.com
   - name: microsoft
     bio: yolo
     image-url: microsoft.png
@@ -27,6 +31,10 @@ regular:
     bio: yolo
     image-url: salesforce.png
     site-url: https://www.salesforce.com
+  - name: uber
+    bio: yeah
+    image-url: uber.png
+    site-url: https://www.uber.com/
   - name: yelp
     bio: yolo
     image-url: yelp.jpg
@@ -41,6 +49,10 @@ startups:
     bio: yolo
     image-url: coinbase.png
     site-url: https://www.coinbase.com
+  - name: coreos
+    bio: none
+    image-url: coreos.png
+    site-url: https://www.coreos.com/
   - name: relateiq
     bio: yolo
     image-url: relateiq.png
