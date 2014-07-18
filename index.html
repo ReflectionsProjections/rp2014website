@@ -49,11 +49,11 @@ title: Home
   <div class="container content">
    <div class="row mt">
     <div id="main-grid" class="col-lg-10 col-lg-offset-1">
-      <ul class="grid effect-2 js-masonry" id="main-grid">
+      <ul class="grid effect-2" id="grid" data-masonry-options='{ "itemSelector": ".speaker-box" }'>
         {% for speaker in site.data.speakers %}
           <li class="speaker-box">
             <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#">
-              <img class="speaker-img" src="/dist/img/speakers/{{speaker.image-url}}">
+              <img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}">
                 <!--  <h1>{{speaker.name}}</h1> -->
             </a>
           </li>

@@ -7,16 +7,8 @@
     var $mainGrid = $('#main-grid');
     var $speakerGrid = $('#speaker-grid');
 
-    //main grid
-    if($mainGrid){
-      $mainGrid.imagesLoaded(function(){
-        $mainGrid.masonry({
-          'itemSelector': '.speaker-box'
-        });
-      });
-    }
 
-    if($speakerGrid){
+    if($speakerGrid.length){
       $speakerGrid.imagesLoaded(function(){
         $speakerGrid.masonry({
           'itemSelector': '.speaker-box'
@@ -27,7 +19,7 @@
 
 
     //startup grid
-    if($startupGrid){
+    if($startupGrid.length){
       $startupGrid.imagesLoaded(function(){
         $startupGrid.masonry({
           'gutter': 0,
@@ -37,7 +29,7 @@
     }
 
     //larger company grid
-    if($regularGrid){
+    if($regularGrid.length){
       $regularGrid.imagesLoaded(function(){
         $regularGrid.masonry({
           'gutter': 0,
