@@ -2,6 +2,50 @@
 
     renderMap($);
 
+    var $regularGrid = $('#regular-grid');
+    var $startupGrid = $('#startup-grid');
+    var $mainGrid = $('#main-grid');
+    var $speakerGrid = $('#speaker-grid');
+
+    //main grid
+    if($mainGrid){
+      $mainGrid.imagesLoaded(function(){
+        $mainGrid.masonry({
+          'itemSelector': '.speaker-box'
+        });
+      });
+    }
+
+    if($speakerGrid){
+      $speakerGrid.imagesLoaded(function(){
+        $speakerGrid.masonry({
+          'itemSelector': '.speaker-box'
+        });
+      });
+    }
+
+
+
+    //startup grid
+    if($startupGrid){
+      $startupGrid.imagesLoaded(function(){
+        $startupGrid.masonry({
+          'gutter': 0,
+          'itemSelector': '.company-card',
+        });
+      });
+    }
+
+    //larger company grid
+    if($regularGrid){
+      $regularGrid.imagesLoaded(function(){
+        $regularGrid.masonry({
+          'gutter': 0,
+          'itemSelector': '.company-card',
+        });
+      });
+    }
+
 })(jQuery);
 
 

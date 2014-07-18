@@ -48,8 +48,8 @@ title: Home
 <div id="portfolio">
   <div class="container content">
    <div class="row mt">
-    <div class="col-lg-10 col-lg-offset-1">
-      <ul class="grid effect-2 js-masonry" id="grid" data-masonry-options='{ "itemSelector": ".speaker-box" }'>
+    <div id="main-grid" class="col-lg-10 col-lg-offset-1">
+      <ul class="grid effect-2 js-masonry" id="main-grid">
         {% for speaker in site.data.speakers %}
           <li class="speaker-box">
             <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#">

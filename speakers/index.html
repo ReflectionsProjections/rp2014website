@@ -30,7 +30,7 @@ title: Speakers
       <!-- Speaker Images -->
       <div id="portfolio">
        <div class="row mt">
-        <ul class="grid effect-2 js-masonry" id="grid" data-masonry-options='{ "itemSelector": ".speaker-box" }'>
+        <ul class="grid effect-2" id="speaker-grid">
           {% for speaker in site.data.speakers %}
             <li class="speaker-box">
               <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#">
