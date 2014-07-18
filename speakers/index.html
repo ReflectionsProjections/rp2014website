@@ -25,17 +25,21 @@ title: Speakers
 
   <div class="row mt">
     <div class="col-lg-10 col-lg-offset-1">
+      <h3 class="grey-border">Past Speakers</h3>
+      <span class="line-accent"></span>
       <!-- Speaker Images -->
       <div id="portfolio">
        <div class="row mt">
-        <ul class="grid effect-2 js-masonry" id="grid" data-masonry-options='{ "itemSelector": ".speaker-box" }'>
-     {% for speaker in site.data.speakers %}
-     <li class="speaker-box"><a class="speaker-link content-{{speaker.content-name}}" href="#"><img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}">
-      <!--  <h1>{{speaker.name}}</h1> -->
-    </a></li>
-    {% endfor %}
-
-  </ul>
+        <ul class="grid effect-2" id="grid">
+          {% for speaker in site.data.speakers %}
+            <li class="speaker-box">
+              <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#">
+                <img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}"/>
+                <!--  <h1>{{speaker.name}}</h1> -->
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
      </div><!-- row -->
    </div><!-- portfolio -->
  </div>

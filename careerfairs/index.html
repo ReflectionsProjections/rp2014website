@@ -52,16 +52,15 @@ title: Career Fairs
           <div id="portfolio">
            <div class="row mt">
             <div class="col-lg-10 col-lg-offset-1">
-
               {% if site.data.companies.regular.size > 0 %}
-              <ul id="regular-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0}'>
-
+              <ul id="regular-grid" class="grid effect-2">
                 {% for company in site.data.companies.regular %}
                 <li class="company-card">
-                  <a href={{company.site-url}}><img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}></a>
+                  <a href={{company.site-url}}>
+                    <img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}>
+                  </a>
                 </li>
                 {% endfor %}
-
               </ul>
               {% endif %}
 
@@ -85,11 +84,13 @@ title: Career Fairs
 
 
               {% if site.data.companies.startups.size > 0 %}
-              <ul id="startup-grid" class="grid effect-2 js-masonry" data-masonry-options='{ "itemSelector": ".company-card" , "gutter": 0}'>
+              <ul id="startup-grid" class="grid effect-2">
 
                 {% for company in site.data.companies.startups %}
                 <li class="company-card">
-                  <a href={{company.site-url}}><img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}></a>
+                  <a href={{company.site-url}}>
+                    <img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}>
+                  </a>
                 </li>
                 {% endfor %}
 
