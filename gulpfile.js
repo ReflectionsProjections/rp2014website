@@ -23,6 +23,12 @@ gulp.task('images', function(){
   return gulp.src(imagePath)
   .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
   .pipe(gulp.dest('dist/img'));
+ });
+
+gulp.task('companies', function(){
+  return gulp.src('img/companies/**/*')
+  .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
+  .pipe(gulp.dest('dist/img'));
 });
 
 gulp.task('js', function() {
