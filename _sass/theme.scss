@@ -25,6 +25,10 @@ body {
   }
 }
 
+.wrapper > .container > h2 {
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
 .container{
 
   & h1, h2, h3, h4, h5, h6 {
@@ -32,7 +36,14 @@ body {
     font-weight: 300;
   }
   & h2.event-heading {
-    font-size: 50px;
+    font-size: 40px;
+  }
+  & h3.page-context-header {
+    font-size: 24px;
+    margin-top: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
   }
 }
 
@@ -144,11 +155,11 @@ hr {
     vertical-align: middle;
     text-align: left;
     width: 17%;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 40px;
     margin: 25px 2px;
-    .menu a>i.fa-facebook {
-    }
+  }
+  .menu a>i.fa-facebook {
     width: 13%;
   }
   .menu-close {
@@ -294,10 +305,10 @@ hr {
 }
 #serviceswrap h2 {
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   letter-spacing: 2px;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 #aboutwrap {
   background: url(../img/about-bg.jpg) no-repeat center top;
@@ -319,11 +330,13 @@ hr {
 }
 #aboutwrap h2 {
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   letter-spacing: 2px;
-  margin-top: 150px;
+  margin-top: 50px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
 }
+
 #portwrap {
   background: url(../img/portfolio-bg.jpg) no-repeat center top;
   margin-top: -10px;
@@ -344,10 +357,11 @@ hr {
 }
 #portwrap h2 {
   color: #fff;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 400;
   letter-spacing: 2px;
-  margin-top: 150px;
+  margin-top: 50px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
 }
 #sp {
   background: #2f2f2f;
