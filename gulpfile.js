@@ -28,7 +28,7 @@ gulp.task('images', function(){
 gulp.task('companies', function(){
   return gulp.src('img/companies/**/*')
   .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
-  .pipe(gulp.dest('dist/img'));
+  .pipe(gulp.dest('dist/img/companies'));
 });
 
 gulp.task('js', function() {
