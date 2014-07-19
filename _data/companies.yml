@@ -1,4 +1,12 @@
 regular:
+  - name: adobe
+    bio: bio
+    image-url: adobe.png
+    site-url: http://www.adobe.com/
+  - name: allston
+    bio: bio
+    image-url: allston.png
+    site-url: http://www.allstontrading.com/
   - name: brightroll
     bio: yeah
     image-url: brightroll.jpg
@@ -15,6 +23,14 @@ regular:
     bio: yolo
     image-url: facebook.png
     site-url: https://www.facebook.com
+  - name: godaddy
+    bio: yolo
+    image-url: godaddy.png
+    site-url: http://www.godaddy.com/
+  - name: indeed
+    bio: yes
+    image-url: indeed.png
+    site-url: http://www.indeed.com/
   - name: linkedin
     bio: none
     image-url: linkedin.png
@@ -31,6 +47,10 @@ regular:
     bio: yolo
     image-url: salesforce.png
     site-url: https://www.salesforce.com
+  - name: turn
+    bio: left?
+    image-url: turn.png
+    site-url: http://www.turn.com/
   - name: uber
     bio: yeah
     image-url: uber.png
