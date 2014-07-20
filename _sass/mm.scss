@@ -10,3 +10,34 @@
   font-style: italic;
 }
 
+p {
+    &:hover {
+      img {
+        opacity: 1;
+      }
+    }
+    &.company-card{
+      @extend .card;
+      opacity: 1;
+      padding: 2.5rem;
+      margin-left: 5px;
+      margin-right: 5px;
+      -webkit-transform: scale(0.95);
+      -moz-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+      -o-transform: scale(0.95);
+      transform: scale(0.95);
+      -webkit-transition: all .05s ease-in-out;
+      -moz-transition: all .05s ease-in-out;
+      -o-transition: all .05s ease-in-out;
+      transition: all .05s ease-in-out;
+    }
+    &.company-card:hover{
+      box-shadow: 0 1px 6px #aaa;
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+    }
+  }
