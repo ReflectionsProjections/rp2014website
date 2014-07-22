@@ -3,6 +3,10 @@ regular:
     bio: bio
     image-url: adobe.png
     site-url: http://www.adobe.com/
+  - name: airbnb
+    bio: yolo
+    image-url: airbnb.png
+    site-url: http://www.airbnb.com/
   - name: allston
     bio: bio
     image-url: allston.png
@@ -73,6 +77,14 @@ startups:
     bio: none
     image-url: coreos.png
     site-url: https://www.coreos.com/
+  - name: delphix
+    bio: nah
+    image-url: delphix.png
+    site-url: http://www.delphix.com
+  - name: nextcapital
+    bio: pass
+    image-url: nextcapital.png
+    site-url: http://www.nextcapital.com
   - name: relateiq
     bio: yolo
     image-url: relateiq.png
