@@ -29,6 +29,12 @@
     font-size: 22px;
   }
 }
+@media (max-width:1200px) {
+  #services h3 {
+    text-align: center;
+  }
+}
+
 
 /*Speaker Card Media Queries for index.html, /companies and /speakers. */
 
@@ -39,8 +45,17 @@
 }
 
 @media (max-width:600px) {
+  .grid li.company-card {
+    width: 47.3%;
+  }
+}
+
+@media (max-width:600px) {
   .speaker-link:after {
     background: rgba(0, 0, 0, 0.7);
+  }
+  .content-speakername:after {
+    content: attr(data-speakername);
   }
 }
 
