@@ -56,11 +56,11 @@ title: Career Fairs
               {% if site.data.companies.regular.size > 0 %}
               <ul id="regular-grid" class="grid effect-2">
                 {% for company in site.data.companies.regular %}
-                <li class="company-card">
-                  <a href={{company.site-url}}>
+                <a href={{company.site-url}}>
+                  <li class="company-card">
                     <img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}>
-                  </a>
-                </li>
+                  </li>
+                </a>
                 {% endfor %}
               </ul>
               {% endif %}
