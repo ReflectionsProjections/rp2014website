@@ -10,9 +10,20 @@
 .grid {
 
   li {
+    img {
+      -webkit-transition: all 0.25s linear;
+      -moz-transition: all 0.25s linear;
+      -o-transition: all 0.25s linear;
+      transition: all 0.25s linear;
+    }
     &:hover {
       img {
         opacity: 1;
+        -webkit-transform: scale(1.04);
+        -moz-transform: scale(1.04);
+        -ms-transform: scale(1.04);
+        -o-transform: scale(1.04);
+        transform: scale(1.04);
       }
     }
     &.company-card{
@@ -22,23 +33,13 @@
       margin-left: 5px;
       margin-right: 5px;
       width: 30%;
-      -webkit-transform: scale(0.95);
-      -moz-transform: scale(0.95);
-      -ms-transform: scale(0.95);
-      -o-transform: scale(0.95);
-      transform: scale(0.95);
-      -webkit-transition: all .05s ease-in-out;
-      -moz-transition: all .05s ease-in-out;
-      -o-transition: all .05s ease-in-out;
-      transition: all .05s ease-in-out;
+      -webkit-transition: all 0.25s ease-in-out;
+      -moz-transition: all 0.25s ease-in-out;
+      -o-transition: all 0.25s ease-in-out;
+      transition: all 0.25s ease-in-out;
     }
     &.company-card:hover{
       box-shadow: 0 1px 6px #aaa;
-      -webkit-transform: scale(1);
-      -moz-transform: scale(1);
-      -ms-transform: scale(1);
-      -o-transform: scale(1);
-      transform: scale(1);
     }
   }
 }
