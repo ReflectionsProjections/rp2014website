@@ -5,41 +5,43 @@
   @extend .header-wrap;
 }
 
+.career_fairs {
 
+  .grid {
 
-.grid {
-
-  li {
-    img {
-      -webkit-transition: all 0.25s linear;
-      -moz-transition: all 0.25s linear;
-      -o-transition: all 0.25s linear;
-      transition: all 0.25s linear;
-    }
-    &:hover {
+    li {
       img {
+        -webkit-transition: all 0.25s linear;
+        -moz-transition: all 0.25s linear;
+        -o-transition: all 0.25s linear;
+        transition: all 0.25s linear;
+      }
+      &:hover {
+        img {
+          opacity: 1;
+          -webkit-transform: scale(1.04);
+          -moz-transform: scale(1.04);
+          -ms-transform: scale(1.04);
+          -o-transform: scale(1.04);
+          transform: scale(1.04);
+        }
+      }
+      &.company-card{
+        @extend .card;
         opacity: 1;
-        -webkit-transform: scale(1.04);
-        -moz-transform: scale(1.04);
-        -ms-transform: scale(1.04);
-        -o-transform: scale(1.04);
-        transform: scale(1.04);
+        padding: 2.5rem;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 30%;
+        -webkit-transition: all 0.25s ease-in-out;
+        -moz-transition: all 0.25s ease-in-out;
+        -o-transition: all 0.25s ease-in-out;
+        transition: all 0.25s ease-in-out;
+      }
+      &.company-card:hover{
+        box-shadow: 0 1px 6px #aaa;
       }
     }
-    &.company-card{
-      @extend .card;
-      opacity: 1;
-      padding: 2.5rem;
-      margin-left: 5px;
-      margin-right: 5px;
-      width: 30%;
-      -webkit-transition: all 0.25s ease-in-out;
-      -moz-transition: all 0.25s ease-in-out;
-      -o-transition: all 0.25s ease-in-out;
-      transition: all 0.25s ease-in-out;
-    }
-    &.company-card:hover{
-      box-shadow: 0 1px 6px #aaa;
-    }
   }
+
 }
