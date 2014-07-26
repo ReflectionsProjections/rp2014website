@@ -1,6 +1,6 @@
 
 - name: Jenny Murphy
-  image-url: jenny-murphy.png
+  image-url: jenny-murphy.jpg
   content-name: jenny-murphy
   tagline: certified baller
   bio: blah
@@ -10,7 +10,7 @@
   talk_location: funkytown
 
 - name: Joe Lonsdale
-  image-url: joe-lonsdale.png
+  image-url: joe-lonsdale.jpg
   content-name: joe-lonsdale
   tagline: certified baller
   bio: blah
@@ -20,7 +20,7 @@
   talk_location: funkytown
 
 - name: Peter Norvig
-  image-url: peter-norvig.png
+  image-url: peter-norvig.jpg
   content-name: peter-norvig
   tagline: certified baller
   bio: blah
@@ -31,7 +31,7 @@
 
 
 - name: Guido Van Rossum
-  image-url: guido.png
+  image-url: guido.jpg
   content-name: guido
   tagline: certified baller
   bio: blah
@@ -41,7 +41,7 @@
   talk_location: funkytown
 
 - name: Zed Shaw
-  image-url: zed-shaw.png
+  image-url: zed-shaw.jpg
   content-name: zed-shaw
   tagline: certified baller
   bio: blah
@@ -51,7 +51,7 @@
   talk_location: funkytown
 
 - name: Steve Wozniak
-  image-url: woz.png
+  image-url: woz.jpg
   content-name: woz
   tagline: certified baller
   bio: blah
@@ -61,7 +61,7 @@
   talk_location: funkytown
 
 - name: Joel Spolsky
-  image-url: joel_spolsky.png
+  image-url: joel_spolsky.jpg
   content-name: joel-spolsky
   tagline: certified baller
   bio: blah
@@ -71,7 +71,7 @@
   talk_location: funkytown
 
 - name: Jawed Karim
-  image-url: Jawed_Karim.png
+  image-url: Jawed_Karim.jpg
   content-name: jawed-karim
   tagline: certified baller
   bio: blah
@@ -81,7 +81,7 @@
   talk_location: funkytown
 
 - name: Max Levchin
-  image-url: levchin.png
+  image-url: levchin.jpg
   content-name: max-levchin
   tagline: certified baller
   bio: blah
@@ -91,7 +91,7 @@
   talk_location: funkytown
 
 - name: Ari Gesher
-  image-url: gesher.png
+  image-url: gesher.jpg
   content-name: ari-gesher
   tagline: certified baller
   bio: "Peter Norvig is a Fellow of the American Association for Artificial Intelligence and the Association for Computing Machinery. At Google Inc he was Director of Search Quality, responsible for the core web search algorithms from 2002-2005, and has been Director of Research from 2005 on.\nPreviously he was the head of the Computational Sciences Division at NASA Ames Research Center, making him NASA's senior computer scientist. He received the NASA Exceptional Achievement Award in 2001. He has served as an assistant professor at the University of Southern California and a research faculty member at the University of California at Berkeley Computer Science Department, from which he received a Ph.D. in 1986 and the distinguished alumni award in 2006. He has over fifty publications in Computer Science, concentrating on Artificial Intelligence, Natural Language Processing and Software Engineering, including the books Artificial Intelligence: A Modern Approach (the leading textbook in the field), Paradigms of AI Programming: Case Studies in Common Lisp, Verbmobil: A Translation System for Face-to-Face Dialog, and Intelligent Help Systems for UNIX. He is also the author of the Gettysburg Powerpoint Presentation and the world's longest palindromic sentence."
@@ -101,7 +101,7 @@
   talk_location: funkytown
 
 - name: Garry Tan
-  image-url: gerry-tan.png
+  image-url: gerry-tan.jpg
   content-name: gerry-tan
   tagline: certified baller
   bio: blah
@@ -111,17 +111,17 @@
   talk_location: funkytown
 
 - name: Danielle Feinberg
-  image-url: feinberg.png
+  image-url: feinberg.jpg
   content-name: feinberg
   tagline: certified baller
   bio: blah
-  abstract: Bespoke normcore bitters slow-carb locavore fap. Freegan XOXO pop-up gastropub mustache, PBR&B Intelligentsia cornhole Truffaut banjo. Street art aesthetic Portland fashion axe Neutra, Banksy post-ironic. Asymmetrical keffiyeh quinoa Pinterest, occupy Marfa Portland 3 wolf moon pork belly gentrify pour-over kitsch PBR tote bag. Mlkshk post-ironic distillery mumblecore, messenger bag selvage try-hard kogi pug fap put a bird on it. Cardigan Austin raw denim gastropub. Organic selfies Bushwick, Schlitz Brooklyn keytar vegan ethical umami VHS sustainable tote bag artisan Portland.Roof party quinoa semiotics, next level church-key direct trade locavore occupy single-origin coffee disrupt tote bag PBR forage. Bushwick cray Pinterest, Wes Anderson Banksy tousled forage Marfa Helvetica meggings vegan Godard plaid 3 wolf moon. Church-key gastropub chillwave farm-to-table Truffaut master cleanse street art, vegaroof party chambray cardigan letterpress mlkshk iPhone keffiyeh. Mustache deep v hashtag, disrupt church-key fanny pack Intelligentsia art party sartorial XOXO typewriter cliche. Blue Bottle Neutra cliche, banh mi lomo Austin post-ironic. Narwhal cliche food truck ethnic fanny pack. Pitchfork mlkshk ethnic messenger bag freegan fashion axe, readymade bespoke locavore artisan tofu brunch.
+  abstract: Bespoke normcore bitters slow-carb lstocavore fap. Freegan XOXO pop-up gastropub mustache, PBR&B Intelligentsia cornhole Truffaut banjo. Street art aesthetic Portland fashion axe Neutra, Banksy post-ironic. Asymmetrical keffiyeh quinoa Pinterest, occupy Marfa Portland 3 wolf moon pork belly gentrify pour-over kitsch PBR tote bag. Mlkshk post-ironic distillery mumblecore, messenger bag selvage try-hard kogi pug fap put a bird on it. Cardigan Austin raw denim gastropub. Organic selfies Bushwick, Schlitz Brooklyn keytar vegan ethical umami VHS sustainable tote bag artisan Portland.Roof party quinoa semiotics, next level church-key direct trade locavore occupy single-origin coffee disrupt tote bag PBR forage. Bushwick cray Pinterest, Wes Anderson Banksy tousled forage Marfa Helvetica meggings vegan Godard plaid 3 wolf moon. Church-key gastropub chillwave farm-to-table Truffaut master cleanse street art, vegaroof party chambray cardigan letterpress mlkshk iPhone keffiyeh. Mustache deep v hashtag, disrupt church-key fanny pack Intelligentsia art party sartorial XOXO typewriter cliche. Blue Bottle Neutra cliche, banh mi lomo Austin post-ironic. Narwhal cliche food truck ethnic fanny pack. Pitchfork mlkshk ethnic messenger bag freegan fashion axe, readymade bespoke locavore artisan tofu brunch.
   talk_time: 11
   talk_abstract: won't you take me to...
   talk_location: funkytown
 
 - name: Alexis-Ohanian
-  image-url: Alexis-Ohanian.png
+  image-url: Alexis-Ohanian.jpg
   content-name: alexis-ohanian
   tagline: certified baller
   bio: blah
