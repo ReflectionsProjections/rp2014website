@@ -1,15 +1,13 @@
 #schedule-wrap{
   @extend .header-wrap;
-  background: url(../img/mo2copy.png) no-repeat center top;
+  background: url(../img/mo2copy.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
 }
 
-
 .calendar-wapper{
   margin: 0 auto;
 }
-
 
 .side-col{
   float: left;
@@ -55,7 +53,6 @@
     padding-top: 120px;
   }
 
-
   & header{
     text-align: center;
     padding-bottom: 5px;
@@ -93,15 +90,11 @@
       border-radius: 10px;
     }
   }
-
 }
-
-
 
 .schedule{
 
   list-style:none;
-
 
   li{
     overflow: hidden;
@@ -112,14 +105,12 @@
     width: 100%;
   }
 
-
   .item-left{
     @extend .side-col;
     text-align: right;
     padding-right: 85px;
     padding-top: 35px;
   }
-
 
   & .item-right {
     @extend .side-col;
@@ -130,14 +121,6 @@
       font-weight: bold;
       font-size: 110%;
     }
-
-    & event.location{
-
-    }
-
-
-
-
 
   }
 
@@ -182,14 +165,11 @@
     }
   }
 
-
   li+li {
    border-left: 1px solid #A6A6A6;
  }
 
 }
-
-
 
 //mobile styles
 @media only screen
@@ -208,7 +188,6 @@ and (max-device-width : 480px) {
 
     .item-middle{
       left: 25%;
-
     }
 
     .item-right{
