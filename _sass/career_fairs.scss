@@ -1,5 +1,5 @@
 #cfwrap{
-  background: url(../img/fair2copy.png) no-repeat center top;
+  background: url(../img/fair2copy.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
   @extend .header-wrap;
@@ -10,6 +10,7 @@
   .grid {
 
     li {
+
       img {
         -webkit-transition: all 0.25s linear;
         -moz-transition: all 0.25s linear;
