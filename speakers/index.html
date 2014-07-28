@@ -33,8 +33,8 @@ title: Speakers
        <div class="row mt">
         <ul class="grid effect-2" id="grid">
           {% for speaker in site.data.speakers %}
-            <li class="speaker-box">
-              <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#">
+            <li id="{{speaker.content-name}}"class="speaker-box">
+              <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#{{speaker.content-name}}">
                 <img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}"/>
                 <!--  <h1>{{speaker.name}}</h1> -->
               </a>
