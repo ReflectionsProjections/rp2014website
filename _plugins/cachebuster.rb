@@ -8,7 +8,7 @@ module Jekyll
   class Cachebuster < Liquid::Tag
  
     def render(context)
-      "#{Digest::MD5.hexdigest(Time.now.to_s)}"
+      "#{'?'+Digest::MD5.hexdigest(Time.now.to_s)}"
     end
   end
 end
