@@ -15,6 +15,14 @@ regular:
     bio: yeah
     image-url: brightroll.jpg
     site-url: http://www.brightroll.com
+  - name: bungie
+    bio: pewpewpew
+    image-url: bungie.png
+    site-url: https://www.bungie.net/
+  - name: capitalone
+    bio: tab
+    image-url: capitalone.jpg
+    site-url: https://www.capitalone.com/
   - name: dropbox
     bio: yolo
     image-url: dropbox.png
@@ -31,6 +39,10 @@ regular:
     bio: yolo
     image-url: godaddy.png
     site-url: http://www.godaddy.com/
+  - name: google
+    bio: google
+    image-url: google.png
+    site-url: https://www.google.com
   - name: indeed
     bio: yes
     image-url: indeed.png
@@ -69,6 +81,10 @@ startups:
     bio: yolo
     image-url: a16z.png
     site-url: https://www.a16z.com
+  - name: civisanalytics
+    bio: yeah
+    image-url: civisanalytics.jpg
+    site-url: http://www.civisanalytics.com/
   - name: coinbase
     bio: yolo
     image-url: coinbase.png
@@ -85,6 +101,14 @@ startups:
     bio: pass
     image-url: nextcapital.png
     site-url: http://www.nextcapital.com
+  - name: onenorth
+    bio: yeah
+    image-url: onenorth.png
+    site-url: http://www.onenorth.com/
+  - name: qumulo
+    bio: yolo
+    image-url: qumulo.png
+    site-url: http://www.qumulo.com/
   - name: relateiq
     bio: yolo
     image-url: relateiq.png
