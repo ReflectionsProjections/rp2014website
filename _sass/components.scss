@@ -31,7 +31,6 @@
   }
 }
 
-
 .rp-button{
   color: #fff;
   font-weight: 300;
@@ -42,17 +41,13 @@
   }
   & a{
     color: inherit;
-
   }
-
 }
-
 
 .btn.btn-blue {
   @extend .rp-button;
   background-color: $rp-blue;
   border-color: $rp-blue;
-
 
   &:hover, &:focus, &:active, &.active, .open{
     @extend .rp-button;
@@ -60,7 +55,6 @@
     border-color: $rp-blue + 10;
   }
 }
-
 
 .btn-orange {
   @extend .rp-button;
@@ -106,7 +100,6 @@
   animation:fly-in-from-left .5s 1s ease both;
   transform-origin:top left;
 }
-
 
 .circular {
   display: block;

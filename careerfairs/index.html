@@ -14,10 +14,11 @@ title: Career Fairs
     </div><!-- /container -->
   </div>
 
-  <div class="container wrapper">
+  <div class="container wrapper career_fairs">
     <div class="row mt">
       <div class="col-lg-10 col-lg-offset-1">
-        <h2>Looking for a job or internship? You've come to the right place! Reflections | Projections is where some of the top companies recruit in a casual atmosphere. Bring your resume, but you can leave the suit at home!</h2>
+        <h2>Looking for a job or internship? You've come to the right place! <br>
+        Reflections | Projections is where some of the top companies recruit in a casual atmosphere. Bring your resume, but you can leave the suit at home!</h2>
       </div>
     </div>
 
@@ -55,11 +56,11 @@ title: Career Fairs
               {% if site.data.companies.regular.size > 0 %}
               <ul id="regular-grid" class="grid effect-2">
                 {% for company in site.data.companies.regular %}
-                <li class="company-card">
-                  <a href={{company.site-url}}>
+                <a href={{company.site-url}}>
+                  <li class="company-card">
                     <img src={{ site.baseurl }}/dist/img/companies/{{company.image-url}}>
-                  </a>
-                </li>
+                  </li>
+                </a>
                 {% endfor %}
               </ul>
               {% endif %}
