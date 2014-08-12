@@ -8,13 +8,15 @@
     "imagemin-jpegtran": "~0.1.0"
   },
   "devDependencies": {
+    "del": "^0.1.1",
     "gulp": "~3.8.0",
-    "gulp-util": "latest",
-    "gulp-watch": "latest",
-    "gulp-uglify": "latest",
     "gulp-csslint": "latest",
     "gulp-imagemin": "~0.1.5",
-    "gulp-minify-css": "~0.3.0"
+    "gulp-minify-css": "~0.3.0",
+    "gulp-uglify": "latest",
+    "gulp-uncss": "^0.4.5",
+    "gulp-util": "latest",
+    "gulp-watch": "latest"
   },
   "engines": {
     "npm": "1.2.x"
