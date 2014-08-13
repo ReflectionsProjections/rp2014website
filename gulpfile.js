@@ -13,66 +13,85 @@ var gulp = require('gulp')
 , fs = require('fs')
 , child_process = require('child_process')
 , del = require('del')
+, changed = require('gulp-changed')
 ;
 
 var BASE_PATH = "_site/";
 var DIST_PATH = BASE_PATH + "dist/";
 var IMG_PATH = BASE_PATH + "img/**/*";
+var COMPANY_IMG_PATH = BASE_PATH + "img/**/*";
 var JS_PATH = BASE_PATH + "js/**/*.js";
 var CSS_PATH = BASE_PATH + "css/**/*.css";
 
 var IMG_EXT = ['jpg', 'JPG', 'jpeg', 'png'];
 var IMG_SRC = IMG_EXT.map(function(e){return IMG_PATH + '.' + e; });
 
-/*
-var pages = [];
-var dirContents = fs.readdirSync('.');
+
+var PAGES = ['index.html'];
+var dirContents = fs.readdirSync(BASE_PATH);
 dirContents.forEach(function(item){
-  if(fs.statSync().isDirectory){
-    pages.push(item + "/index.html");
+  var itemPath = BASE_PATH + item;
+  if(fs.statSync(itemPath).isDirectory){
+    var indexPath = itemPath + '/index.html';
+    if (fs.existsSync(indexPath)) {
+     PAGES.push(indexPath);
+    }
   }
 });
-*/
-gulp.task('clean', function(){
-  return del([BASE_PATH]);
+
+gulp.task('clean', function(cb){
+  return del(["_site"], cb);
 });
 
 // compresses all images
 gulp.task('img', function(){
+  var SRC = [IMG_PATH];
+  var DEST = DIST_PATH + '/img';
   // compresses all images
-  return gulp.src(IMG_PATH)
-  .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
-  .pipe(gulp.dest('dist/img'));
+  return gulp.src(SRC)
+    .pipe(changed(DEST))
+    .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
+    .pipe(gulp.dest(DEST));
  });
 
 // compresses only company images
 gulp.task('companies', function(){
+  var SRC = [COMPANY_IMG_PATH];
+  var DEST = DIST_PATH + '/img/companies';
+
   // compresses only company images
-  return gulp.src('img/companies/**/*')
-  .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
-  .pipe(gulp.dest('dist/img/companies'));
+  return gulp.src(SRC)
+    .pipe(changed(DEST))
+    .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
+    .pipe(gulp.dest(DEST));
 });
 
 
 gulp.task('js', function() {
   // Minify and copy all JavaScript (except vendor scripts)
-  return gulp.src([JS_PATH])
-  .pipe(uglify().on('error', gutil.log))
-  .pipe(gulp.dest(DIST_PATH + 'js/'));
+  var SRC = [JS_PATH];
+  var DEST = DIST_PATH + 'js/'
+  return gulp.src(SRC)
+    .pipe(changed(DEST))
+    .pipe(uglify().on('error', gutil.log))
+    .pipe(gulp.dest(DEST));
 });
 
 gulp.task('css', function(){
   // strips, prefixes, and minifies css
-  return gulp.src([CSS_PATH])
-  .pipe(uncss({html: [pages]}))
-  .pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7", { cascade: true })).on('error', gutil.log)
-  .pipe(cssminify().on('error', gutil.log))
-  .pipe(gulp.dest(DIST_PATH + 'css/'));
+  var SRC = [CSS_PATH];
+  var DEST = DIST_PATH + 'css/'
+
+  return gulp.src(SRC)
+    .pipe(uncss({html: PAGES}))
+    .pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7", { cascade: true })).on('error', gutil.log)
+    .pipe(cssminify().on('error', gutil.log))
+    .pipe(gulp.dest(DEST));
 });
 
-gulp.task('build', function(){
+gulp.task('build', function(cb){
   // executes jekyll build
-  child_process.spawn('jekyll', ['build'], {stdio: 'inherit'});
+  child_process.spawn('jekyll', ['build'], {stdio: 'inherit'}, cb);
 });
 
 // Rerun the task when a file changes
@@ -82,4 +101,4 @@ gulp.task('watch', function () {
   gulp.watch(CSS_PATH, ['css']);
 });
 
-gulp.task('default', ['clean', 'build','js', 'css','img','watch']);
+gulp.task('default', ['build','js', 'css','img','watch']);
