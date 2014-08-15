@@ -59,10 +59,22 @@ regular:
     bio: yolo
     image-url: neustar.jpg
     site-url: https://www.neustar.biz
+  - name: riverbed
+    bio: none
+    image-url: riverbed.png
+    site-url: http://www.riverbed.com/
+  - name: roblox
+    bio: yolo
+    image-url: roblox.png
+    site-url: http://www.roblox.com/
   - name: salesforce
     bio: yolo
     image-url: salesforce.png
     site-url: https://www.salesforce.com
+  - name: sandia
+    bio: yolo
+    image-url: sandia.png
+    site-url: http://www.sandia.gov/
   - name: turn
     bio: left?
     image-url: turn.png
@@ -76,7 +88,15 @@ regular:
     image-url: yelp.jpg
     site-url: https://www.yelp.com
 
-startups: 
+startups:
+  - name: 1871
+    bio: yo
+    image-url: 1871.jpg
+    site-url: http://www.1871.com/
+  - name: 3red
+    bio: yolololo
+    image-url: 3red.png
+    site-url: http://www.3redgroup.com/ 
   - name: a16z
     bio: yolo
     image-url: a16z.png
@@ -109,14 +129,14 @@ startups:
     bio: yolo
     image-url: qumulo.png
     site-url: http://www.qumulo.com/
-  - name: relateiq
-    bio: yolo
-    image-url: relateiq.png
-    site-url: https://www.relateiq.com
   - name: siftscience
     bio: yolo
     image-url: siftscience.png
     site-url: https://siftscience.com
+  - name: skycatch
+    bio: yolo
+    image-url: skycatch.png
+    site-url: http://www.skycatch.com/
   - name: trunkclub
     bio: nah
     image-url: trunkclub.jpg
