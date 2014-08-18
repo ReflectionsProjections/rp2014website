@@ -96,9 +96,9 @@ gulp.task('build', function(cb){
 
 // Rerun the task when a file changes
 gulp.task('watch', function () {
-  gulp.watch('.', ['build']);
   gulp.watch(JS_PATH, ['js']);
   gulp.watch(CSS_PATH, ['css']);
 });
 
+gulp.task('assets', ['js', 'css', 'img']);
 gulp.task('default', ['build','js', 'css','img','watch']);
