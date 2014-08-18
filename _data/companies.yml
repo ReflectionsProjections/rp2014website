@@ -15,6 +15,14 @@ regular:
     bio: yeah
     image-url: brightroll.jpg
     site-url: http://www.brightroll.com
+  - name: bungie
+    bio: pewpewpew
+    image-url: bungie.png
+    site-url: https://www.bungie.net/
+  - name: capitalone
+    bio: tab
+    image-url: capitalone.jpg
+    site-url: https://www.capitalone.com/
   - name: dropbox
     bio: yolo
     image-url: dropbox.png
@@ -31,6 +39,10 @@ regular:
     bio: yolo
     image-url: godaddy.png
     site-url: http://www.godaddy.com/
+  - name: google
+    bio: google
+    image-url: google.png
+    site-url: https://www.google.com
   - name: indeed
     bio: yes
     image-url: indeed.png
@@ -47,10 +59,22 @@ regular:
     bio: yolo
     image-url: neustar.jpg
     site-url: https://www.neustar.biz
+  - name: riverbed
+    bio: none
+    image-url: riverbed.png
+    site-url: http://www.riverbed.com/
+  - name: roblox
+    bio: yolo
+    image-url: roblox.png
+    site-url: http://www.roblox.com/
   - name: salesforce
     bio: yolo
     image-url: salesforce.png
     site-url: https://www.salesforce.com
+  - name: sandia
+    bio: yolo
+    image-url: sandia.png
+    site-url: http://www.sandia.gov/
   - name: turn
     bio: left?
     image-url: turn.png
@@ -64,11 +88,23 @@ regular:
     image-url: yelp.jpg
     site-url: https://www.yelp.com
 
-startups: 
+startups:
+  - name: 1871
+    bio: yo
+    image-url: 1871.jpg
+    site-url: http://www.1871.com/
+  - name: 3red
+    bio: yolololo
+    image-url: 3red.png
+    site-url: http://www.3redgroup.com/ 
   - name: a16z
     bio: yolo
     image-url: a16z.png
     site-url: https://www.a16z.com
+  - name: civisanalytics
+    bio: yeah
+    image-url: civisanalytics.jpg
+    site-url: http://www.civisanalytics.com/
   - name: coinbase
     bio: yolo
     image-url: coinbase.png
@@ -85,14 +121,22 @@ startups:
     bio: pass
     image-url: nextcapital.png
     site-url: http://www.nextcapital.com
-  - name: relateiq
+  - name: onenorth
+    bio: yeah
+    image-url: onenorth.png
+    site-url: http://www.onenorth.com/
+  - name: qumulo
     bio: yolo
-    image-url: relateiq.png
-    site-url: https://www.relateiq.com
+    image-url: qumulo.png
+    site-url: http://www.qumulo.com/
   - name: siftscience
     bio: yolo
     image-url: siftscience.png
     site-url: https://siftscience.com
+  - name: skycatch
+    bio: yolo
+    image-url: skycatch.png
+    site-url: http://www.skycatch.com/
   - name: trunkclub
     bio: nah
     image-url: trunkclub.jpg
