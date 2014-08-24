@@ -20,7 +20,7 @@ var gulp = require('gulp')
  * PATH CONSTANTS
  */
 
-var BASE_PATH = "_site/";
+var BASE_PATH = "./";//"_site/";
 var DIST_PATH = BASE_PATH + "dist/";
 var IMG_PATH = BASE_PATH + "img/**/*";
 var COMPANY_IMG_PATH = BASE_PATH + "img/**/*";
@@ -51,11 +51,10 @@ dirContents.forEach(function(item){
 // HACK -- this should really parse the JS files to search for
 // referenced css
 var UNCSS_IGNORED_SELECTORS = [
-  '.menu-close',
-  '.body-push-toLeft',
-  '.menu-open',
-  '.(\w)+:hover',
-  '.(\w)+:active',
+  '.body-push-toleft',
+  '.menu(\S)+',
+  '.(\S)+:hover',
+  '.(\S)+:active',
 ];
 
 gulp.task('clean', function(cb){
@@ -102,7 +101,7 @@ gulp.task('css', function(){
   var DEST = DIST_PATH + 'css/'
 
   return gulp.src(SRC)
-    .pipe(uncss({html: PAGES, ignore: UNCSS_IGNORED_SELECTORS}))
+    //.pipe(uncss({html: PAGES, ignore: UNCSS_IGNORED_SELECTORS}))
     .pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7", { cascade: true })).on('error', gutil.log)
     .pipe(cssminify().on('error', gutil.log))
     .pipe(gulp.dest(DEST));
