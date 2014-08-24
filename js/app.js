@@ -13,23 +13,6 @@
     $('#theMenu').toggleClass('menu-open');
   });
 
-
-   if($mainGrid.length){
-    $mainGrid.imagesLoaded(function(){
-      $mainGrid.masonry({
-        'itemSelector': '.speaker-box'
-      });
-    });
-  }
-
-  if($speakerGrid.length){
-    $speakerGrid.imagesLoaded(function(){
-      $speakerGrid.masonry({
-        'itemSelector': '.speaker-box'
-      });
-    });
-  }
-
     //startup grid
     if($startupGrid.length){
       $startupGrid.imagesLoaded(function(){
