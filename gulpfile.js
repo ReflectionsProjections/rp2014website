@@ -16,18 +16,26 @@ var gulp = require('gulp')
 , changed = require('gulp-changed')
 ;
 
-var BASE_PATH = "_site/";
+/*
+ * PATH CONSTANTS
+ */
 
+var BASE_PATH = "_site/";
 var DIST_PATH = BASE_PATH + "dist/";
 var IMG_PATH = BASE_PATH + "img/**/*";
 var COMPANY_IMG_PATH = BASE_PATH + "img/**/*";
 var JS_PATH = BASE_PATH + "js/**/*.js";
 var CSS_PATH = BASE_PATH + "css/**/*.css";
 
+ /*
+  * IMAGE CONSTANTS
+  */
 var IMG_EXT = ['jpg', 'JPG', 'jpeg', 'png'];
 var IMG_SRC = IMG_EXT.map(function(e){return IMG_PATH + '.' + e; });
 
-
+/*
+ * UNCSS CONSTANTS
+ */
 var PAGES = ['index.html'];
 var dirContents = fs.readdirSync(BASE_PATH);
 dirContents.forEach(function(item){
@@ -39,6 +47,16 @@ dirContents.forEach(function(item){
     }
   }
 });
+
+// HACK -- this should really parse the JS files to search for
+// referenced css
+var UNCSS_IGNORED_SELECTORS = [
+  '.menu-close',
+  '.body-push-toLeft',
+  '.menu-open',
+  '.(\w)+:hover',
+  '.(\w)+:active',
+];
 
 gulp.task('clean', function(cb){
   return del(["_site"], cb);
