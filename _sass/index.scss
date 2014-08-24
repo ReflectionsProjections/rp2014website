@@ -5,6 +5,11 @@
   border-bottom: 1px solid rgba(0,0,0,.1);
 }
 
+.disableClick{
+  pointer-events: none;
+  color: $light-grey-text;
+}
+
 .parallax {
   height: 100%;
   background-color: transparent;
