@@ -102,7 +102,7 @@ gulp.task('css', function(){
   var DEST = DIST_PATH + 'css/'
 
   return gulp.src(SRC)
-    .pipe(uncss({html: PAGES}))
+    .pipe(uncss({html: PAGES, ignore: UNCSS_IGNORED_SELECTORS}))
     .pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7", { cascade: true })).on('error', gutil.log)
     .pipe(cssminify().on('error', gutil.log))
     .pipe(gulp.dest(DEST));
