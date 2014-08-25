@@ -1,0 +1,52 @@
+---
+layout: default
+title: Speakers
+---
+<div class="wrapper" id="speakers-wrap">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h3 class="page-context-header">― Speakers ―</h3>
+        <h2>Come and hear from some of the most accomplished people in their field!</h2>
+      </div>
+    </div><!-- row -->
+  </div><!-- /container -->
+</div>
+
+
+<div class="container wrapper">
+  <div class="row mt">
+    <div class="col-lg-10 col-lg-offset-1 centered">
+      <!--
+      <h2>We have some absolutely fantastic speakers coming from all over the US to talk on topics ranging from semiconductors to mobile application development to computer science theory!
+      </h2> -->
+      <h2>Reflections|Projections features speakers from all corners of the tech industry and internet. In our 20th year we reflect on some of our most accomplished speakers. Please stay tuned for further announcements of this year's speakers!</h2>
+    </div>
+  </div>
+
+  <div class="row mt">
+    <div class="col-lg-10 col-lg-offset-1">
+      <h3 class="grey-border">Past Speakers</h3>
+      <span class="line-accent"></span>
+      <!-- Speaker Images -->
+      <div id="portfolio">
+       <div class="row mt">
+        <ul
+          class="grid effect-2"
+          id="grid"
+          data-masonry-options="{'itemSelector': '.speaker-box'}"
+        >
+          {% for speaker in site.data.speakers %}
+            <li id="{{speaker.content-name}}"class="speaker-box">
+              <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#{{speaker.content-name}}">
+                <img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}"/>
+                <!--  <h1>{{speaker.name}}</h1> -->
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+     </div><!-- row -->
+   </div><!-- portfolio -->
+ </div>
+</div>
+</div>

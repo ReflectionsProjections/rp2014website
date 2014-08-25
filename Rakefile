@@ -6,9 +6,6 @@ require 'time'
 desc "Migrate Speaker Data to post templates"
 task :speakers do
 
-  #delete old generated speaker templates
-  FileUtils.rm_rf('./speakers/')
-  FileUtils.mkdir('speakers')
   #generate new speaker templates
 
   speakers = YAML.load_file("_data/speakers.yml")
