@@ -6,17 +6,20 @@ require 'time'
 desc "Migrate Speaker Data to post templates"
 task :speakers do
 
+  #delete old generated speaker templates
+  FileUtils.rm_rf('./speakers/')
+  FileUtils.mkdir('speakers')
+  #generate new speaker templates
 
-  #load speakers.yml data
   speakers = YAML.load_file("_data/speakers.yml")
   speakers.each do |speaker|
-    fname = speaker['image-url'].split('.').first
+    fname = speaker['content-name'].split('.').first.downcase.gsub(/[^0-9a-z ]/i, '')
     fname = "speakers/#{fname}.html"
     open(fname, 'w') do |post|
       post.puts "---"
       post.puts "layout: speaker"
       post.puts "title: Speakers - #{speaker['name']}"
-      post.puts "name: #{speaker['name']}"
+      post.puts "speakername: #{speaker['name']}"
       post.puts "image-url: #{speaker['image-url']}"
       post.puts "tagline: #{speaker['tagline']}"
       post.puts "bio: #{speaker['bio']}"

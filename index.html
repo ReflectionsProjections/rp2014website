@@ -17,19 +17,6 @@ title: Home
 </div><!-- /container -->
 </div><!-- /headerwrap -->
 
-<!-- Sponsor Icons -->
-<div class="lg-grey">
-  <div class="container content">
-   <div class="row centered">
-    <h3>Sponsor R|P 2014</h3>
-    <div class="col-lg-8 col-lg-offset-2">
-      <p>Reflections | Projections is still looking for company sponsors for 2014. Help us make the 20th year our biggest year yet!</p>
-      <p><button type="button" class="btn btn-orange btn-lg"><a href="{{ site.baseurl }}/about">Sponsor</a></button></p>
-    </div>
-  </div><!-- row -->
-</div><!-- container -->
-</div><!-- dg -->
-
 <!-- WELCOME SECTION -->
 <div class="lg">
   <div class="container content">
@@ -49,9 +36,13 @@ title: Home
   <div class="container content">
    <div class="row mt">
     <div id="main-grid" class="col-lg-10 col-lg-offset-1">
-      <ul class="grid effect-2" id="grid" data-masonry-options='{ "itemSelector": ".speaker-box" }'>
+      <ul
+        class="grid effect-2"
+        id="grid"
+        data-masonry-options="{'itemSelector': '.speaker-box'}"
+      >
         {% for speaker in site.data.speakers %}
-          <li id={{"speaker.content-name"}}class="speaker-box">
+          <li id={{"speaker.content-name"}} class="speaker-box">
             <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#{{speaker.content-name}}">
               <img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}">
                 <!--  <h1>{{speaker.name}}</h1> -->
