@@ -1,4 +1,8 @@
 regular:
+  - name: activision
+    bio: yolo
+    image-url: activision.png
+    site-url: http://www.activision.com/
   - name: adobe
     bio: bio
     image-url: adobe.png
@@ -101,6 +105,10 @@ startups:
     bio: yolo
     image-url: a16z.png
     site-url: https://www.a16z.com
+  - name: avantcredit
+    bio: yolo
+    image-url: avantcredit.jpg
+    site-url: https://www.avantcredit.com/
   - name: civisanalytics
     bio: yeah
     image-url: civisanalytics.jpg
