@@ -19,7 +19,7 @@ task :speakers do
       post.puts "---"
       post.puts "layout: speaker"
       post.puts "title: Speakers - #{speaker['name']}"
-      post.puts "name: #{speaker['name']}"
+      post.puts "speakername: #{speaker['name']}"
       post.puts "image-url: #{speaker['image-url']}"
       post.puts "tagline: #{speaker['tagline']}"
       post.puts "bio: #{speaker['bio']}"
