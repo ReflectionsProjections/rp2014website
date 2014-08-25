@@ -1,15 +1,21 @@
-#speaker-wrap{
+#speaker-wrap {
   background: url(../img/sc.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
   @extend .header-wrap;
 
-  & .container{
+  & .container {
     margin-top: 5%;
     color: #fff;
 
-    & h1{
+    & h1 {
       color: #fff;
+      text-shadow: 1px 1px 4px rgba(0,0,0,.2);
+    }
+    & p {
+      text-transform: uppercase;
+      text-shadow: 1px 1px 4px rgba(0,0,0,.2);
+      letter-spacing: 0.07em;
     }
   }
 
