@@ -34,8 +34,25 @@ title: About
       <span class="line-accent"></span>
       <ul class="past-conferences">
         {% for year in site.data.years %}
-        {% if year > 1999 %}
-        <li><a href="http://www.acm.uiuc.edu/conference/{{year}}">{{year}}</a></li>
+        {% if year.date > 1999 %}
+        {% if year.active %}
+          <li>
+            <a href="http://www.acm.uiuc.edu/conference/{{year.date}}">
+              {{year.date}}
+            </a>
+          </li>
+        {% else %}
+         <li>
+          <a
+            href="http://www.acm.uiuc.edu/conference/{{year.date}}"
+            class='disableClick'
+          >
+            {{year.date}}
+          </a>
+        </li>
+
+        {% endif %}
+
         {% endif %}
         {% endfor %}
       </ul>
