@@ -13,7 +13,7 @@ task :speakers do
 
   speakers = YAML.load_file("_data/speakers.yml")
   speakers.each do |speaker|
-    fname = speaker['image-url'].split('.').first.downcase.gsub(/[^0-9a-z ]/i, '')
+    fname = speaker['content-name'].split('.').first.downcase.gsub(/[^0-9a-z ]/i, '')
     fname = "speakers/#{fname}.html"
     open(fname, 'w') do |post|
       post.puts "---"
