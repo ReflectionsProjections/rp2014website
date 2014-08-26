@@ -32,21 +32,21 @@ title: Speakers
       <div id="portfolio">
        <div class="row mt">
         <ul
-        class="grid effect-2"
-        id="grid"
-        data-masonry-options="{'itemSelector': '.speaker-box'}"
+          class="grid effect-2"
+          id="grid"
+          data-masonry-options="{'itemSelector': '.speaker-box'}"
         >
-        {% for speaker in site.data.speakers %}
-        <li id="{{speaker.content-name}}"class="speaker-box">
-          <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#{{speaker.content-name}}">
-            <img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}"/>
-            <!--  <h1>{{speaker.name}}</h1> -->
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div><!-- row -->
-  </div><!-- portfolio -->
-</div>
+          {% for speaker in site.data.speakers %}
+            <li id="{{speaker.content-name}}"class="speaker-box">
+              <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#{{speaker.content-name}}">
+                <img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}"/>
+                <!--  <h1>{{speaker.name}}</h1> -->
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+     </div><!-- row -->
+   </div><!-- portfolio -->
+ </div>
 </div>
 </div>
