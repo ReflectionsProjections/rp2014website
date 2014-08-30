@@ -15,7 +15,7 @@
     - time: 5 PM - 8:45 PM
       name: Opening Speakers
       loc:
-      img-url: speakers/joe-lonsdale.jpg
+      img-url:
 
     - time: 9 PM - 10 PM
       name: Mechmania Opening Ceremonies
@@ -28,7 +28,7 @@
     - time: 10 AM - 8:45 PM
       name: Speakers
       loc:
-      img-url: speakers/peter-norvig.jpg
+      img-url:
 
 
 - name: Sunday
