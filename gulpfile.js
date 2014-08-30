@@ -20,7 +20,7 @@ var gulp = require('gulp')
  * PATH CONSTANTS
  */
 
-var BASE_PATH = "./";
+var BASE_PATH = "_site/";
 var DIST_PATH = BASE_PATH + "dist/";
 var IMG_PATH = BASE_PATH + "img/**/*";
 var COMPANY_IMG_PATH = BASE_PATH + "img/**/*";

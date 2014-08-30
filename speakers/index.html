@@ -20,7 +20,7 @@ title: Speakers
       <!--
       <h2>We have some absolutely fantastic speakers coming from all over the US to talk on topics ranging from semiconductors to mobile application development to computer science theory!
       </h2> -->
-      <h2>Reflections|Projections features speakers from all corners of the tech industry and internet. In our 20th year we reflect on some of our most accomplished speakers. Please stay tuned for further announcements of this year's speakers!</h2>
+      <h2>Reflections | Projections hosts fantastic speakers from across academia and industry. With topics ranging from computer security to game development, you will find a variety of talks and workshops to attend!</h2>
     </div>
   </div>
 
@@ -32,21 +32,21 @@ title: Speakers
       <div id="portfolio">
        <div class="row mt">
         <ul
-          class="grid effect-2"
-          id="grid"
-          data-masonry-options="{'itemSelector': '.speaker-box'}"
+        class="grid effect-2"
+        id="grid"
+        data-masonry-options="{'itemSelector': '.speaker-box'}"
         >
-          {% for speaker in site.data.speakers %}
-            <li id="{{speaker.content-name}}"class="speaker-box">
-              <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#{{speaker.content-name}}">
-                <img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}"/>
-                <!--  <h1>{{speaker.name}}</h1> -->
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-     </div><!-- row -->
-   </div><!-- portfolio -->
- </div>
+        {% for speaker in site.data.speakers %}
+        <li id="{{speaker.content-name}}"class="speaker-box">
+          <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#{{speaker.content-name}}">
+            <img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}"/>
+            <!--  <h1>{{speaker.name}}</h1> -->
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div><!-- row -->
+  </div><!-- portfolio -->
+</div>
 </div>
 </div>
