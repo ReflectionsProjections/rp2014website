@@ -9,8 +9,8 @@ layout: default
         <div class="circle-speaker-image"
           style="background-image: url('{{ site.baseurl }}/dist/img/speakers/{{page.image-url}}')"
         ></div>
-        <h1>{{page.speakername}}</h1>
-        <p>{{page.tagline}}</p>
+        <h1>{{page.speakername | xml_escape | textilize }}</h1>
+        <p>{{page.tagline | xml_escape | textilize }}</p>
       </div>
     </div><!-- row -->
   </div><!-- /container -->
@@ -27,25 +27,25 @@ layout: default
         <span class="line-accent"></span>
         <ul>
           <li class="date"></li>
-          <h4>Date: {{page.talk_date}}</h4>
+          <h4>Date: {{page.talk_date | xml_escape | textilize}}</h4>
           <li class="time"></li>
-          <h4>Time: {{page.talk_time}}</h4>
+          <h4>Time: {{page.talk_time | xml_escape | textilize}}</h4>
           <li class="loc"></li>
-          <h4>Location: {{page.talk_loc}}</h4>
+          <h4>Location: {{page.talk_loc | xml_escape | textilize}}</h4>
         </ul>
       </article>
     </section>
 
     <section class="talk-info col-lg-8" >
       <article class="abstract">
-        <h3 class="grey-border">Abstract:</h3>
+        <h3 class="grey-border">Talk Abstract:</h3>
         <span class="line-accent"></span>
-        <p>{{page.abstract}}</p>
+        <p>{{page.abstract | xml_escape | textilize}}</p>
       </article>
       <article class="bio">
         <h3 class="grey-border">Bio:</h3>
         <span class="line-accent"></span>
-        <p>{{page.bio}}</p>
+        <p>{{page.bio | xml_escape | textilize}}</p>
       </article>
 
     </section>
