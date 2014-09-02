@@ -14,13 +14,15 @@ var gulp = require('gulp')
 , child_process = require('child_process')
 , del = require('del')
 , changed = require('gulp-changed')
+, concat = require('gulp-concat')
+, argv = require('yargs').argv
 ;
 
 /*
  * PATH CONSTANTS
  */
 
-var BASE_PATH = "_site/";
+var BASE_PATH = argv.dev ? "./" : "_site/";
 var DIST_PATH = BASE_PATH + "dist/";
 var IMG_PATH = BASE_PATH + "img/**/*";
 var COMPANY_IMG_PATH = BASE_PATH + "img/**/*";
@@ -53,8 +55,11 @@ dirContents.forEach(function(item){
 var UNCSS_IGNORED_SELECTORS = [
   '.body-push-toleft',
   '.menu(\S)+',
+  '.body-push-toleft',
+  '.acive',
   '.(\S)+:hover',
   '.(\S)+:active',
+  '.'
 ];
 
 gulp.task('clean', function(cb){
@@ -92,6 +97,7 @@ gulp.task('js', function() {
   return gulp.src(SRC)
     .pipe(changed(DEST))
     .pipe(uglify().on('error', gutil.log))
+    .pipe(concat('all.js'))
     .pipe(gulp.dest(DEST));
 });
 
@@ -101,7 +107,7 @@ gulp.task('css', function(){
   var DEST = DIST_PATH + 'css/'
 
   return gulp.src(SRC)
-    //.pipe(uncss({html: PAGES, ignore: UNCSS_IGNORED_SELECTORS}))
+    .pipe(uncss({html: PAGES, ignore: UNCSS_IGNORED_SELECTORS}))
     .pipe(prefix("last 1 version", "> 1%", "ie 8", "ie 7", { cascade: true })).on('error', gutil.log)
     .pipe(cssminify().on('error', gutil.log))
     .pipe(gulp.dest(DEST));
