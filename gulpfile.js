@@ -23,7 +23,6 @@ var gulp = require('gulp')
  */
 
 var BASE_PATH = argv.dev ? "./" : "_site/";
-console.log(BASE_PATH);
 var DIST_PATH = BASE_PATH + "dist/";
 var IMG_PATH = BASE_PATH + "img/**/*";
 var COMPANY_IMG_PATH = BASE_PATH + "img/**/*";
