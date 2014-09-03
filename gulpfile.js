@@ -57,8 +57,10 @@ var UNCSS_IGNORED_SELECTORS = [
   /.(\D)*menu(\D)*/,
   /.(\D)*active(\D)*/,
   /.(\D)*animate(\D)*/,
+  /.(\D)*shown(\D)*/,
   /.(\D)+:hover/,
   /.(\D)+:active/,
+
 ];
 
 gulp.task('clean', function(cb){
