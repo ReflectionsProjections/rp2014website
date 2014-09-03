@@ -54,12 +54,11 @@ dirContents.forEach(function(item){
 // referenced css
 var UNCSS_IGNORED_SELECTORS = [
   '.body-push-toleft',
-  '.menu(\S)+',
-  '.body-push-toleft',
-  '.acive',
-  '.(\S)+:hover',
-  '.(\S)+:active',
-  '.'
+  /.(\D)*menu(\D)*/,
+  /.(\D)*active(\D)*/,
+  /.(\D)*animate(\D)*/,
+  /.(\D)+:hover/,
+  /.(\D)+:active/,
 ];
 
 gulp.task('clean', function(cb){
@@ -97,7 +96,7 @@ gulp.task('js', function() {
   return gulp.src(SRC)
     .pipe(changed(DEST))
     .pipe(uglify().on('error', gutil.log))
-    .pipe(concat('all.js'))
+    //.pipe(concat('all.js'))
     .pipe(gulp.dest(DEST));
 });
 
