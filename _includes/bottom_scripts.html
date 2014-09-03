@@ -4,22 +4,34 @@
 <script src="{{ site.baseurl }}/dist/js/bootstrap.min.js"></script>
 <script src="{{ site.baseurl }}/dist/js/masonry.pkgd.min.js"></script>
 <script src="{{ site.baseurl }}/dist/js/imagesloaded.js"></script>
-<script src="{{ site.baseurl }}/dist/js/classie.js"></script>
 <script src="{{ site.baseurl }}/dist/js/AnimOnScroll.js"></script>
 
 <!-- App Script -->
 <script src="{{ site.baseurl }}/dist/js/app.js"></script>
 
-<!-- Google Analytics -->
-<script src="{{ site.baseurl }}/dist/js/ga.js"></script>
 
+<!-- Classie -->
 <script>
-var grid = document.getElementById('grid');
-if (grid) {
-  new AnimOnScroll( document.getElementById('grid'), {
-   minDuration : 0.4,
-   maxDuration : 0.7,
-   viewportFactor : 0.2
-  });
-}
+!function(s){"use strict";function n(s){return new RegExp("(^|\\s+)"+s+"(\\s+|$)")}function a(s,n){var a=e(s,n)?c:t;a(s,n)}var e,t,c;"classList"in document.documentElement?(e=function(s,n){return s.classList.contains(n)},t=function(s,n){s.classList.add(n)},c=function(s,n){s.classList.remove(n)}):(e=function(s,a){return n(a).test(s.className)},t=function(s,n){e(s,n)||(s.className=s.className+" "+n)},c=function(s,a){s.className=s.className.replace(n(a)," ")}),s.classie={hasClass:e,addClass:t,removeClass:c,toggleClass:a,has:e,add:t,remove:c,toggle:a}}(window);
 </script>
+<script>
+  var grid = document.getElementById('grid');
+  if (grid) {
+    new AnimOnScroll( document.getElementById('grid'), {
+     minDuration : 0.4,
+     maxDuration : 0.7,
+     viewportFactor : 0.2
+   });
+  }
+</script>
+
+<!-- Google Analytics -->
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-50026215-1', 'uiuc.edu');
+ga('send', 'pageview');
+</script>
+
