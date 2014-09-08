@@ -15,6 +15,10 @@ regular:
     bio: bio
     image-url: allston.png
     site-url: http://www.allstontrading.com/
+  - name: boa
+    bio: bio
+    image-url: boa.png
+    site-url: http://campus.bankofamerica.com/
   - name: brightroll
     bio: yeah
     image-url: brightroll.jpg
@@ -47,6 +51,10 @@ regular:
     bio: google
     image-url: google.png
     site-url: https://www.google.com
+  - name: imo
+    bio: idk
+    image-url: imo.png
+    site-url: https://www.e-imo.com/
   - name: indeed
     bio: yes
     image-url: indeed.png
@@ -79,6 +87,10 @@ regular:
     bio: yolo
     image-url: sandia.png
     site-url: http://www.sandia.gov/
+  - name: solsticemobile
+    bio: yolo
+    image-url: solstice.jpg
+    site-url: http://www.solstice-mobile.com/
   - name: turn
     bio: left?
     image-url: turn.png
@@ -105,6 +117,10 @@ startups:
     bio: yolo
     image-url: a16z.png
     site-url: https://www.a16z.com
+  - name: aqueoussolutions
+    bio: yolo
+    image-url: aqueoussoln.png
+    site-url: http://www.gwb.com/
   - name: avantcredit
     bio: yolo
     image-url: avantcredit.jpg
@@ -125,6 +141,10 @@ startups:
     bio: nah
     image-url: delphix.png
     site-url: http://www.delphix.com
+  - name: farmlogs
+    bio: pass
+    image-url: farmlogs.png
+    site-url: https://farmlogs.com/
   - name: nextcapital
     bio: pass
     image-url: nextcapital.png
@@ -137,6 +157,10 @@ startups:
     bio: yolo
     image-url: qumulo.png
     site-url: http://www.qumulo.com/
+  - name: rithmio
+    bio: yo
+    image-url: rithmio.png
+    site-url: http://rithmio.com/
   - name: siftscience
     bio: yolo
     image-url: siftscience.png
