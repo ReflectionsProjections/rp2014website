@@ -41,6 +41,9 @@
       &.company-card:hover{
         box-shadow: 0 1px 6px #aaa;
       }
+      &.company-card img {
+        max-width: 100%;
+      }
     }
   }
 
