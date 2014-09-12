@@ -39,6 +39,10 @@ regular:
     bio: yolo
     image-url: enova.jpg
     site-url: https://www.enova.com
+  - name: epic
+    bio: yolo
+    image-url: epic.png
+    site-url: http://www.epic.com/
   - name: facebook
     bio: yolo
     image-url: facebook.png
@@ -63,6 +67,10 @@ regular:
     bio: none
     image-url: linkedin.png
     site-url: https://www.linkedin.com
+  - name: matasano
+    bio: yolo
+    image-url: matasano.png
+    site-url: http://matasano.com/
   - name: microsoft
     bio: yolo
     image-url: microsoft.png
@@ -175,7 +183,7 @@ startups:
     site-url: http://www.skycatch.com/
   - name: sproutsocial
     bio: nah
-    image-rul: sproutsocial.png
+    image-url: sproutsocial.png
     site-url: http://sproutsocial.com/
   - name: trunkclub
     bio: nah
