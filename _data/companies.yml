@@ -15,6 +15,10 @@ regular:
     bio: bio
     image-url: allston.png
     site-url: http://www.allstontrading.com/
+  - name: boa
+    bio: bio
+    image-url: boa.png
+    site-url: http://campus.bankofamerica.com/
   - name: brightroll
     bio: yeah
     image-url: brightroll.jpg
@@ -35,6 +39,10 @@ regular:
     bio: yolo
     image-url: enova.jpg
     site-url: https://www.enova.com
+  - name: epic
+    bio: yolo
+    image-url: epic.png
+    site-url: http://www.epic.com/
   - name: facebook
     bio: yolo
     image-url: facebook.png
@@ -47,6 +55,10 @@ regular:
     bio: google
     image-url: google.png
     site-url: https://www.google.com
+  - name: imo
+    bio: idk
+    image-url: imo.png
+    site-url: https://www.e-imo.com/
   - name: indeed
     bio: yes
     image-url: indeed.png
@@ -55,6 +67,10 @@ regular:
     bio: none
     image-url: linkedin.png
     site-url: https://www.linkedin.com
+  - name: matasano
+    bio: yolo
+    image-url: matasano.png
+    site-url: http://matasano.com/
   - name: microsoft
     bio: yolo
     image-url: microsoft.png
@@ -70,7 +86,7 @@ regular:
   - name: roblox
     bio: yolo
     image-url: roblox.png
-    site-url: http://www.roblox.com/
+    site-url: http://corp.roblox.com/
   - name: salesforce
     bio: yolo
     image-url: salesforce.png
@@ -79,6 +95,10 @@ regular:
     bio: yolo
     image-url: sandia.png
     site-url: http://www.sandia.gov/
+  - name: solsticemobile
+    bio: yolo
+    image-url: solstice.jpg
+    site-url: http://www.solstice-mobile.com/
   - name: turn
     bio: left?
     image-url: turn.png
@@ -105,6 +125,10 @@ startups:
     bio: yolo
     image-url: a16z.png
     site-url: https://www.a16z.com
+  - name: aqueoussolutions
+    bio: yolo
+    image-url: aqueoussoln.png
+    site-url: http://www.gwb.com/
   - name: avantcredit
     bio: yolo
     image-url: avantcredit.jpg
@@ -125,6 +149,14 @@ startups:
     bio: nah
     image-url: delphix.png
     site-url: http://www.delphix.com
+  - name: farmlogs
+    bio: pass
+    image-url: farmlogs.png
+    site-url: https://farmlogs.com/
+  - name: firebase
+    bio: pass
+    image-url: firebase.png
+    site-url: https://www.firebase.com/
   - name: nextcapital
     bio: pass
     image-url: nextcapital.png
@@ -137,6 +169,10 @@ startups:
     bio: yolo
     image-url: qumulo.png
     site-url: http://www.qumulo.com/
+  - name: rithmio
+    bio: yo
+    image-url: rithmio.png
+    site-url: http://rithmio.com/
   - name: siftscience
     bio: yolo
     image-url: siftscience.png
@@ -145,6 +181,10 @@ startups:
     bio: yolo
     image-url: skycatch.png
     site-url: http://www.skycatch.com/
+  - name: sproutsocial
+    bio: nah
+    image-url: sproutsocial.png
+    site-url: http://sproutsocial.com/
   - name: trunkclub
     bio: nah
     image-url: trunkclub.jpg
