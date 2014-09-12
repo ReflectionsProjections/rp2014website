@@ -78,7 +78,7 @@ regular:
   - name: roblox
     bio: yolo
     image-url: roblox.png
-    site-url: http://www.roblox.com/
+    site-url: http://corp.roblox.com/
   - name: salesforce
     bio: yolo
     image-url: salesforce.png
@@ -145,6 +145,10 @@ startups:
     bio: pass
     image-url: farmlogs.png
     site-url: https://farmlogs.com/
+  - name: firebase
+    bio: pass
+    image-url: firebase.png
+    site-url: https://www.firebase.com/
   - name: nextcapital
     bio: pass
     image-url: nextcapital.png
@@ -169,6 +173,10 @@ startups:
     bio: yolo
     image-url: skycatch.png
     site-url: http://www.skycatch.com/
+  - name: sproutsocial
+    bio: nah
+    image-rul: sproutsocial.png
+    site-url: http://sproutsocial.com/
   - name: trunkclub
     bio: nah
     image-url: trunkclub.jpg
