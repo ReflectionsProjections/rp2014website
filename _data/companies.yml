@@ -35,6 +35,10 @@ regular:
     bio: yolo
     image-url: dropbox.png
     site-url: https://www.dropbox.com
+  - name: ebay
+    bio: yolo
+    image-url: ebay.jpg
+    site-url: http://www.ebayinc.com/
   - name: enova
     bio: yolo
     image-url: enova.jpg
