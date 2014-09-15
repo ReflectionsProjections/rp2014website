@@ -117,6 +117,9 @@ gulp.task('css', function(){
 gulp.task('build', function(cb){
   // executes jekyll build
   child_process.spawn('jekyll', ['build'], {stdio: 'inherit'}, cb);
+
+  // copy files in _data folder to _app/_data
+  gulp.src('./_data/*.*').pipe(gulp.dest('./_app/_data'))
 });
 
 // Rerun the task when a file changes
