@@ -7,8 +7,8 @@
   talk_time: TBA
   talk_location: TBA
 
-- name: "Jay \"Saurik\" Freeman"
-  image-url: "steve-zernik.jpg"
+- name: "Jay (Saurik) Freeman"
+  image-url: "jay-freeman.jpg"
   content-name: "saurik"
   tagline: NA
   bio: "Jay Freeman (@saurik) is the primary developer and community manager of Cydia, a platform that enables modification and extension of third-party software on \"jailbroken\" devices running iOS or Android. He also develops Cycript, an interactive tool for manipulating and exploring running applications on iOS and Mac OS X using a hybrid of Objective-C and JavaScript. On the side, Jay teaches classes on programming at the College of Creative Studies, University of California, Santa Barbara, with a focus on those just beginning to be interested in software."
@@ -17,7 +17,7 @@
   talk_location: TBA
 
 - name: "David Albrecht"
-  image-url: "steve-zernik.jpg"
+  image-url: "david-albrecht.jpg"
   content-name: "davidalbrecht"
   tagline: NA
   bio: "David Albrecht is a Senior Engineer in Platform at Crittercism, where he helped scale the company to 40,000 HTTP requests/s (70x traffic growth) and 50x data growth over two years. Crittercism tracks mobile app performance on approximately one billion mobile devices. Prior to Crittercism, David co-founded and sold Wishery, a Google Mail data connection plugin. David holds a Master's of Science in Electrical and Computer Engineering from the University of Illinois at Urbana-Champaign."
@@ -26,7 +26,7 @@
   talk_location: TBA
 
 - name: "Namrata Ganatra"
-  image-url: "steve-zernik.jpg"
+  image-url: "namrata-ganatra.jpg"
   content-name: "namrataganatra"
   tagline: NA
   bio: "Namrata is a payments veteran.  She is currently an Engineering Manager at Facebook where she leads Facebook’s payments platform. Prior to Facebook, Namrata was head of engineering for PayPal’s Digital Goods. She has also worked at a mobile payments startup Zong, which was acquired by PayPal.  She earned her Bachelor's Degree in Computer Science from India and started her career as a Software Engineer at Microsoft."
@@ -82,7 +82,7 @@
   talk_location: TBA
 
 - name: "Kevin Petrovic"
-  image-url: "small.jpg"
+  image-url: "kevin-petrovic.jpg"
   content-name: "kevinpetrovic"
   tagline: NA
   bio: ""
@@ -91,7 +91,7 @@
   talk_location: TBA
 
 - name: "Jeff Bezanson"
-  image-url: "jeff_bezanson.jpeg"
+  image-url: "jeff-bezanson.jpeg"
   content-name: "jeffbezanson"
   tagline: NA
   bio: "Before the Julia language project, Jeff Bezanson worked as a software engineer at Interactive Supercomputing, which developed the Star-P parallel extension to MATLAB. At the company, Jeff was a principal developer of M#, an implementation of the MATLAB language running on .NET. He is now a PhD student at MIT, and works on Julia full time. Jeff has an A.B. in Computer Science from Harvard University (2004)."
