@@ -1,56 +1,110 @@
-
-- name: Alex Polvi
-  image-url: alex-polvi.jpg
-  content-name: alexpolvi
-  tagline:
-  bio: TBA
+- name: "Steve LaValle"
+  image-url: "steve-zernik.jpg"
+  content-name: "stevelavalle"
+  tagline: NA
+  bio: "Steve LaValle started working with Oculus VR a few days after its successful Kickstarter campaign and led its R&D efforts up to its $2 billion acquisition by Facebook in March 2014.  He developed perceptually tuned head tracking methods used in the Oculus Rift, based on IMUs and computer vision.  He also led a team of perceptual psychologists to provide principled approaches to virtual reality system calibration and the design of comfortable user experiences.  He is also Professor of Computer Science at the University of Illinois.  He has worked in robotics for over 20 years and is known for his introduction of the Rapidly exploring Random Tree (RRTs) algorithm of motion planning and his book, Planning Algorithms."
   abstract: TBA
   talk_time: TBA
   talk_location: TBA
 
-- name: Drew Winship
-  image-url: drew-winship.jpg
-  content-name: drewwinship
-  tagline:
-  bio: TBA
+- name: "Jay \"Saurik\" Freeman"
+  image-url: "steve-zernik.jpg"
+  content-name: "saurik"
+  tagline: NA
+  bio: "Jay Freeman (@saurik) is the primary developer and community manager of Cydia, a platform that enables modification and extension of third-party software on \"jailbroken\" devices running iOS or Android. He also develops Cycript, an interactive tool for manipulating and exploring running applications on iOS and Mac OS X using a hybrid of Objective-C and JavaScript. On the side, Jay teaches classes on programming at the College of Creative Studies, University of California, Santa Barbara, with a focus on those just beginning to be interested in software."
+  abstract: TBA
+  talk_time: TBA
+  talk_location: TBA
+
+- name: "David Albrecht"
+  image-url: "steve-zernik.jpg"
+  content-name: "davidalbrecht"
+  tagline: NA
+  bio: "David Albrecht is a Senior Engineer in Platform at Crittercism, where he helped scale the company to 40,000 HTTP requests/s (70x traffic growth) and 50x data growth over two years. Crittercism tracks mobile app performance on approximately one billion mobile devices. Prior to Crittercism, David co-founded and sold Wishery, a Google Mail data connection plugin. David holds a Master's of Science in Electrical and Computer Engineering from the University of Illinois at Urbana-Champaign."
+  abstract: TBA
+  talk_time: TBA
+  talk_location: TBA
+
+- name: "Namrata Ganatra"
+  image-url: "steve-zernik.jpg"
+  content-name: "namrataganatra"
+  tagline: NA
+  bio: "Namrata is a payments veteran.  She is currently an Engineering Manager at Facebook where she leads Facebook’s payments platform. Prior to Facebook, Namrata was head of engineering for PayPal’s Digital Goods. She has also worked at a mobile payments startup Zong, which was acquired by PayPal.  She earned her Bachelor's Degree in Computer Science from India and started her career as a Software Engineer at Microsoft."
+  abstract: TBA
+  talk_time: TBA
+  talk_location: TBA
+
+- name: "Alex Polvi"
+  image-url: "alex-polvi.jpg"
+  content-name: "alexpolvi"
+  tagline: NA
+  bio: "Alex Polvi is the CEO of CoreOS, a Y-Combinator funded start-up, focusing on building a new operating system for massive server deployments. Prior to CoreOS Alex was GM for Rackspace Hosting, Bay Area, overseeing cloud product development. Alex joined Rackspace through the acquisition of his company, Cloudkick, which provided cloud server monitoring and management tools. Alex is a sysadmin at heart, contributing significantly to many open source projects, including Mozilla and Apache. He holds a BS in Computer Science from Oregon State University."
+  abstract: TBA
+  talk_time: TBA
+  talk_location: TBA
+
+-
+  name: "Drew Winship"
+  image-url: "drew-winship.jpg"
+  content-name: "drewwinship"
+  tagline: NA
+  bio: "Drew Winship spent the first few years of career establishing his practice as a litigator at the law firm of Brown & James, P.C. He represented some of the largest companies in the world in tort, contract, and class action cases. Drew handled lawsuits throughout the Midwest, and is licensed to practice in Missouri, Illinois, and numerous federal courts. In 2012, he founded Juristat. Juristat is \"Moneyball\" for lawyers. Its proprietary natural language processing algorithm parses public historical legal data and accurately predicts the future behaviors of actors within the legal system. Juristat’s current products focus on the U.S. patent system. Since it’s founding, Juristat has raised over $1,000,000 in capital, and its customers include law firms and Fortune 500 companies throughout the country."
   abstract: TB
   talk_time: TBA
   talk_location: TBA
 
-- name: Garrett Eardley
-  image-url: garret-eardley.png
-  content-name: garretteardley
-  tagline:
-  bio: 'Garrett "Grizzly" Eardley is a software engineer at Riot Games.  "He is intimately acquainted with the difficulties of scaling the distributed systems that power League of Legends to reach 67 million players each month. Garrett holds an M.S. in Computer Science from Washington University in St. Louis, where he currently resides with his wife, children, and beard.'
+- name: "Garrett Eardley"
+  image-url: "garret-eardley.png"
+  content-name: "garretteardley"
+  tagline: NA
+  bio: "Garrett \"Grizzly\" Eardley is a software engineer at Riot Games. He is intimately acquainted with the difficulties of scaling the distributed systems that power League of Legends to reach 67 million players each month. Garrett holds an M.S. in Computer Science from Washington University in St. Louis, where he currently resides with his wife, children, and beard."
   abstract: TBA
   talk_time: TBA
   talk_abstract: TBA
   talk_location: TBA
 
-
-- name: James Whittaker
-  image-url: james-whittaker.jpg
-  content-name: jameswhittaker
-  tagline:
+- name: "James Whittaker"
+  image-url: "james-whittaker.jpg"
+  content-name: "jameswhittaker"
+  tagline: NA
   bio: "James Whittaker is an author, speaker, creative leader, and a Distinguished Technical Evangelist charged with showing Microsoft’s vision of the future to the world. His career spans academia, start-ups, and top tech companies. In 1986 he was the first computer science graduate hired by the FBI. His career continued—specializing in test automation—as a freelance developer, most notably for IBM, Ericsson, SAP, Cisco, and Microsoft. He then joined the faculty at the Florida Institute of Technology where he continued his prolific publication record in software testing and security. In 2002 his security work was spun off into a startup that was later acquired by Raytheon. His first stint at Microsoft was in Trustworthy Computing and Visual Studio. He then joined Google as an engineering director and led teams working on Chrome, Maps and Google+. In 2012, he rejoined Microsoft. Of his five books two have been Jolt Award finalists. Follow him on Twitter @docjamesw."
   abstract: TBA
   talk_time: TBA
   talk_location: TBA
 
-- name: Roger Wolfson
-  image-url: roger-wolfson.jpg
-  content-name: rogerwolfson
+- name: "Roger Wolfson"
+  image-url: "roger-wolfson.jpg"
+  content-name: "rogerwolfson"
   tagline: Engineering Lead - Online Services
   bio: "Roger has been an engineer at Bungie since graduating from UIUC in 2001. He has led the online services team since 2004\'s launch of a stats-tracking website for Halo 2, as it has grown to a full online-game engineering team of 25 people. They now create the software that lets Destiny support millions of players hitting servers that are responsible for mission and character state, mobile companion apps, and more. When time allows, he tries to incorporate features based on improbable past coursework such as ASTR 396: Radio-interferometry."
   abstract: TBA
   talk_time: TBA
   talk_location: TBA
 
-- name: Steve LaValle
-  image-url: steve-zernik.jpg
-  content-name: stevelavalle
-  tagline:
-  bio: 'Steve LaValle started working with Oculus VR a few days after its successful Kickstarter campaign and led its R&D efforts up to its $2 billion acquisition by Facebook in March 2014.  He developed perceptually tuned head tracking methods used in the Oculus Rift, based on IMUs and computer vision.  He also led a team of perceptual psychologists to provide principled approaches to virtual reality system calibration and the design of comfortable user experiences.  He is also Professor of Computer Science at the University of Illinois.  He has worked in robotics for over 20 years and is known for his introduction of the Rapidly exploring Random Tree (RRTs) algorithm of motion planning and his book, Planning Algorithms.'
+- name: "Kevin Petrovic"
+  image-url: "small.jpg"
+  content-name: "kevinpetrovic"
+  tagline: NA
+  bio: ""
   abstract: TBA
   talk_time: TBA
   talk_location: TBA
+
+### ERRRORS
+#- name: "Jeff Bezanson"
+#  image-url: "jeff_bezanson.jpeg"
+#  content-name: "jeffbezanson"
+#  tagline: NA
+#  bio: "Before the Julia language project,"" Jeff Bezanson worked as a software engineer at Interactive Supercomputing, which developed the Star-P parallel extension to MATLAB. At the company, Jeff was a principal developer of M#, an implementation of the MATLAB language running on .NET. He is now a PhD student at MIT, and works on Julia full time. Jeff has an A.B. in Computer Science from Harvard University (2004)."
+#  abstract: TBA
+#  talk_time: TBA
+#  talk_location: TBA
+
+#- name: "Kees Cook"
+#  image-url: "kees-cook.jpg"
+#  content-name: "keescook"
+#  tagline: NA
+#  bio: "Kees Cook has been working with Free Software since 1994"", and has been a Debian Developer since 2007. He is currently employed by Google to work on Chrome OS Security. From 2006 through 2011 he worked for Canonical as the Ubuntu Security Team's Tech Lead, and remains on the Ubuntu Technical Board. Before that, he worked at OSDL where he helped administer the mirrors at kernel.org, and sometimes hacked on Inkscape. He has written various utilities including GOPchop and Sendpage, and contributes randomly to other projects including fun chunks of code in Wine, MPlayer, OpenSSH, and Wireshark. He's been spending most of his time lately focused on security features in the Linux Kernel."
+#  abstract: TBA
+#  talk_time: TBA
+#  talk_location: TBA
