@@ -90,21 +90,20 @@
   talk_time: TBA
   talk_location: TBA
 
-### ERRRORS
-#- name: "Jeff Bezanson"
-#  image-url: "jeff_bezanson.jpeg"
-#  content-name: "jeffbezanson"
-#  tagline: NA
-#  bio: "Before the Julia language project,"" Jeff Bezanson worked as a software engineer at Interactive Supercomputing, which developed the Star-P parallel extension to MATLAB. At the company, Jeff was a principal developer of M#, an implementation of the MATLAB language running on .NET. He is now a PhD student at MIT, and works on Julia full time. Jeff has an A.B. in Computer Science from Harvard University (2004)."
-#  abstract: TBA
-#  talk_time: TBA
-#  talk_location: TBA
+- name: "Jeff Bezanson"
+  image-url: "jeff_bezanson.jpeg"
+  content-name: "jeffbezanson"
+  tagline: NA
+  bio: "Before the Julia language project, Jeff Bezanson worked as a software engineer at Interactive Supercomputing, which developed the Star-P parallel extension to MATLAB. At the company, Jeff was a principal developer of M#, an implementation of the MATLAB language running on .NET. He is now a PhD student at MIT, and works on Julia full time. Jeff has an A.B. in Computer Science from Harvard University (2004)."
+  abstract: TBA
+  talk_time: TBA
+  talk_location: TBA
 
-#- name: "Kees Cook"
-#  image-url: "kees-cook.jpg"
-#  content-name: "keescook"
-#  tagline: NA
-#  bio: "Kees Cook has been working with Free Software since 1994"", and has been a Debian Developer since 2007. He is currently employed by Google to work on Chrome OS Security. From 2006 through 2011 he worked for Canonical as the Ubuntu Security Team's Tech Lead, and remains on the Ubuntu Technical Board. Before that, he worked at OSDL where he helped administer the mirrors at kernel.org, and sometimes hacked on Inkscape. He has written various utilities including GOPchop and Sendpage, and contributes randomly to other projects including fun chunks of code in Wine, MPlayer, OpenSSH, and Wireshark. He's been spending most of his time lately focused on security features in the Linux Kernel."
-#  abstract: TBA
-#  talk_time: TBA
-#  talk_location: TBA
+- name: "Kees Cook"
+  image-url: "kees-cook.jpg"
+  content-name: "keescook"
+  tagline: NA
+  bio: "Kees Cook has been working with Free Software since 1994, and has been a Debian Developer since 2007. He is currently employed by Google to work on Chrome OS Security. From 2006 through 2011 he worked for Canonical as the Ubuntu Security Team's Tech Lead, and remains on the Ubuntu Technical Board. Before that, he worked at OSDL where he helped administer the mirrors at kernel.org, and sometimes hacked on Inkscape. He has written various utilities including GOPchop and Sendpage, and contributes randomly to other projects including fun chunks of code in Wine, MPlayer, OpenSSH, and Wireshark. He's been spending most of his time lately focused on security features in the Linux Kernel."
+  abstract: TBA
+  talk_time: TBA
+  talk_location: TBA

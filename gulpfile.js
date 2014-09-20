@@ -114,12 +114,16 @@ gulp.task('css', function(){
     .pipe(gulp.dest(DEST));
 });
 
-gulp.task('build', function(cb){
+gulk.task('copyData', function(){
+  // copy files in _data folder to _app/_data
+  gulp.src('./_data/*.*').pipe(gulp.dest('./_app/_data'))
+  
+});
+
+gulp.task('jekyll', function(cb){
   // executes jekyll build
   child_process.spawn('jekyll', ['build'], {stdio: 'inherit'}, cb);
 
-  // copy files in _data folder to _app/_data
-  gulp.src('./_data/*.*').pipe(gulp.dest('./_app/_data'))
 });
 
 // Rerun the task when a file changes
@@ -128,5 +132,6 @@ gulp.task('watch', function () {
   gulp.watch(CSS_PATH, ['css']);
 });
 
+gulp.task('build', ['jekyll', 'copyData']);
 gulp.task('assets', ['js', 'css', 'img']);
-gulp.task('default', ['build','js', 'css','img','watch']);
+gulp.task('default', ['build','assets','watch']);
