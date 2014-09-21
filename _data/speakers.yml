@@ -8,7 +8,7 @@
   talk_location: TBA
 
 - name: "Jay (Saurik) Freeman"
-  image-url: "jay-freeman.jpg"
+  image-url: "saurik.jpg"
   content-name: "saurik"
   tagline: NA
   bio: "Jay Freeman (@saurik) is the primary developer and community manager of Cydia, a platform that enables modification and extension of third-party software on \"jailbroken\" devices running iOS or Android. He also develops Cycript, an interactive tool for manipulating and exploring running applications on iOS and Mac OS X using a hybrid of Objective-C and JavaScript. On the side, Jay teaches classes on programming at the College of Creative Studies, University of California, Santa Barbara, with a focus on those just beginning to be interested in software."
@@ -26,7 +26,7 @@
   talk_location: TBA
 
 - name: "Namrata Ganatra"
-  image-url: "namrata-ganatra.jpg"
+  image-url: "namrata.jpg"
   content-name: "namrataganatra"
   tagline: NA
   bio: "Namrata is a payments veteran.  She is currently an Engineering Manager at Facebook where she leads Facebook’s payments platform. Prior to Facebook, Namrata was head of engineering for PayPal’s Digital Goods. She has also worked at a mobile payments startup Zong, which was acquired by PayPal.  She earned her Bachelor's Degree in Computer Science from India and started her career as a Software Engineer at Microsoft."
@@ -99,11 +99,11 @@
   talk_time: TBA
   talk_location: TBA
 
-- name: "Kees Cook"
-  image-url: "kees-cook.jpg"
-  content-name: "keescook"
-  tagline: NA
-  bio: "Kees Cook has been working with Free Software since 1994, and has been a Debian Developer since 2007. He is currently employed by Google to work on Chrome OS Security. From 2006 through 2011 he worked for Canonical as the Ubuntu Security Team's Tech Lead, and remains on the Ubuntu Technical Board. Before that, he worked at OSDL where he helped administer the mirrors at kernel.org, and sometimes hacked on Inkscape. He has written various utilities including GOPchop and Sendpage, and contributes randomly to other projects including fun chunks of code in Wine, MPlayer, OpenSSH, and Wireshark. He's been spending most of his time lately focused on security features in the Linux Kernel."
-  abstract: TBA
-  talk_time: TBA
-  talk_location: TBA
+#- name: "Kees Cook"
+#  image-url: "kees-cook.png"
+#  content-name: "keescook"
+#  tagline: NA
+#  bio: "Kees Cook has been working with Free Software since 1994, and has been a Debian Developer since 2007. He is currently employed by Google to work on Chrome OS Security. From 2006 through 2011 he worked for Canonical as the Ubuntu Security Team's Tech Lead, and remains on the Ubuntu Technical Board. Before that, he worked at OSDL where he helped administer the mirrors at kernel.org, and sometimes hacked on Inkscape. He has written various utilities including GOPchop and Sendpage, and contributes randomly to other projects including fun chunks of code in Wine, MPlayer, OpenSSH, and Wireshark. He's been spending most of his time lately focused on security features in the Linux Kernel."
+#  abstract: TBA
+#  talk_time: TBA
+#  talk_location: TBA

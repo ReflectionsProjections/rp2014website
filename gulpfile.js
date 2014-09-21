@@ -114,7 +114,7 @@ gulp.task('css', function(){
     .pipe(gulp.dest(DEST));
 });
 
-gulk.task('copyData', function(){
+gulp.task('copyData', function(){
   // copy files in _data folder to _app/_data
   gulp.src('./_data/*.*').pipe(gulp.dest('./_app/_data'))
   
