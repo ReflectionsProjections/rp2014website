@@ -129,6 +129,10 @@ startups:
     bio: yolo
     image-url: a16z.png
     site-url: https://www.a16z.com
+  - name: akuna
+    bio: matata
+    image-url: akuna.jpg
+    site-url: http://www.akunacapital.com/
   - name: aqueoussolutions
     bio: yolo
     image-url: aqueoussoln.png
@@ -189,7 +193,15 @@ startups:
     bio: nah
     image-url: sproutsocial.png
     site-url: http://sproutsocial.com/
+  - name: thinkbig
+    bio: ya
+    image-url: thinkbig.jpg
+    site-url: http://thinkb1g.com/
   - name: trunkclub
     bio: nah
     image-url: trunkclub.jpg
     site-url: https://www.trunkclub.com/
+  - name: zesthealth
+    bio: na
+    image-url: zesthealth.png
+    site-url: http://www.zesthealth.com/
