@@ -1,6 +1,5 @@
-- name: foo
-  url: test.jpg
-- name: foo
-  url: test.jpg
+- name: "Job Fair Map"
+  url: "maps/jobfair_map.png"
 
-
+- name: :Startup Fair Map:
+  url: "maps/startupfair_map.png"
