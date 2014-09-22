@@ -38,7 +38,7 @@ title: Speakers
         >
         {% for speaker in site.data.speakers %}
         <li id="{{speaker.content-name}}"class="speaker-box">
-          <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="#{{speaker.content-name}}">
+          <a class="speaker-link content-speakername" data-speakername="{{speaker.name}}" href="{{site.baseurl}}/speakers/{{speaker.content-name}}.html">
             <img class="speaker-img" src="{{site.baseurl}}/dist/img/speakers/{{speaker.image-url}}"/>
             <!--  <h1>{{speaker.name}}</h1> -->
           </a>
