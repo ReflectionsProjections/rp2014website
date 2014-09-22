@@ -11,15 +11,16 @@
   },
   "devDependencies": {
     "del": "^0.1.1",
+    "glob": "^4.0.6",
     "gulp": "~3.8.0",
+    "gulp-concat": "~2.3.4",
     "gulp-csslint": "latest",
     "gulp-imagemin": "~0.1.5",
     "gulp-minify-css": "~0.3.0",
     "gulp-uglify": "latest",
     "gulp-uncss": "^0.4.5",
     "gulp-util": "latest",
-    "gulp-watch": "latest",
-    "gulp-concat": "~2.3.4"
+    "gulp-watch": "latest"
   },
   "engines": {
     "npm": "1.2.x"

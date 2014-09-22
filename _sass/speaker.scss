@@ -1,8 +1,23 @@
+html{
+  background-color: yellow !important;
+}
+
 #speaker-wrap{
+  @extend .header-wrap;
+
+  h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  }
+  // end of inline
+
   background: url(../img/sc.jpg) no-repeat center top;
   background-size: 100%;
   background-size: cover;
-  @extend .header-wrap;
 
   & .container{
     margin-top: 5%;
@@ -10,6 +25,10 @@
 
     & h1{
       color: #fff;
+      font-size: 4rem;
+    }
+    & p {
+      font-size: 2rem;
     }
   }
 
@@ -17,8 +36,8 @@
 .circle-speaker-image {
   display: block;
   height: 100px;
-  height: 150px;
-  width: 150px;
+  height: 175px;
+  width: 175px;
   margin: 1em auto;
   background-size: cover;
   background-repeat: no-repeat;

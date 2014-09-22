@@ -16,6 +16,7 @@ var gulp = require('gulp')
 , changed = require('gulp-changed')
 , concat = require('gulp-concat')
 , argv = require('yargs').argv
+, glob = require('glob')
 ;
 
 /*
@@ -38,17 +39,10 @@ var IMG_SRC = IMG_EXT.map(function(e){return IMG_PATH + '.' + e; });
 /*
  * UNCSS CONSTANTS
  */
-var PAGES = ['index.html'];
-var dirContents = fs.readdirSync(BASE_PATH);
-dirContents.forEach(function(item){
-  var itemPath = BASE_PATH + item;
-  if(fs.statSync(itemPath).isDirectory){
-    var indexPath = itemPath + '/index.html';
-    if (fs.existsSync(indexPath)) {
-     PAGES.push(indexPath);
-    }
-  }
-});
+var PAGES = ['_site/index.html'];
+
+var files = glob.sync('_site/*/*.html');
+PAGES = PAGES.concat(files);
 
 // HACK -- this should really parse the JS files to search for
 // referenced css
@@ -117,7 +111,7 @@ gulp.task('css', function(){
 gulp.task('copyData', function(){
   // copy files in _data folder to _app/_data
   gulp.src('./_data/*.*').pipe(gulp.dest('./_app/_data'))
-  
+
 });
 
 gulp.task('jekyll', function(cb){
