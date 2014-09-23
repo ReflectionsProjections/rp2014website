@@ -7,33 +7,81 @@
 
 - name: Friday
   schedule:
-    - time: 10 AM - 4 PM
-      name: Job Fair
-      loc: Siebel Center Atrium
-      img-url:
+    - time: 5 PM
+      name: Steve LaValle
+      loc: Siebel Center 1404
+      img-url: "steve-zernik.jpg"
 
-    - time: 5 PM - 8:45 PM
-      name: Opening Speakers
-      loc:
-      img-url:
-
-    - time: 9 PM - 10 PM
-      name: Mechmania Opening Ceremonies
-      loc:
-      img-url:
-
+    - time: 7:45 PM
+      name: James Portnow
+      loc: Siebel Center 1404
+      img-url: "JPHeadshot.jpg"
 
 - name: Saturday
   schedule:
-    - time: 10 AM - 8:45 PM
-      name: Speakers
-      loc:
+    - time: 10 AM
+      name: James Whittaker
+      loc: Siebel Center 1404
+      img-url: "james-whittaker.jpg"
+    - time: 10 AM
+      name: Drew Winship
+      loc: DCL 1320
+      img-url: "drew-winship.jpg"
+
+    - time: 11:15 AM
+      name: Kees Cook
+      loc: Siebel Center 1404
+      img-url: "kees-cook.png"
+    - time: 11:15 AM
+      name: Kevin Petrovic
+      loc: DCL 1320
+      img-url: "kevin-petrovic.jpg"
+
+    - time: 1:30 PM
+      name: Startup Panel
+      loc: Siebel Center 1404
+      img-url:
+    - time: 1:30 PM
+      name: Jeff Bezanson
+      loc: DCL 1320
+      img-url: "jeff-bezanson.jpg"
+
+    - time: 2:45 PM
+      name: Alex Polvi
+      loc: Siebel Center 1404
+      img-url: "alex-polvi.jpg"
+    - time: 2:45 PM
+      name: Roger Wolfson
+      loc: DCL 1320
+      img-url: "roger-wolfson.jpg"
+
+    - time: 4 PM
+      name: David Albrecht
+      loc: Siebel Center 1404
+      img-url: "david-albrecht.jpg"
+    - time: 4 PM
+      name: Garrett Eardley
+      loc: DCL 1320
+      img-url: "garret-eardley.png"
+
+    - time: 6:30 PM
+      name: Namrata Ganatra
+      loc: Siebel Center 1404
+      img-url: "namrata.jpg"
+    - time: 6:30 PM
+      name: Jay Freeman (saurik)
+      loc: DCL 1320
+      img-url: "saurik.jpg"
+
+    - time: 9 PM
+      name: Mechmania Opening
+      loc: Siebel Center 1404
       img-url:
 
 
 - name: Sunday
   schedule:
-    - time: 1PM - 2PM
+    - time: 1 PM
       name: Mechmania Closing Ceremonies
-      loc:
+      loc: Siebel Center 1404
       img-url:

@@ -39,7 +39,8 @@ title: Schedule
           </div>
           <div class="item-middle">
             {% if item.img-url %}
-            <img src="{{ site.baseurl }}/dist/img/{{item.img-url}}" alt="{{item.name}}" class="avatar" height="93px" width="93px">
+            <div class="avatar-image" style="background-image: url('{{ site.baseurl }}/dist/img/speakers/{{item.img-url}}')">
+            </div>
             {% else %}
             <span class="avatar-blank"></span>
             {% endif %}
