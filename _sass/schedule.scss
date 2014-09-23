@@ -32,9 +32,18 @@
   -moz-border-radius: 80px;
   -ms-border-radius: 80px;
   border-radius: 80px;
+
   display: block;
   background: #fff;
   float: left;
+}
+.avatar-image {
+  @extend .avatar;
+  height: 93px;
+  width: 93px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .avatar-blank{
