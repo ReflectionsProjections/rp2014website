@@ -110,6 +110,9 @@ startups:
   - name: civisanalytics
     image-url: civisanalytics.jpg
     site-url: http://www.civisanalytics.com/
+  - name: clustrix
+    image-url: clustrix.png
+    site-url: http://www.clustrix.com/
   - name: coinbase
     image-url: coinbase.png
     site-url: https://www.coinbase.com

@@ -17,6 +17,11 @@
       loc: Siebel Center 1404
       img-url: "JPHeadshot.jpg"
 
+    - time: 9 PM
+      name: Mechmania Opening
+      loc: Siebel Center 1404
+      img-url:
+
 - name: Saturday
   schedule:
     - time: 10 AM
@@ -72,12 +77,6 @@
       name: Jay Freeman (saurik)
       loc: DCL 1320
       img-url: "saurik.jpg"
-
-    - time: 9 PM
-      name: Mechmania Opening
-      loc: Siebel Center 1404
-      img-url:
-
 
 - name: Sunday
   schedule:
