@@ -10,68 +10,68 @@
     - time: 5 PM
       name: Steve LaValle
       loc: Siebel Center 1404
-      img-url:
+      img-url: "steve-zernik.jpg"
 
     - time: 7:45 PM
       name: James Portnow
       loc: Siebel Center 1404
-      img-url:
+      img-url: "JPHeadshot.jpg"
 
 - name: Saturday
   schedule:
     - time: 10 AM
       name: James Whittaker
       loc: Siebel Center 1404
-      img-url:
+      img-url: "james-whittaker.jpg"
     - time: 10 AM
       name: Drew Winship
       loc: DCL 1320
-      img-url:
+      img-url: "drew-winship.jpg"
 
     - time: 11:15 AM
       name: Kees Cook
       loc: Siebel Center 1404
-      img-url:
+      img-url: "kees-cook.png"
     - time: 11:15 AM
       name: Kevin Petrovic
       loc: DCL 1320
-      img-url:
+      img-url: "kevin-petrovic.jpg"
 
-    - time: 1:30 AM
+    - time: 1:30 PM
       name: Startup Panel
       loc: Siebel Center 1404
       img-url:
-    - time: 1:30 AM
+    - time: 1:30 PM
       name: Jeff Bezanson
       loc: DCL 1320
-      img-url:
+      img-url: "jeff-bezanson.jpg"
 
-    - time: 2:45 AM
+    - time: 2:45 PM
       name: Alex Polvi
       loc: Siebel Center 1404
-      img-url:
-    - time: 2:45 AM
+      img-url: "alex-polvi.jpg"
+    - time: 2:45 PM
       name: Roger Wolfson
       loc: DCL 1320
-      img-url:
+      img-url: "roger-wolfson.jpg"
 
     - time: 4 PM
       name: David Albrecht
       loc: Siebel Center 1404
-      img-url:
+      img-url: "david-albrecht.jpg"
     - time: 4 PM
       name: Garrett Eardley
       loc: DCL 1320
-      img-url:
+      img-url: "garret-eardley.png"
 
     - time: 6:30 PM
       name: Namrata Ganatra
       loc: Siebel Center 1404
-      img-url:
+      img-url: "namrata.jpg"
     - time: 6:30 PM
-      name: Jay Freeman
+      name: Jay Freeman (saurik)
       loc: DCL 1320
-      img-url:
+      img-url: "saurik.jpg"
 
     - time: 9 PM
       name: Mechmania Opening
@@ -81,7 +81,7 @@
 
 - name: Sunday
   schedule:
-    - time: 1PM
+    - time: 1 PM
       name: Mechmania Closing Ceremonies
       loc: Siebel Center 1404
       img-url:
