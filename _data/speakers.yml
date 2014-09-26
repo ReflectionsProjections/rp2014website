@@ -4,9 +4,9 @@
   tagline: ''
   bio: "Steve LaValle started working with Oculus VR a few days after its successful Kickstarter campaign and led its R&D efforts up to its $2 billion acquisition by Facebook in March 2014.  He developed perceptually tuned head tracking methods used in the Oculus Rift, based on IMUs and computer vision.  He also led a team of perceptual psychologists to provide principled approaches to virtual reality system calibration and the design of comfortable user experiences.  He is also Professor of Computer Science at the University of Illinois.  He has worked in robotics for over 20 years and is known for his introduction of the Rapidly exploring Random Tree (RRTs) algorithm of motion planning and his book, Planning Algorithms."
   abstract: ""
-  talk_date: TBA
-  talk_time: TBA
-  talk_location: TBA
+  talk_date: Friday October 3rd
+  talk_time: 5 PM
+  talk_location: Siebel Center 1404
 
 - name: "Jay (Saurik) Freeman"
   image-url: "saurik.jpg"
@@ -24,9 +24,9 @@
   tagline: 'Crittercism - Senior Engineer'
   bio: "David Albrecht is a Senior Engineer in Platform at Crittercism, where he helped scale the company to 40,000 HTTP requests/s (70x traffic growth) and 50x data growth over two years. Crittercism tracks mobile app performance on approximately one billion mobile devices. Prior to Crittercism, David co-founded and sold Wishery, a Google Mail data connection plugin. David holds a Master's of Science in Electrical and Computer Engineering from the University of Illinois at Urbana-Champaign."
   abstract: "Early-stage companies revolve around the search for \'product-market fit\'  finding something people want. But once a need is found, the transition into hyper-growth happens alarmingly quickly, with little time to look back or course-correct. This talk will focus on technical operations deployment, availability, monitoring, and other ops-related topics in the face of 5% growth per week, all the way to billions of requests per day. We will focus particularly on (1) hardware platforms, including detailed performance benchmarks and analysis of financial cost, (2) deployment pipelines, (3) how to monitor ALL THE THINGS and (3) what matters early on, and what doesn't. Come hear it from the guy who wore the pager almost a year, and spent more than a few sleepless nights upgrading databases, fighting outages, and staring at ssh terminals, wondering whether the system would ever come back up..."
-  talk_date: TBA
-  talk_time: TBA
-  talk_location: TBA
+  talk_date: "Saturday October 4th"
+  talk_time: "2:45 PM"
+  talk_location: "Siebel Center 1404"
 
 - name: "Namrata Ganatra"
   image-url: "namrata.jpg"
@@ -34,9 +34,9 @@
   tagline: 'Facebook - Engineering Manager'
   bio: "Namrata is a payments veteran.  She is currently an Engineering Manager at Facebook where she leads Facebook’s payments platform. Prior to Facebook, Namrata was head of engineering for PayPal’s Digital Goods. She has also worked at a mobile payments startup Zong, which was acquired by PayPal.  She earned her Bachelor's Degree in Computer Science from India and started her career as a Software Engineer at Microsoft."
   abstract: "This talk is about deep insights into Facebook’s innovative culture, how it embraces \"move fast\" engineering environment and Speaker’s personal stories on her career path."
-  talk_date: TBA
-  talk_time: TBA
-  talk_location: TBA
+  talk_date: "Saturday October 4th"
+  talk_time: "6:30 PM"
+  talk_location: "Siebel Center 1404"
 
 - name: "Alex Polvi"
   image-url: "alex-polvi.jpg"
@@ -44,9 +44,9 @@
   tagline: 'CoreOS - CEO'
   bio: "Alex Polvi is the CEO of CoreOS, a Y-Combinator funded start-up, focusing on building a new operating system for massive server deployments. Prior to CoreOS Alex was GM for Rackspace Hosting, Bay Area, overseeing cloud product development. Alex joined Rackspace through the acquisition of his company, Cloudkick, which provided cloud server monitoring and management tools. Alex is a sysadmin at heart, contributing significantly to many open source projects, including Mozilla and Apache. He holds a BS in Computer Science from Oregon State University."
   abstract: "The architectural patterns of a large scale platform are changing. Dedicated VMs and configuration management tools are being replaced by containerization and new service management technologies like systemd. This presentation will be giving an overview of their key technologies, including etcd, fleet, and docker. Come and learn how to use these new technologies to build performant, reliable, large distributed systems."
-  talk_date: TBA
-  talk_time: TBA
-  talk_location: TBA
+  talk_date: "Saturday October 4th"
+  talk_time: "2:45 PM"
+  talk_location: "Siebel Center 1404"
 
 -
   name: "Drew Winship"
@@ -55,9 +55,9 @@
   tagline: 'Juristat - Founder'
   bio: "Drew Winship spent the first few years of career establishing his practice as a litigator at the law firm of Brown & James, P.C. He represented some of the largest companies in the world in tort, contract, and class action cases. Drew handled lawsuits throughout the Midwest, and is licensed to practice in Missouri, Illinois, and numerous federal courts. In 2012, he founded Juristat. Juristat is \"Moneyball\" for lawyers. Its proprietary natural language processing algorithm parses public historical legal data and accurately predicts the future behaviors of actors within the legal system. Juristat’s current products focus on the U.S. patent system. Since it’s founding, Juristat has raised over $1,000,000 in capital, and its customers include law firms and Fortune 500 companies throughout the country."
   abstract: "Today, the U.S. Patent and Trademark Office has a Continued Examination backlog of 110,000 applications, up 500% since early 2010 years ago. The Patent Office grants over 70% of all applications, but that number jumps to almost 90% if you have the deep pockets and are willing to continually challenge rejections. But there is hope. Learn how predictive analytics can help improve equity, transparency, and predictability within the system. Big data can drive examiner behavior towards the desired mean, while leveling the playing field among all inventors and preserving America’s innovative spirit that has driven our economy for the past 100 years"
-  talk_date: TBA
-  talk_time: TBA
-  talk_location: TBA
+  talk_date: "Saturday October 4th"
+  talk_time: "10 AM"
+  talk_location: "DCL 1320"
 
 - name: "Garrett Eardley"
   image-url: "garret-eardley.png"
@@ -76,9 +76,9 @@
   tagline: 'Microsoft'
   bio: "James Whittaker is an author, speaker, creative leader, and a Distinguished Technical Evangelist charged with showing Microsoft’s vision of the future to the world. His career spans academia, start-ups, and top tech companies. In 1986 he was the first computer science graduate hired by the FBI. His career continued—specializing in test automation—as a freelance developer, most notably for IBM, Ericsson, SAP, Cisco, and Microsoft. He then joined the faculty at the Florida Institute of Technology where he continued his prolific publication record in software testing and security. In 2002 his security work was spun off into a startup that was later acquired by Raytheon. His first stint at Microsoft was in Trustworthy Computing and Visual Studio. He then joined Google as an engineering director and led teams working on Chrome, Maps and Google+. In 2012, he rejoined Microsoft. Of his five books two have been Jolt Award finalists. Follow him on Twitter @docjamesw."
   abstract: "Over a billion websites are now online. Humanity is generating more data every day than it generated all last century. The Internet of Things will mean more data is originated and consumed by machines than by humans. What will all of this means for our ads-based online economy? Join Microsoft Distinguished Engineer James Whittaker as he shows that our current data economy is becoming irrelevant and a new value-based data economy is emerging. Find out how browsers, apps and your personal and business data fares in this new economy. The future is approaching fast. Be ready for it."
-  talk_date: TBA
-  talk_time: TBA
-  talk_location: TBA
+  talk_date: "Saturday October 4th"
+  talk_time: "10 AM"
+  talk_location: "Siebel Center 1404"
 
 - name: "Roger Wolfson"
   image-url: "roger-wolfson.jpg"
@@ -116,9 +116,9 @@
   tagline: 'Rainmaker Games - CEO'
   bio: "Best known for writing the web series Extra Credits, James Portnow is a game designer and consultant known for his theories on socially positive design. He received his Masters from Carnegie Mellon’s Entertainment Technology Center, went on to work for Activision as a designer on the Call of Duty series before raising funds to start his own company, Divide by Zero Games. He currently serves as the CEO of Rainmaker Games, a design and consulting firm that has worked with partners from Warner Bros to Zynga, in addition to writing the popular Extra Credits series that teaches about games and game design."
   abstract: "Most people today will tell you about how we build software, but at times we get so caught up in the question of how, we forget to ask why.  In his talk James Portnow will look at why we build games and why we care about them.  He will ask what more we can do with them and what it is about them that makes them effect us so much.  And, in the end, he will ask you to do more than simply build, he will ask you to create."
-  talk_date: TBA
-  talk_time: TBA
-  talk_location: TBA
+  talk_date: "Friday October 3rd"
+  talk_time: "7:45 PM"
+  talk_location: "Siebel Center 1404"
 
 #- name: "Kees Cook"
 #  image-url: "kees-cook.png"
