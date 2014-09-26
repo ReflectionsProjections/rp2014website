@@ -7,7 +7,7 @@ layout: default
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">
         <div class="circle-speaker-image"
-          style="background-image: url('{{ site.baseurl }}/dist/img/speakers/{{page.image-url}}')"
+        style="background-image: url('{{ site.baseurl }}/dist/img/speakers/{{page.image-url}}')"
         ></div>
         <h1>{{page.speakername | xml_escape }}</h1>
         <p>{{page.tagline | xml_escape }}</p>
@@ -27,33 +27,36 @@ layout: default
         <span class="line-accent"></span>
         <!--<h3>TBA</h3>-->
         <ul>
-          <li class="date"></li>
+         <li class="date">
           <h4>Date: </h4>
           <h4>{{page.talk_date | xml_escape}}</h4>
-          <li class="time"></li>
+        </li>
+        <li class="time">
           <h4>Time: </h4>
           <h4>{{page.talk_time | xml_escape}}</h4>
-          <li class="loc"></li>
+        </li>
+        <li class="loc">
           <h4>Location: </h4>
           <h4>{{page.talk_location | xml_escape}}</h4>
-        </ul>
-      </article>
-    </section>
+        </li>
+      </ul>
+    </article>
+  </section>
 
-    <section class="talk-info col-lg-8" >
+  <section class="talk-info col-lg-8" >
 
-      <article class="bio">
-        <h3 class="grey-border">Bio:</h3>
-        <span class="line-accent"></span>
-        <p>{{page.bio | xml_escape | textilize}}</p>
-      </article>
-      <article class="abstract">
-        <h3 class="grey-border">Talk Abstract:</h3>
-        <span class="line-accent"></span>
-        <p>{{page.abstract | xml_escape | textilize}}</p>
-      </article>
+    <article class="bio">
+      <h3 class="grey-border">Bio:</h3>
+      <span class="line-accent"></span>
+      <p>{{page.bio | xml_escape | textilize}}</p>
+    </article>
+    <article class="abstract">
+      <h3 class="grey-border">Talk Abstract:</h3>
+      <span class="line-accent"></span>
+      <p>{{page.abstract | xml_escape | textilize}}</p>
+    </article>
 
-    </section>
+  </section>
 
-  </div>
+</div>
 </div>

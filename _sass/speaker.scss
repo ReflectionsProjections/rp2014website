@@ -63,4 +63,10 @@ section.talk-info{
 section.talk-details{
   @extend .info;
   text-align: left;
+
+  li > h4:first-child {
+    font-weight: bold;
+  }
 }
+
+
