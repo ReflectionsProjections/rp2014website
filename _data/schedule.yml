@@ -7,6 +7,11 @@
 
 - name: Friday
   schedule:
+    - time: 10 AM
+      name: Job Fair
+      loc: Siebel Center Atrium
+      img-url:
+
     - time: 5 PM
       name: Steve LaValle
       loc: Siebel Center 1404
@@ -17,9 +22,9 @@
       loc: Siebel Center 1404
       img-url: "JPHeadshot.jpg"
 
-    - time: 9 PM
-      name: Mechmania Opening
-      loc: Siebel Center 1404
+    - time: 7:45 PM
+      name: MechMania Opening
+      loc: Siebel Center 2405
       img-url:
 
 - name: Saturday
