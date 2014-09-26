@@ -125,7 +125,7 @@
   content-name: "keescook"
   tagline: ''
   bio: "Kees Cook has been working with Free Software since 1994, and has been a Debian Developer since 2007. He is currently employed by Google to work on Chrome OS Security. From 2006 through 2011 he worked for Canonical as the Ubuntu Security Team's Tech Lead, and remains on the Ubuntu Technical Board. Before that, he worked at OSDL where he helped administer the mirrors at kernel.org, and sometimes hacked on Inkscape. He has written various utilities including GOPchop and Sendpage, and contributes randomly to other projects including fun chunks of code in Wine, MPlayer, OpenSSH, and Wireshark. He's been spending most of his time lately focused on security features in the Linux Kernel."
-  abstract: "ecurity is an inherent part of software, hardware, and network design. Everyone working in technology has a (frequently unrecognized) responsibility to keeps systems secure while protecting the privacy of their users. One of the most powerful ways to address this responsibility is through Open Source software and hardware. Come hear about a happy journey through administering servers, securing Ubuntu, developing the Linux kernel, and building Chrome OS."
+  abstract: "Security is an inherent part of software, hardware, and network design. Everyone working in technology has a (frequently unrecognized) responsibility to keep systems secure while protecting the privacy of their users. One of the most powerful ways to address this responsibility is through Open Source software and hardware. Come hear about a happy journey through administering servers, securing Ubuntu, developing the Linux kernel, and building Chrome OS."
   talk_date: TBA
   talk_time: TBA
   talk_location: TBA
