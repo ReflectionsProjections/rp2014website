@@ -23,7 +23,7 @@ task :speakers do
       post.puts "abstract: #{speaker['abstract']}"
       post.puts "talk_date: #{speaker['talk_date']}"
       post.puts "talk_time: #{speaker['talk_time']}"
-      post.puts "talk_abstract: #{speaker['talk_time']}"
+      post.puts "talk_title: #{speaker['talk_title']}"
       post.puts "talk_location: #{speaker['talk_location']}"
       post.puts "---"
     end

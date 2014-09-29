@@ -68,7 +68,7 @@ gulp.task('img', function(){
   // compresses all images
   return gulp.src(SRC)
     .pipe(changed(DEST))
-    .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
+    .pipe(imagemin({ optimizationLevel: 1, progressive: true, interlaced: true }))
     .pipe(gulp.dest(DEST));
  });
 
@@ -80,7 +80,7 @@ gulp.task('companies', function(){
   // compresses only company images
   return gulp.src(SRC)
     .pipe(changed(DEST))
-    .pipe(imagemin({ optimizationLevel: 7, progressive: true, interlaced: true }))
+    .pipe(imagemin({ optimizationLevel: 1, progressive: true, interlaced: true }))
     .pipe(gulp.dest(DEST));
 });
 

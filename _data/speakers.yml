@@ -3,7 +3,8 @@
   content-name: "stevelavalle"
   tagline: ''
   bio: "Steve LaValle started working with Oculus VR a few days after its successful Kickstarter campaign and led its R&D efforts up to its $2 billion acquisition by Facebook in March 2014.  He developed perceptually tuned head tracking methods used in the Oculus Rift, based on IMUs and computer vision.  He also led a team of perceptual psychologists to provide principled approaches to virtual reality system calibration and the design of comfortable user experiences.  He is also Professor of Computer Science at the University of Illinois.  He has worked in robotics for over 20 years and is known for his introduction of the Rapidly exploring Random Tree (RRTs) algorithm of motion planning and his book, Planning Algorithms."
-  abstract: ""
+  talk_title: "Virtual Reality - Full Steam Ahead"
+  abstract: "Using the latest technology, we can safely hijack your most trusted senses, thereby fooling your brain into believing you are in another world.  Virtual reality (VR) has been around for a long time, but due to the recent convergence of sensing, display, and computation technologies, there is an unprecedented opportunity to explore this form of human augmentation with lightweight, low-cost materials and simple software platforms. This is an intense form of human-computer interaction (HCI) that requires re-examining core engineering principles with a direct infusion of perceptual psychology research. Developing systems that optimize classical criteria might lead to overcomplicated solutions that are too slow or costly in practice, and yet could make no perceptible difference to users. Simple adaptation of techniques that were developed for on-screen viewing, such as cinematography and first-person shooter game play, often lead to unpleasent VR experiences due the presentation of unusual stimuli or due to mismatches between the human vestibular system and other senses. With the rapid rise in consumer VR, fundamental research questions are popping up everywhere, slicing across numerous disciplines from engineering to socialogy to film to medicine.  This talk will provide some perspective on where we have been and where we might be going next."
   talk_date: "Friday October 3rd"
   talk_time: "5 PM"
   talk_location: "Siebel Center 1404"
@@ -13,7 +14,8 @@
   content-name: "saurik"
   tagline: 'Cydia - Primary Developer'
   bio: "Jay Freeman (@saurik) is the primary developer and community manager of Cydia, a platform that enables modification and extension of third-party software on \"jailbroken\" devices running iOS or Android. He also develops Cycript, an interactive tool for manipulating and exploring running applications on iOS and Mac OS X using a hybrid of Objective-C and JavaScript. On the side, Jay teaches classes on programming at the College of Creative Studies, University of California, Santa Barbara, with a focus on those just beginning to be interested in software."
-  abstract: TBA
+  talk_title: "Challenges in Software Modification"
+  abstract: "In the modern world—a world where software has become one of our most important tools—a lot of attention is given to the idea of “open source”; a revolution that has made the behavior of software transparent and empowered users to maintain and enhance the code they rely on in their everyday lives. In this talk, I will first examine some of the edge cases and even limitations of open software, especially as we see closed hardware begin to dominate the ecosystem. I will then focus on the elusory boundary between “open” and “closed”, showing the techniques used to “modify the unmodifiable”, both in analysis and instrumentation, going into particular detail on the phenomenon of “jailbroken” devices running iOS and Android. Finally, I will discuss some of the challenges this culture of “malleable software” faces and how you can help, touching on issues of legality, practicality, and morality, exploring individual motivation, societal expectation, and governmental regulation. (Please note that my talks are fast-paced and wide-reaching, so I recommend splashing some cold water on your face before attending ;P.)"
   talk_date: "Saturday October 4th"
   talk_time: "6:30 PM"
   talk_location: "DCL 1320"
@@ -23,6 +25,7 @@
   content-name: "davidalbrecht"
   tagline: 'Crittercism - Senior Engineer'
   bio: "David Albrecht is a Senior Engineer in Platform at Crittercism, where he helped scale the company to 40,000 HTTP requests/s (70x traffic growth) and 50x data growth over two years. Crittercism tracks mobile app performance on approximately one billion mobile devices. Prior to Crittercism, David co-founded and sold Wishery, a Google Mail data connection plugin. David holds a Master's of Science in Electrical and Computer Engineering from the University of Illinois at Urbana-Champaign."
+  talk_title: "Operations - The secret ingredient to startup success"
   abstract: "Early-stage companies revolve around the search for \'product-market fit\'  finding something people want. But once a need is found, the transition into hyper-growth happens alarmingly quickly, with little time to look back or course-correct. This talk will focus on technical operations deployment, availability, monitoring, and other ops-related topics in the face of 5% growth per week, all the way to billions of requests per day. We will focus particularly on (1) hardware platforms, including detailed performance benchmarks and analysis of financial cost, (2) deployment pipelines, (3) how to monitor ALL THE THINGS and (3) what matters early on, and what doesn't. Come hear it from the guy who wore the pager almost a year, and spent more than a few sleepless nights upgrading databases, fighting outages, and staring at ssh terminals, wondering whether the system would ever come back up..."
   talk_date: "Saturday October 4th"
   talk_time: "2:45 PM"
@@ -33,6 +36,7 @@
   content-name: "namrataganatra"
   tagline: 'Facebook - Engineering Manager'
   bio: "Namrata is a payments veteran.  She is currently an Engineering Manager at Facebook where she leads Facebook’s payments platform. Prior to Facebook, Namrata was head of engineering for PayPal’s Digital Goods. She has also worked at a mobile payments startup Zong, which was acquired by PayPal.  She earned her Bachelor's Degree in Computer Science from India and started her career as a Software Engineer at Microsoft."
+  talk_title: "Sneak Peek into Facebook Engineering"
   abstract: "This talk is about deep insights into Facebook’s innovative culture, how it embraces \"move fast\" engineering environment and Speaker’s personal stories on her career path."
   talk_date: "Saturday October 4th"
   talk_time: "6:30 PM"
@@ -43,6 +47,7 @@
   content-name: "alexpolvi"
   tagline: 'CoreOS - CEO'
   bio: "Alex Polvi is the CEO of CoreOS, a Y-Combinator funded start-up, focusing on building a new operating system for massive server deployments. Prior to CoreOS Alex was GM for Rackspace Hosting, Bay Area, overseeing cloud product development. Alex joined Rackspace through the acquisition of his company, Cloudkick, which provided cloud server monitoring and management tools. Alex is a sysadmin at heart, contributing significantly to many open source projects, including Mozilla and Apache. He holds a BS in Computer Science from Oregon State University."
+  talk_title: "Intro to CoreOS"
   abstract: "The architectural patterns of a large scale platform are changing. Dedicated VMs and configuration management tools are being replaced by containerization and new service management technologies like systemd. This presentation will be giving an overview of their key technologies, including etcd, fleet, and docker. Come and learn how to use these new technologies to build performant, reliable, large distributed systems."
   talk_date: "Saturday October 4th"
   talk_time: "2:45 PM"
@@ -54,6 +59,7 @@
   content-name: "drewwinship"
   tagline: 'Juristat - Founder'
   bio: "Drew Winship spent the first few years of career establishing his practice as a litigator at the law firm of Brown & James, P.C. He represented some of the largest companies in the world in tort, contract, and class action cases. Drew handled lawsuits throughout the Midwest, and is licensed to practice in Missouri, Illinois, and numerous federal courts. In 2012, he founded Juristat. Juristat is \"Moneyball\" for lawyers. Its proprietary natural language processing algorithm parses public historical legal data and accurately predicts the future behaviors of actors within the legal system. Juristat’s current products focus on the U.S. patent system. Since it’s founding, Juristat has raised over $1,000,000 in capital, and its customers include law firms and Fortune 500 companies throughout the country."
+  talk_title: "How Predictive Analytics Can Save Our Patent System"
   abstract: "Today, the U.S. Patent and Trademark Office has a Continued Examination backlog of 110,000 applications, up 500% since early 2010 years ago. The Patent Office grants over 70% of all applications, but that number jumps to almost 90% if you have the deep pockets and are willing to continually challenge rejections. But there is hope. Learn how predictive analytics can help improve equity, transparency, and predictability within the system. Big data can drive examiner behavior towards the desired mean, while leveling the playing field among all inventors and preserving America’s innovative spirit that has driven our economy for the past 100 years"
   talk_date: "Saturday October 4th"
   talk_time: "10 AM"
@@ -64,10 +70,11 @@
   content-name: "garretteardley"
   tagline: 'Riot Games - Engineer'
   bio: "Garrett \"Grizzly\" Eardley is a software engineer at Riot Games. He is intimately acquainted with the difficulties of scaling the distributed systems that power League of Legends to reach 67 million players each month. Garrett holds an M.S. in Computer Science from Washington University in St. Louis, where he currently resides with his wife, children, and beard."
+  talk_title: "Building a new Match History"
   abstract: "Riot Games’s League of Legends supports millions of concurrent players at any given moment of the day. At that scale, tracking simple gameplay statistics results in the creation of terabytes of data that must be aggregated and presented to players. Scaling the system and developing additional features became difficult with Riot's initial stats system. To enable rapid iteration at scale, Riot built a new stats system to support features like the new Match History website. In this talk, I'll discuss in detail the backend architecture of the new stats system, the reasoning behind our technical choices for the system, and the challenges we faced building the system and scaling it to support the new Match History website."
   talk_date: "Saturday October 4th"
   talk_time: "4 PM"
-  talk_abstract: "TBA"
+  talk_abstract: "Riot Games’s League of Legends supports millions of concurrent players at any given moment of the day. At that scale, tracking simple gameplay statistics results in the creation of terabytes of data that must be aggregated and presented to players. Scaling the system and developing additional features became difficult with Riot's initial stats system. To enable rapid iteration at scale, Riot built a new stats system to support features like the new Match History website. In this talk, I'll discuss in detail the backend architecture of the new stats system, the reasoning behind our technical choices for the system, and the challenges we faced building the system and scaling it to support the new Match History website."
   talk_location: "DCL 1320"
 
 - name: "James Whittaker"
@@ -75,6 +82,7 @@
   content-name: "jameswhittaker"
   tagline: 'Microsoft'
   bio: "James Whittaker is an author, speaker, creative leader, and a Distinguished Technical Evangelist charged with showing Microsoft’s vision of the future to the world. His career spans academia, start-ups, and top tech companies. In 1986 he was the first computer science graduate hired by the FBI. His career continued—specializing in test automation—as a freelance developer, most notably for IBM, Ericsson, SAP, Cisco, and Microsoft. He then joined the faculty at the Florida Institute of Technology where he continued his prolific publication record in software testing and security. In 2002 his security work was spun off into a startup that was later acquired by Raytheon. His first stint at Microsoft was in Trustworthy Computing and Visual Studio. He then joined Google as an engineering director and led teams working on Chrome, Maps and Google+. In 2012, he rejoined Microsoft. Of his five books two have been Jolt Award finalists. Follow him on Twitter @docjamesw."
+  talk_title: "The Data Economy"
   abstract: "Over a billion websites are now online. Humanity is generating more data every day than it generated all last century. The Internet of Things will mean more data is originated and consumed by machines than by humans. What will all of this means for our ads-based online economy? Join Microsoft Distinguished Engineer James Whittaker as he shows that our current data economy is becoming irrelevant and a new value-based data economy is emerging. Find out how browsers, apps and your personal and business data fares in this new economy. The future is approaching fast. Be ready for it."
   talk_date: "Saturday October 4th"
   talk_time: "10 AM"
@@ -85,6 +93,7 @@
   content-name: "rogerwolfson"
   tagline: Engineering Lead - Online Services @ Bungie
   bio: "Roger has been an engineer at Bungie since graduating from UIUC in 2001. He has led the online services team since 2004\'s launch of a stats-tracking website for Halo 2, as it has grown to a full online-game engineering team of 25 people. They now create the software that lets Destiny support millions of players hitting servers that are responsible for mission and character state, mobile companion apps, and more. When time allows, he tries to incorporate features based on improbable past coursework such as ASTR 396 - Radio-interferometry."
+  talk_title: "Ad Astra - Launching Destiny as an Online Game"
   abstract: "Bungie's new game Destiny relies heavily on server-side features, a major engineering project following the Halo series and its light online requirements. This talk will discuss the planning, implementation, and lessons learned from launching a major always-online game. Hear how game design, in-house engineering specializations, the business case, and risk tolerance all came together to shape a plan to have the servers survive the game's release without becoming overwhelmed as so many games before have seen happen."
   talk_date: "Saturday October 4th"
   talk_time: "2:45 PM"
@@ -94,8 +103,9 @@
   image-url: "kevin-petrovic.jpg"
   content-name: "kevinpetrovic"
   tagline: ''
-  bio: "TBA"
-  abstract: TBA
+  bio: "At 20 years old, Kevin Petrovic is the eldest among FlightCar’s three co­founders. An entrepreneur since age 9, Kevin dropped out of Princeton University to devote his time to FlightCar, which he sees as revolutionizing the way people get to and from the airport. The idea came about one day when he and  best friend and co­founder Rujul Zaparde (CEO) were talking about Airbnb. Kevin had just come back  from a trip, and was thinking about how expensive parking and car rentals were and how they added to airport congestion and waste. Together, they believed FlightCar, a new car­sharing business focused on the airport customer, could overall improve a traveler’s experience, and encourage travel. Before FlightCar, Kevin ran a successful business that generated over half a million dollars in annual revenue and co­founded an award­ winning clean water NGO, called Drinking Water for India with FlightCar CEO  Rujul. Kevin is a voracious reader of news and blogs, loves to swim and has competed internationally as a pianist. Although Kevin technically resides in San Francisco, he is on the road more often than not."
+  talk_title: "Startups - Turning Ideas and Technology into a Company"
+  abstract: "Everyone has ideas. But can you, and should you, try to start a startup with yours? Concepts that may seem great on the surface may never translate into an investable company, while a new technology which may have no immediately apparent applications may one day change the world. What should you look for when evaluating an opportunity - from your perspective, but also from the eyes of potential investors down the line? And finally, many people work hard to turn their dreams into a reality, only to see everything fall apart - and not because of a poor idea, but rather, because of something that could have been avoided. What are the best ways to avoid falling into that kind of trap?"
   talk_date: "Sunday October 4th"
   talk_time: "11:15 AM"
   talk_location: "DCL 1320"
@@ -105,7 +115,8 @@
   content-name: "jeffbezanson"
   tagline: 'Creater of the Julia Programming Language'
   bio: "Before the Julia language project, Jeff Bezanson worked as a software engineer at Interactive Supercomputing, which developed the Star-P parallel extension to MATLAB. At the company, Jeff was a principal developer of M#, an implementation of the MATLAB language running on .NET. He is now a PhD student at MIT, and works on Julia full time. Jeff has an A.B. in Computer Science from Harvard University (2004)."
-  abstract: TBA
+  talk_title: "How many programming languages do we need?"
+  abstract: "Some feel we need one ideal programming language, others feel we need a different one for each task. Who is right? I will discuss some of the myths and realities of programming language adoption we have encountered while developing the Julia language, and the design philosophy we have gradually developed at the same time."
   talk_date: "Saturday October 4th"
   talk_time: "1:30 PM"
   talk_location: "DCL 1320"
@@ -115,6 +126,7 @@
   content-name: "jamesportnow"
   tagline: 'Rainmaker Games - CEO'
   bio: "Best known for writing the web series Extra Credits, James Portnow is a game designer and consultant known for his theories on socially positive design. He received his Masters from Carnegie Mellon’s Entertainment Technology Center, went on to work for Activision as a designer on the Call of Duty series before raising funds to start his own company, Divide by Zero Games. He currently serves as the CEO of Rainmaker Games, a design and consulting firm that has worked with partners from Warner Bros to Zynga, in addition to writing the popular Extra Credits series that teaches about games and game design."
+  talk_title: "More Than A Pastime - A Promise to Future Generations"
   abstract: "Most people today will tell you about how we build software, but at times we get so caught up in the question of how, we forget to ask why.  In his talk James Portnow will look at why we build games and why we care about them.  He will ask what more we can do with them and what it is about them that makes them effect us so much.  And, in the end, he will ask you to do more than simply build, he will ask you to create."
   talk_date: "Friday October 3rd"
   talk_time: "7:45 PM"
@@ -125,6 +137,7 @@
   content-name: "keescook"
   tagline: ''
   bio: "Kees Cook has been working with Free Software since 1994, and has been a Debian Developer since 2007. He is currently employed by Google to work on Chrome OS Security. From 2006 through 2011 he worked for Canonical as the Ubuntu Security Team's Tech Lead, and remains on the Ubuntu Technical Board. Before that, he worked at OSDL where he helped administer the mirrors at kernel.org, and sometimes hacked on Inkscape. He has written various utilities including GOPchop and Sendpage, and contributes randomly to other projects including fun chunks of code in Wine, MPlayer, OpenSSH, and Wireshark. He's been spending most of his time lately focused on security features in the Linux Kernel."
+  talk_title: "Engineering Security"
   abstract: "Security is an inherent part of software, hardware, and network design. Everyone working in technology has a (frequently unrecognized) responsibility to keep systems secure while protecting the privacy of their users. One of the most powerful ways to address this responsibility is through Open Source software and hardware. Come hear about a happy journey through administering servers, securing Ubuntu, developing the Linux kernel, and building Chrome OS."
   talk_date: TBA
   talk_time: TBA

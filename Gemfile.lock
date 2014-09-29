@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    RedCloth (4.2.9)
     blankslate (2.1.2.4)
     bootstrap-sass (3.2.0.1)
       sass (~> 3.2)
@@ -75,6 +76,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  RedCloth
   bootstrap-sass
   bundler (= 1.6.2)
   compass (= 0.12.3)
