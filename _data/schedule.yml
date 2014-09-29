@@ -13,14 +13,19 @@
       img-url:
 
     - time: 5 PM
-      name: Steve LaValle
-      loc: Siebel Center 1404
-      img-url: "steve-zernik.jpg"
-
-    - time: 7:45 PM
       name: James Portnow
       loc: Siebel Center 1404
       img-url: "JPHeadshot.jpg"
+
+    - time: 6:30 PM
+      name: Dinner
+      loc: Siebel Center Atrium (2nd Floor)
+      img-url:
+
+    - time: 7:45 PM
+      name: Steve LaValle
+      loc: Siebel Center 1404
+      img-url: "steve-zernik.jpg"
 
     - time: 7:45 PM
       name: MechMania Opening
@@ -29,14 +34,15 @@
 
 - name: Saturday
   schedule:
+    - time: 9:30 AM
+      name: Breakfast (paid)
+      loc: Siebel Center Atrium (2nd Floor)
+      img-url:
+
     - time: 10 AM
       name: James Whittaker
       loc: Siebel Center 1404
       img-url: "james-whittaker.jpg"
-    - time: 10 AM
-      name: Drew Winship
-      loc: DCL 1320
-      img-url: "drew-winship.jpg"
 
     - time: 11:15 AM
       name: Kees Cook
@@ -47,14 +53,19 @@
       loc: DCL 1320
       img-url: "kevin-petrovic.jpg"
 
+    - time: 12:30 PM
+      name: Lunch (paid)
+      loc: Siebel Center Atrium (2nd Floor)
+      img-url:
+
     - time: 1:30 PM
       name: Startup Panel
       loc: Siebel Center 1404
       img-url:
     - time: 1:30 PM
-      name: Jeff Bezanson
+      name: Drew Winship
       loc: DCL 1320
-      img-url: "jeff-bezanson.jpg"
+      img-url: "drew-winship.jpg"
 
     - time: 2:45 PM
       name: Alex Polvi
@@ -74,17 +85,36 @@
       loc: DCL 1320
       img-url: "garret-eardley.png"
 
+    - time: 5:30 PM
+      name: Dinner (paid)
+      loc: Siebel Center Atrium (2nd Floor)
+      img-url:
+
     - time: 6:30 PM
       name: Namrata Ganatra
       loc: Siebel Center 1404
       img-url: "namrata.jpg"
     - time: 6:30 PM
+      name: Jeff Bezanson
+      loc: DCL 1320
+      img-url: "jeff-bezanson.jpg"
+
+    - time: 7:45 PM
       name: Jay Freeman (saurik)
       loc: DCL 1320
       img-url: "saurik.jpg"
+    - time: 7:45 PM
+      name: PuzzleBang Closing Ceremony
+      loc: Siebel 2405
+      img-url:
 
 - name: Sunday
   schedule:
+    - time: 10 AM
+      name: Breakfast (paid)
+      loc: Siebel Center Atrium (2nd Floor)
+      img-url:
+
     - time: 1 PM
       name: Mechmania Closing Ceremonies
       loc: Siebel Center 1404

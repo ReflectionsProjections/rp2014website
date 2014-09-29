@@ -6,7 +6,7 @@
   talk_title: "Virtual Reality - Full Steam Ahead"
   abstract: "Using the latest technology, we can safely hijack your most trusted senses, thereby fooling your brain into believing you are in another world.  Virtual reality (VR) has been around for a long time, but due to the recent convergence of sensing, display, and computation technologies, there is an unprecedented opportunity to explore this form of human augmentation with lightweight, low-cost materials and simple software platforms. This is an intense form of human-computer interaction (HCI) that requires re-examining core engineering principles with a direct infusion of perceptual psychology research. Developing systems that optimize classical criteria might lead to overcomplicated solutions that are too slow or costly in practice, and yet could make no perceptible difference to users. Simple adaptation of techniques that were developed for on-screen viewing, such as cinematography and first-person shooter game play, often lead to unpleasent VR experiences due the presentation of unusual stimuli or due to mismatches between the human vestibular system and other senses. With the rapid rise in consumer VR, fundamental research questions are popping up everywhere, slicing across numerous disciplines from engineering to socialogy to film to medicine.  This talk will provide some perspective on where we have been and where we might be going next."
   talk_date: "Friday October 3rd"
-  talk_time: "5 PM"
+  talk_time: "7:45 PM"
   talk_location: "Siebel Center 1404"
 
 - name: "Jay (Saurik) Freeman"
@@ -17,7 +17,7 @@
   talk_title: "Challenges in Software Modification"
   abstract: "In the modern world—a world where software has become one of our most important tools—a lot of attention is given to the idea of “open source”; a revolution that has made the behavior of software transparent and empowered users to maintain and enhance the code they rely on in their everyday lives. In this talk, I will first examine some of the edge cases and even limitations of open software, especially as we see closed hardware begin to dominate the ecosystem. I will then focus on the elusory boundary between “open” and “closed”, showing the techniques used to “modify the unmodifiable”, both in analysis and instrumentation, going into particular detail on the phenomenon of “jailbroken” devices running iOS and Android. Finally, I will discuss some of the challenges this culture of “malleable software” faces and how you can help, touching on issues of legality, practicality, and morality, exploring individual motivation, societal expectation, and governmental regulation. (Please note that my talks are fast-paced and wide-reaching, so I recommend splashing some cold water on your face before attending ;P.)"
   talk_date: "Saturday October 4th"
-  talk_time: "6:30 PM"
+  talk_time: "7:45 PM"
   talk_location: "DCL 1320"
 
 - name: "David Albrecht"
@@ -62,7 +62,7 @@
   talk_title: "How Predictive Analytics Can Save Our Patent System"
   abstract: "Today, the U.S. Patent and Trademark Office has a Continued Examination backlog of 110,000 applications, up 500% since early 2010 years ago. The Patent Office grants over 70% of all applications, but that number jumps to almost 90% if you have the deep pockets and are willing to continually challenge rejections. But there is hope. Learn how predictive analytics can help improve equity, transparency, and predictability within the system. Big data can drive examiner behavior towards the desired mean, while leveling the playing field among all inventors and preserving America’s innovative spirit that has driven our economy for the past 100 years"
   talk_date: "Saturday October 4th"
-  talk_time: "10 AM"
+  talk_time: "1:30 PM"
   talk_location: "DCL 1320"
 
 - name: "Garrett Eardley"
@@ -118,7 +118,7 @@
   talk_title: "How many programming languages do we need?"
   abstract: "Some feel we need one ideal programming language, others feel we need a different one for each task. Who is right? I will discuss some of the myths and realities of programming language adoption we have encountered while developing the Julia language, and the design philosophy we have gradually developed at the same time."
   talk_date: "Saturday October 4th"
-  talk_time: "1:30 PM"
+  talk_time: "6:30 PM"
   talk_location: "DCL 1320"
 
 - name: "James Portnow"
@@ -129,7 +129,7 @@
   talk_title: "More Than A Pastime - A Promise to Future Generations"
   abstract: "Most people today will tell you about how we build software, but at times we get so caught up in the question of how, we forget to ask why.  In his talk James Portnow will look at why we build games and why we care about them.  He will ask what more we can do with them and what it is about them that makes them effect us so much.  And, in the end, he will ask you to do more than simply build, he will ask you to create."
   talk_date: "Friday October 3rd"
-  talk_time: "7:45 PM"
+  talk_time: "5 PM"
   talk_location: "Siebel Center 1404"
 
 - name: "Kees Cook"
@@ -139,6 +139,6 @@
   bio: "Kees Cook has been working with Free Software since 1994, and has been a Debian Developer since 2007. He is currently employed by Google to work on Chrome OS Security. From 2006 through 2011 he worked for Canonical as the Ubuntu Security Team's Tech Lead, and remains on the Ubuntu Technical Board. Before that, he worked at OSDL where he helped administer the mirrors at kernel.org, and sometimes hacked on Inkscape. He has written various utilities including GOPchop and Sendpage, and contributes randomly to other projects including fun chunks of code in Wine, MPlayer, OpenSSH, and Wireshark. He's been spending most of his time lately focused on security features in the Linux Kernel."
   talk_title: "Engineering Security"
   abstract: "Security is an inherent part of software, hardware, and network design. Everyone working in technology has a (frequently unrecognized) responsibility to keep systems secure while protecting the privacy of their users. One of the most powerful ways to address this responsibility is through Open Source software and hardware. Come hear about a happy journey through administering servers, securing Ubuntu, developing the Linux kernel, and building Chrome OS."
-  talk_date: TBA
-  talk_time: TBA
-  talk_location: TBA
+  talk_date: "Saturday October 4th"
+  talk_time: "11:15 AM"
+  talk_location: "Siebel Center 1404"
