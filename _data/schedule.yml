@@ -91,10 +91,6 @@
       img-url:
 
     - time: 6:30 PM
-      name: Namrata Ganatra
-      loc: Siebel Center 1404
-      img-url: "namrata.jpg"
-    - time: 6:30 PM
       name: Jeff Bezanson
       loc: DCL 1320
       img-url: "jeff-bezanson.jpg"
