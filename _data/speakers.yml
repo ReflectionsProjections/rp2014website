@@ -31,17 +31,6 @@
   talk_time: "2:45 PM"
   talk_location: "Siebel Center 1404"
 
-- name: "Namrata Ganatra"
-  image-url: "namrata.jpg"
-  content-name: "namrataganatra"
-  tagline: 'Facebook - Engineering Manager'
-  bio: "Namrata is a payments veteran.  She is currently an Engineering Manager at Facebook where she leads Facebook’s payments platform. Prior to Facebook, Namrata was head of engineering for PayPal’s Digital Goods. She has also worked at a mobile payments startup Zong, which was acquired by PayPal.  She earned her Bachelor's Degree in Computer Science from India and started her career as a Software Engineer at Microsoft."
-  talk_title: "Sneak Peek into Facebook Engineering"
-  abstract: "This talk is about deep insights into Facebook’s innovative culture, how it embraces \"move fast\" engineering environment and Speaker’s personal stories on her career path."
-  talk_date: "Saturday October 4th"
-  talk_time: "6:30 PM"
-  talk_location: "Siebel Center 1404"
-
 - name: "Alex Polvi"
   image-url: "alex-polvi.jpg"
   content-name: "alexpolvi"
