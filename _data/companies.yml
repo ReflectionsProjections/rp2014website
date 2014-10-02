@@ -77,6 +77,9 @@ regular:
   - name: solsticemobile
     image-url: solstice.jpg
     site-url: http://www.solstice-mobile.com/
+  - name: tibco
+    image-url: tibco.png
+    site-url: http://www.tibco.com/
   - name: turn
     image-url: turn.png
     site-url: http://www.turn.com/
@@ -107,6 +110,9 @@ startups:
   - name: avantcredit
     image-url: avantcredit.jpg
     site-url: https://www.avantcredit.com/
+  - name: blockspring
+    image-url: blockspring.png
+    site-url: https://www.blockspring.com/
   - name: civisanalytics
     image-url: civisanalytics.jpg
     site-url: http://www.civisanalytics.com/
@@ -119,6 +125,9 @@ startups:
   - name: coreos
     image-url: coreos.png
     site-url: https://www.coreos.com/
+  - name: databricks
+    image-url: databricks.png
+    site-url: http://databricks.com/
   - name: delphix
     image-url: delphix.png
     site-url: http://www.delphix.com
@@ -134,9 +143,6 @@ startups:
   - name: onenorth
     image-url: onenorth.png
     site-url: http://www.onenorth.com/
-  - name: qumulo
-    image-url: qumulo.png
-    site-url: http://www.qumulo.com/
   - name: rithmio
     image-url: rithmio.png
     site-url: http://rithmio.com/
