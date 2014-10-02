@@ -1,5 +1,8 @@
-- name: "Job Fair Map"
-  url: "maps/jobfair_map.png"
+- name: "Job Fair Floor 1 Map"
+  url: "maps/JobFair.png"
+
+- name: "Job Fair Floor 2 Map"
+  url: "maps/JobFairFloor2.png"
 
 - name: "Startup Fair Map"
-  url: "maps/startupfair_map.png"
+  url: "maps/StartupMap.png"
