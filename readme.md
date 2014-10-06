@@ -11,9 +11,9 @@ Build
 ====
 * Make sure you have Ruby and rubygems installed on your system ;)
 * Run `bundle install` to install all gems
-* Run npm install to install all dependencies
-* Run `gulp` to build assets
-* Run `jekyll serve -w`
+* Run `npm install` to install all dependencies
+* Run `gulp assets` to build assets (you should run with the `--dev` flag if you are building locally). You can also optionally change the image optimization flag to "1" instead of "7" in `gulpfile.js` for local development. This will make compiling the images locally *much* faster. 
+* Run `jekyll serve -b ''` (this sets the baseurl to the empty string for local development)
 
 
 Style Conventions (Please Follow!)
